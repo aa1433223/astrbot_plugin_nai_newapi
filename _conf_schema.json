@@ -1,9 +1,9 @@
 {
   "api_backend": {
     "type": "string",
-    "title": "图像 API 后端",
+    "title": "出图接口来源",
     "default": "novelai",
-    "description": "每群每日免费额度请保持 novelai；额度耗尽后，绑定个人 Key 的请求会自动临时切换到 new-api。若整站只有 new-api（没有 NovelAI Token），可设为 newapi：普通出图将使用下方 newapi_base_url + newapi_api_key。",
+    "description": "默认novelai，用完切newapi",
     "options": [
       "novelai",
       "newapi"
@@ -17,43 +17,43 @@
     "type": "bool",
     "title": "启用 V5 画图",
     "default": true,
-    "description": "关闭后所有文生图、图生图和 Roll 图都强制使用 V4.5，并暂停个人 Key 的 V5 超额路由；重新开启后恢复原有模型和额度逻辑"
+    "description": "关闭后只用V4.5出图"
   },
   "group_daily_image_limit": {
     "type": "int",
-    "title": "每群每日免费额度（张）",
+    "title": "每群每日免费张数",
     "default": 5,
     "minimum": 0,
-    "description": "每个群/会话每天使用共享 NovelAI Token 的生成额度，各群独立计算；达到后启用超额路由，设为 0 表示不使用免费额度"
+    "description": "每群每天免费张数，0为关闭"
   },
   "api_token": {
     "type": "string",
     "title": "NovelAI Token",
     "default": "",
-    "description": "NovelAI Token，用于每群每日免费额度及未绑定个人 Key 用户的 V4.5 兜底。仅使用 new-api 时可将 api_backend 设为 newapi 并留空此项。"
+    "description": "免费额度用的NovelAI密钥"
   },
   "account_tokens": {
     "type": "template_list",
     "title": "多账户额度",
     "default": [],
-    "description": "供 /账户额度 命令查询的额外 NovelAI 账户；每条填写备注名和持久 Token（pst- 开头）。主账户 api_token 会自动一起展示，Token 重复的条目不会重复列出，只影响额度查询、不参与画图请求",
+    "description": "额外账户，仅用于查额度",
     "templates": {
       "account": {
         "name": "NovelAI 账户",
         "display_item": "name",
-        "hint": "使用不同的备注名区分账户；禁用后该账户不会出现在 /账户额度 中",
+        "hint": "不同账户用不同备注名",
         "items": {
           "name": {
             "description": "账户备注",
             "type": "string",
             "default": "",
-            "hint": "仅用于在 /账户额度 输出中区分账户。"
+            "hint": "仅用于区分账户"
           },
           "api_token": {
             "description": "NovelAI Token",
             "type": "string",
             "default": "",
-            "hint": "pst- 开头的持久 Token；请使用 image.novelai.net 支持的持久 Token。"
+            "hint": "以pst-开头的持久Token"
           },
           "enable": {
             "description": "启用此账户",
@@ -68,19 +68,19 @@
     "type": "string",
     "title": "new-api 地址",
     "default": "http://localhost:3000",
-    "description": "new-api 根地址，不要包含 /ai/generate-image。api_backend=newapi 时用于所有普通出图；此外个人密钥超额路由也使用此地址，应与 ai_video 个人 Key 所属的 New API 服务一致。"
+    "description": "new-api根地址，别带子路径"
   },
   "newapi_api_key": {
     "type": "string",
     "title": "new-api API Key",
     "default": "",
-    "description": "api_backend=newapi 时普通出图使用的全局 New API Key（适合整站只有 new-api 的部署）；个人密钥超额路由仍直接读取 ai_video 的当前发送者绑定，不使用此项。"
+    "description": "仅newapi后端出图用"
   },
   "default_model": {
     "type": "string",
-    "title": "模型",
+    "title": "默认模型",
     "default": "nai-diffusion-5-full",
-    "description": "新会话默认模型；聊天中可用 /画图模型 覆盖当前会话",
+    "description": "新会话默认模型，可改",
     "options": [
       "nai-diffusion-5-full",
       "nai-diffusion-5-curated",
@@ -88,17 +88,17 @@
       "nai-diffusion-4-5-curated"
     ],
     "option_names": [
-      "NovelAI Diffusion V5 Full",
-      "NovelAI Diffusion V5 Curated",
-      "NovelAI Diffusion V4.5 Full",
-      "NovelAI Diffusion V4.5 Curated"
+      "V5 Full",
+      "V5 Curated",
+      "V4.5 Full",
+      "V4.5 Curated"
     ]
   },
   "default_resolution": {
     "type": "string",
-    "title": "分辨率",
+    "title": "默认分辨率",
     "default": "832x1216",
-    "description": "新会话默认分辨率；聊天中可用 /分辨率 覆盖当前会话",
+    "description": "新会话默认，聊天可改",
     "options": [
       "832x1216",
       "1216x832",
@@ -112,33 +112,33 @@
   },
   "default_steps": {
     "type": "int",
-    "title": "统一画图步数（1-50）",
+    "title": "画图步数（1-50）",
     "default": 28,
-    "description": "管理员统一设置的画图步数（1-50）；用户不能通过聊天命令覆盖"
+    "description": "所有用户统一，不能改"
   },
   "default_scale": {
     "type": "float",
-    "title": "CFG 权重（1-15）",
+    "title": "提示词权重（1-15）",
     "default": 6.5,
     "minimum": 1.0,
     "maximum": 15.0,
     "multipleOf": 0.1,
-    "description": "新会话默认提示词引导权重（1-15），支持小数；聊天中可用 /画图权重 覆盖"
+    "description": "新会话默认，聊天可改"
   },
   "prompt_guidance_rescale": {
     "type": "float",
-    "title": "V4.5 Prompt Guidance Rescale",
+    "title": "V4.5 引导缩放",
     "default": 0.0,
     "minimum": 0.0,
     "maximum": 1.0,
     "multipleOf": 0.05,
-    "description": "仅最终实际模型为 V4.5（包括未绑定个人 Key 的用户超额后自动降级）时生效；范围 0.0-1.0，聊天中可用 /缩放 覆盖"
+    "description": "仅V4.5生效，聊天可改"
   },
   "default_sampler": {
     "type": "string",
-    "title": "采样器",
+    "title": "默认采样器",
     "default": "k_euler_ancestral",
-    "description": "默认采样器，聊天中可用 /画图采样器 单独覆盖当前会话",
+    "description": "新会话默认，聊天可改",
     "options": [
       "k_euler",
       "k_euler_ancestral",
@@ -160,9 +160,9 @@
   },
   "v4_5_noise_schedule": {
     "type": "string",
-    "title": "V4.5 Noise Schedule",
+    "title": "V4.5 噪声调度",
     "default": "karras",
-    "description": "仅最终实际模型为 V4.5（包括未绑定个人 Key 的用户自动降级）时生效",
+    "description": "仅V4.5生效",
     "options": [
       "karras",
       "exponential",
@@ -176,38 +176,38 @@
   },
   "v4_5_variety_boost": {
     "type": "bool",
-    "title": "V4.5 CFG Delay / Variety Boost",
+    "title": "V4.5 多样性增强",
     "default": false,
-    "description": "仅 V4.5 生效；开启后使用官网 V4.5 的 CFG Delay（skip_cfg_above_sigma=58）"
+    "description": "仅V4.5生效，画面更多变"
   },
   "v4_5_decrisper": {
     "type": "bool",
-    "title": "V4.5 Decrisper",
+    "title": "V4.5 画质修复",
     "default": false,
-    "description": "仅 V4.5 生效；缓解较高 Prompt Guidance 下的过饱和与视觉伪影"
+    "description": "仅V4.5，减轻过饱和杂色"
   },
   "v4_5_auto_smea": {
     "type": "bool",
-    "title": "V4.5 Auto SMEA",
+    "title": "V4.5 自动防糊",
     "default": false,
-    "description": "仅 V4.5 生效；达到 1024×1024 像素及以上时自动启用 SMEA"
+    "description": "仅V4.5，大图自动启用"
   },
   "v4_5_smea": {
     "type": "bool",
-    "title": "V4.5 SMEA",
+    "title": "V4.5 手动防糊",
     "default": false,
-    "description": "仅 V4.5 生效；Auto SMEA 关闭时用于手动启用 SMEA"
+    "description": "仅V4.5，关自动后手动开"
   },
   "v4_5_smea_dyn": {
     "type": "bool",
-    "title": "V4.5 SMEA DYN",
+    "title": "V4.5 强力防糊",
     "default": false,
-    "description": "仅 V4.5 生效；开启 DYN 时会同时启用 SMEA"
+    "description": "仅V4.5，开后会启用SMEA"
   },
   "img2img_strength": {
     "type": "float",
     "title": "图生图强度",
-    "description": "新会话默认图生图强度0.1-0.9。值越低保留原图越多",
+    "description": "越低越像原图（0.1-0.9）",
     "default": 0.5,
     "minimum": 0.1,
     "maximum": 0.9,
@@ -216,7 +216,7 @@
   "img2img_noise": {
     "type": "float",
     "title": "图生图噪声",
-    "description": "新会话默认图生图噪声0.0-1.0。值越高变化越大",
+    "description": "越高变化越大（0.0-1.0）",
     "default": 0.2,
     "minimum": 0.0,
     "maximum": 1.0,
@@ -224,52 +224,53 @@
   },
   "roll_image_count": {
     "type": "int",
-    "title": "roll图次数",
+    "title": "Roll图张数（1-50）",
     "default": 5,
     "minimum": 1,
     "maximum": 50,
-    "description": "新会话默认roll图次数；聊天中可用 /roll次数 覆盖"
+    "description": "新会话默认，聊天可改"
   },
   "admin_users": {
     "type": "string",
     "title": "管理员列表",
     "default": "",
-    "description": "管理员QQ号，多个用逗号分隔"
+    "description": "管理员QQ号，逗号分隔"
   },
   "whitelist_enabled": {
     "type": "bool",
     "title": "启用白名单",
     "default": false,
-    "description": "启用后只有白名单用户可以使用插件"
+    "description": "只让白名单用户使用"
   },
   "whitelist_users": {
     "type": "string",
     "title": "白名单用户",
     "default": "",
-    "description": "白名单QQ号，多个用逗号分隔"
+    "description": "白名单QQ号，逗号分隔"
   },
   "admin_only_commands": {
     "type": "string",
     "default": "",
-    "description": "仅管理员可用的命令(逗号分隔)"
+    "title": "仅管理员命令",
+    "description": "只有管理员能用，逗号分隔"
   },
   "enable_image_audit": {
     "type": "bool",
     "title": "百度图片审核",
     "default": false,
-    "description": "百度图片审核"
+    "description": "开启后图片先过百度审核"
   },
   "enable_auto_save": {
     "type": "bool",
     "title": "自动保存图片",
     "default": false,
-    "description": "自动保存图片"
+    "description": "出图后自动存到本地"
   },
   "enable_auto_recall": {
     "type": "bool",
     "title": "自动撤回",
     "default": false,
-    "description": "自动撤回"
+    "description": "出图后自动撤回消息"
   },
   "auto_recall_delay": {
     "type": "int",
@@ -277,19 +278,19 @@
     "default": 30,
     "minimum": 1,
     "maximum": 120,
-    "description": "自动撤回时间"
+    "description": "发出多少秒后撤回"
   },
   "show_params": {
     "type": "bool",
     "title": "显示生成参数",
     "default": true,
-    "description": "在生成结果中显示详细的生成参数信息"
+    "description": "出图后附上参数信息"
   },
   "save_path": {
     "type": "string",
     "title": "保存路径",
     "default": "novelai_images",
-    "description": "图片自动保存的文件夹路径"
+    "description": "自动保存图片的文件夹"
   },
   "roll_log_level": {
     "type": "int",
@@ -311,7 +312,7 @@
       "4-详细",
       "5-调试"
     ],
-    "description": "Roll图功能日志等级（1=静默，3=标准，5=调试）"
+    "description": "数值越大日志越详细"
   },
   "draw_log_level": {
     "type": "int",
@@ -333,25 +334,25 @@
       "4-详细",
       "5-调试"
     ],
-    "description": "画图功能日志等级（1=静默，3=标准，5=调试）"
+    "description": "数值越大日志越详细"
   },
   "baidu_audit_api_key": {
     "type": "string",
     "title": "百度审核API Key",
     "default": "",
-    "description": "百度内容审核 API Key（在 ai.baidu.com 创建应用获取）"
+    "description": "百度智能云创建的Key"
   },
   "baidu_audit_secret_key": {
     "type": "string",
     "title": "百度审核Secret Key",
     "default": "",
-    "description": "百度审核 Secret Key，与 API Key 配对使用"
+    "description": "与 API Key 配套使用"
   },
   "audit_failed_save_path": {
     "type": "string",
-    "title": "审核不通过的图片保存路径",
+    "title": "审核失败图片保存路径",
     "default": "audit_failed",
-    "description": "审核不通过的图片保存路径"
+    "description": "审核没过的图片存这里"
   },
   "audit_conclusion_type": {
     "type": "int",
@@ -365,19 +366,19 @@
     "type": "string",
     "title": "审核策略ID",
     "default": "",
-    "description": "百度审核策略 ID，留空使用默认策略"
+    "description": "留空用百度默认策略"
   },
   "audit_whitelist_groups": {
     "type": "list",
-    "title": "群审核豁免白名单",
+    "title": "免审核的群白名单",
     "default": [],
-    "description": "审核豁免群（群号列表），白名单内的群发送图片时跳过审核"
+    "description": "这些群发图不送审核"
   },
   "audit_whitelist_bots": {
     "type": "list",
-    "title": "Bot审核白名单",
+    "title": "审核哪些机器人",
     "default": [],
-    "description": "仅列表内机器人账号（self_id）生成的图片会进入审核；列表为空时不审核任何Bot"
+    "description": "留空则不审核任何机器人"
   },
   "presets": {
     "type": "string",
@@ -401,13 +402,13 @@
     "type": "bool",
     "title": "默认启用画风",
     "default": false,
-    "description": "新会话是否默认启用预设画风；聊天中可单独开关"
+    "description": "新会话默认开画风"
   },
   "selected_style_preset": {
     "type": "string",
     "title": "默认画风名称",
     "default": "",
-    "description": "新会话默认画风；聊天中使用 /切换画风 选择"
+    "description": "新会话默认用的画风"
   },
   "cooldown_seconds": {
     "type": "int",
@@ -415,7 +416,7 @@
     "default": 10,
     "minimum": 0,
     "maximum": 300,
-    "description": "用户连续使用的冷却时间"
+    "description": "同一用户两次间隔"
   },
   "request_interval": {
     "type": "int",
@@ -423,13 +424,13 @@
     "default": 3,
     "minimum": 1,
     "maximum": 60,
-    "description": "连续请求之间的最小间隔时间"
+    "description": "两次请求最小间隔"
   },
   "enable_request_retry": {
     "type": "bool",
-    "title": "启用请求失败重试",
+    "title": "失败自动重试",
     "default": true,
-    "description": "文生图/图生图请求失败（网络异常、认证失败、参数错误、服务器 5xx 等任意错误）时自动重试"
+    "description": "出图失败时自动重试"
   },
   "request_retry_count": {
     "type": "int",
@@ -437,7 +438,7 @@
     "default": 5,
     "minimum": 0,
     "maximum": 5,
-    "description": "单次请求失败后的最大重试次数（不含首次请求），设为 0 表示失败即返回；重试按指数退避等待"
+    "description": "失败后最多重试几次，0为不重试"
   },
   "request_retry_max_delay": {
     "type": "float",
@@ -446,24 +447,24 @@
     "minimum": 0.0,
     "maximum": 60.0,
     "multipleOf": 0.5,
-    "description": "两次重试之间等待时间的上限，实际等待时间为退避时长的一半到全部（含随机抖动）"
+    "description": "两次重试最长等待时间"
   },
   "image_proxy": {
     "type": "string",
     "title": "图片代理",
     "default": "",
-    "description": "图片下载代理地址（可选）"
+    "description": "下载图片用的代理"
   },
   "api_proxy": {
     "type": "string",
-    "title": "API代理（反代地址）",
+    "title": "API反向代理地址",
     "default": "",
-    "description": "NovelAI API 反向代理地址，用于替换请求目标域名（如 https://my-proxy.example.com）。若只需网络代理，请使用下方「画图HTTP代理」。"
+    "description": "替换请求域名，不是网络代理"
   },
   "novelai_proxy": {
     "type": "string",
     "title": "画图HTTP代理",
     "default": "",
-    "description": "发送 NovelAI 画图 API 请求时使用的网络代理，格式：http://host:port 或 socks5://host:port。留空则不使用代理（无需在系统层面设置全局代理）。"
+    "description": "画图请求的网络代理"
   }
 }
