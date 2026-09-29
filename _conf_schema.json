@@ -3,7 +3,7 @@
     "type": "string",
     "title": "图像 API 后端",
     "default": "novelai",
-    "description": "每群每日免费额度请保持 novelai；额度耗尽后，绑定个人 Key 的请求会自动临时切换到 new-api",
+    "description": "每群每日免费额度请保持 novelai；额度耗尽后，绑定个人 Key 的请求会自动临时切换到 new-api。若整站只有 new-api（没有 NovelAI Token），可设为 newapi：普通出图将使用下方 newapi_base_url + newapi_api_key。",
     "options": [
       "novelai",
       "newapi"
@@ -30,7 +30,7 @@
     "type": "string",
     "title": "NovelAI Token",
     "default": "",
-    "description": "NovelAI Token，用于每群每日免费额度及未绑定个人 Key 用户的 V4.5 兜底"
+    "description": "NovelAI Token，用于每群每日免费额度及未绑定个人 Key 用户的 V4.5 兜底。仅使用 new-api 时可将 api_backend 设为 newapi 并留空此项。"
   },
   "account_tokens": {
     "type": "template_list",
@@ -68,13 +68,13 @@
     "type": "string",
     "title": "new-api 地址",
     "default": "http://localhost:3000",
-    "description": "个人密钥超额请求使用的 new-api 根地址，不要包含 /ai/generate-image。应与 ai_video 个人 Key 所属的 New API 服务一致。"
+    "description": "new-api 根地址，不要包含 /ai/generate-image。api_backend=newapi 时用于所有普通出图；此外个人密钥超额路由也使用此地址，应与 ai_video 个人 Key 所属的 New API 服务一致。"
   },
   "newapi_api_key": {
     "type": "string",
     "title": "new-api API Key",
     "default": "",
-    "description": "仅供全局 new-api 兼容模式使用；个人密钥超额路由直接读取 ai_video 的当前发送者绑定，不使用此项"
+    "description": "api_backend=newapi 时普通出图使用的全局 New API Key（适合整站只有 new-api 的部署）；个人密钥超额路由仍直接读取 ai_video 的当前发送者绑定，不使用此项。"
   },
   "default_model": {
     "type": "string",

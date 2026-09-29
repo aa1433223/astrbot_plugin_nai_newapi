@@ -207,13 +207,14 @@ def test_free_daily_quota_keeps_global_key_and_selected_model(tmp_path):
     plugin.usage_manager = AvailableUsageManager()
     settings = {"model": "nai-diffusion-4-5-curated"}
 
-    changed, api_key, use_newapi = plugin._resolve_daily_generation_route(
+    changed, api_key, use_newapi, personal_key_route = plugin._resolve_daily_generation_route(
         settings, "10001"
     )
 
     assert changed is False
     assert api_key is None
     assert use_newapi is False
+    assert personal_key_route is False
     assert settings["model"] == "nai-diffusion-4-5-curated"
     assert (
         plugin.get_api_url(use_newapi=use_newapi)
@@ -237,13 +238,14 @@ def test_exhausted_quota_uses_owners_key_and_forces_v5(tmp_path):
     plugin.usage_manager = ExhaustedUsageManager()
     settings = {"model": "nai-diffusion-4-5-curated"}
 
-    changed, api_key, use_newapi = plugin._resolve_daily_generation_route(
+    changed, api_key, use_newapi, personal_key_route = plugin._resolve_daily_generation_route(
         settings, "10001"
     )
 
     assert changed is True
     assert api_key == "sk-personal"
     assert use_newapi is True
+    assert personal_key_route is True
     assert settings["model"] == Constants.PERSONAL_KEY_MODEL
 
 
@@ -261,13 +263,14 @@ def test_disabled_v5_forces_v45_without_personal_key_route(tmp_path, quota_avail
     )
     settings = {"model": "nai-diffusion-5-curated"}
 
-    changed, api_key, use_newapi = plugin._resolve_daily_generation_route(
+    changed, api_key, use_newapi, personal_key_route = plugin._resolve_daily_generation_route(
         settings, "10001"
     )
 
     assert changed is True
     assert api_key is None
     assert use_newapi is False
+    assert personal_key_route is False
     assert settings["model"] == Constants.DAILY_FALLBACK_MODEL
 
 
@@ -287,13 +290,14 @@ def test_exhausted_quota_never_uses_another_users_key(tmp_path):
     plugin.usage_manager = ExhaustedUsageManager()
     settings = {"model": "nai-diffusion-5-curated"}
 
-    changed, api_key, use_newapi = plugin._resolve_daily_generation_route(
+    changed, api_key, use_newapi, personal_key_route = plugin._resolve_daily_generation_route(
         settings, "10002"
     )
 
     assert changed is True
     assert api_key is None
     assert use_newapi is False
+    assert personal_key_route is False
     assert settings["model"] == Constants.DAILY_FALLBACK_MODEL
 
 
@@ -318,7 +322,7 @@ def test_personal_v5_access_denial_activates_request_local_v45_fallback():
     activated = plugin._activate_personal_v5_access_fallback(
         settings,
         meta_info,
-        request_uses_newapi=True,
+        personal_key_active=True,
     )
 
     assert activated is True
@@ -327,6 +331,7 @@ def test_personal_v5_access_denial_activates_request_local_v45_fallback():
     assert plugin._resolve_daily_generation_route(settings, "10001") == (
         False,
         None,
+        False,
         False,
     )
 
@@ -354,7 +359,7 @@ def test_personal_v5_fallback_only_handles_newapi_model_permission_denials(
             "status_code": status_code,
             "response_text": message,
         },
-        request_uses_newapi=request_uses_newapi,
+        personal_key_active=request_uses_newapi,
     )
 
     assert activated is False
@@ -396,7 +401,7 @@ async def test_personal_v5_access_denial_retries_once_with_normalized_v45_prompt
                 ),
             },
             drawing_settings=settings,
-            request_uses_newapi=True,
+            personal_key_active=True,
             prompt="normalized for v5",
             prompt_before_normalization="original prompt",
             event=SimpleNamespace(),
@@ -412,3 +417,57 @@ async def test_personal_v5_access_denial_retries_once_with_normalized_v45_prompt
     assert attempted is True
     assert normalized_models == [Constants.DAILY_FALLBACK_MODEL]
     assert retried_prompts == ["normalized for v4.5"]
+
+
+def test_newapi_only_deployment_draws_with_global_key_without_novelai_token(
+    tmp_path,
+):
+    """A newapi-only deployment (no NovelAI token) can still draw.
+
+    With ``api_backend=newapi`` the free/unbound route must use the operator's
+    global New API key, not fall back to an unconfigured NovelAI token.
+    """
+
+    plugin = make_plugin("newapi")
+    plugin.api_token = ""  # no NovelAI token at all
+    plugin.ai_video_user_data_path = tmp_path / "users.json"
+    plugin.ai_video_user_data_path.write_text(
+        json.dumps({"users": {}}), encoding="utf-8"
+    )
+    plugin.usage_manager = SimpleNamespace(
+        check_group_daily_limit=lambda quota_scope: True
+    )
+    settings = {"model": Constants.DEFAULT_MODEL}
+
+    changed, api_key, use_newapi, personal_key_route = (
+        plugin._resolve_daily_generation_route(settings, "10002")
+    )
+
+    assert changed is False
+    assert api_key is None
+    assert use_newapi is True
+    assert personal_key_route is False
+    assert (
+        plugin.get_api_url(use_newapi=use_newapi)
+        == "http://localhost:3000/ai/generate-image"
+    )
+    # the request is funded by the global New API key, so no credential error
+    plugin._validate_common_api_params(
+        prompt="1girl", model_name=Constants.DEFAULT_MODEL, use_newapi=use_newapi
+    )
+
+    # the global New API route must never trigger the personal-key V4.5 fallback
+    assert (
+        plugin._activate_personal_v5_access_fallback(
+            {"model": Constants.PERSONAL_KEY_MODEL},
+            {
+                "error_type": "api",
+                "status_code": 403,
+                "response_text": (
+                    "This token has no access to model nai-diffusion-5-full"
+                ),
+            },
+            personal_key_route,
+        )
+        is False
+    )

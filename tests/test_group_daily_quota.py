@@ -91,17 +91,24 @@ def test_exhausted_group_falls_back_while_other_groups_keep_v5(tmp_path):
     plugin.usage_manager = manager
 
     exhausted_settings = {"model": "nai-diffusion-5-full"}
-    changed, api_key, use_newapi = plugin._resolve_daily_generation_route(
-        exhausted_settings, "10002", FakeGroupEvent("20001")
+    changed, api_key, use_newapi, personal_key_route = (
+        plugin._resolve_daily_generation_route(
+            exhausted_settings, "10002", FakeGroupEvent("20001")
+        )
     )
 
-    assert (changed, api_key, use_newapi) == (True, None, False)
+    assert (changed, api_key, use_newapi, personal_key_route) == (
+        True,
+        None,
+        False,
+        False,
+    )
     assert exhausted_settings["model"] == Constants.DAILY_FALLBACK_MODEL
 
     fresh_settings = {"model": "nai-diffusion-5-full"}
     assert plugin._resolve_daily_generation_route(
         fresh_settings, "10002", FakeGroupEvent("20002")
-    ) == (False, None, False)
+    ) == (False, None, False, False)
     assert fresh_settings["model"] == "nai-diffusion-5-full"
 
 
@@ -121,11 +128,18 @@ def test_group_authorization_never_consumes_the_free_quota(tmp_path):
     plugin.usage_manager = manager
 
     settings = {"model": "nai-diffusion-5-full"}
-    changed, api_key, use_newapi = plugin._resolve_daily_generation_route(
-        settings, "10002", FakeGroupEvent("20001")
+    changed, api_key, use_newapi, personal_key_route = (
+        plugin._resolve_daily_generation_route(
+            settings, "10002", FakeGroupEvent("20001")
+        )
     )
 
-    assert (changed, api_key, use_newapi) == (False, "sk-owner", True)
+    assert (changed, api_key, use_newapi, personal_key_route) == (
+        False,
+        "sk-owner",
+        True,
+        True,
+    )
 
 
 def test_group_daily_image_limit_default_matches_the_config_schema():

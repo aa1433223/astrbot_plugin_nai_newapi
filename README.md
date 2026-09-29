@@ -73,13 +73,13 @@ pip install -r requirements.txt
 
 核心配置见 `_conf_schema.json`，常用项包括：
 
-- `api_backend`：保持 `novelai`，每群每日免费额度和无个人密钥时的 V4.5 兜底都使用该后端
+- `api_backend`：`novelai`（默认）时每群每日免费额度和无个人密钥时的 V4.5 兜底都走 NovelAI；`newapi` 时普通出图走 New API（见下方“仅用 New API 部署”）
 - `enable_v5`：V5 画图总开关；关闭后所有请求强制使用 V4.5，并暂停个人 Key 的 V5 超额路由
 - `group_daily_image_limit`：每群每日免费图片额度，默认 `5`，各群独立计数；设为 `0` 时所有群直接启用超额路由
 - `api_token`：NovelAI Token，承担每群每日免费额度及未绑定用户的 V4.5 兜底
 - `account_tokens`：`/账户额度` 查询用的额外 NovelAI 账户列表，每条包含备注名、`pst-` 持久 Token 和启用开关；主账户 `api_token` 会自动一起展示，Token 相同的条目不会重复列出。该列表只参与额度查询，不参与画图请求
 - `newapi_base_url`：个人密钥超额请求使用的 New API 根地址，默认 `http://localhost:3000`
-- `newapi_api_key`：仅供旧的全局 New API 模式兼容使用；个人密钥超额路由不读取此项
+- `newapi_api_key`：`api_backend=newapi` 时普通出图使用的全局 New API Key；个人密钥超额路由不读取此项
 - `default_model`：默认模型，V5 可选 `nai-diffusion-5-full` 或 `nai-diffusion-5-curated`
 - `default_resolution`：默认分辨率
 - `default_steps`：管理员统一设置的步数，用户不能通过聊天命令覆盖
@@ -92,6 +92,19 @@ pip install -r requirements.txt
 - `enable_auto_recall`：是否自动撤回图片
 - `enable_request_retry`：文生图/图生图请求失败（网络异常、认证失败、参数错误、服务器 5xx 等任意错误）时自动重试，默认开启
 - `request_retry_count` / `request_retry_max_delay`：单次请求失败后的最大重试次数（默认 `5`，不含首次请求，设为 `0` 表示失败即返回）与两次重试之间的最长等待秒数（默认 `10`）；实际等待按指数退避计算并叠加随机抖动
+
+### 仅用 New API 部署（没有 NovelAI Token）
+
+如果整站只有一个 New API 服务、拿不到 NovelAI 官方 Token，也可以直接用本插件出图：
+
+- `api_backend` 设为 `newapi`
+- `newapi_base_url` 填 New API 根地址（不要带 `/ai/generate-image`）
+- `newapi_api_key` 填该 New API 的 Key
+- `api_token` 留空即可
+
+此时所有"免费/未绑定用户"的出图都会用 `newapi_base_url` + `newapi_api_key`，按每日额度计数；绑定在
+`astrbot_plugin_ai_video` 里的个人 Key 仍按原逻辑在超额后走各自的 Key。`enable_v5` 打开时使用所选 V5 模型，
+关闭时自动降级为 V4.5。
 
 ## 常用命令
 

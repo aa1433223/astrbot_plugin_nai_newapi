@@ -1105,7 +1105,7 @@ class UsageManager:
     "astrbot_plugin_novelai",
     "xxuanzQAQ",
     "NovelAI图像生成插件，支持文生图和图生图功能",
-    "1.5.1",
+    "1.5.2",
     "https://github.com/xxuanzQAQ/astrbot_plugin_novelai",
 )
 class NovelAIPlugin(Star):
@@ -3962,7 +3962,7 @@ class NovelAIPlugin(Star):
 
     def _resolve_daily_generation_route(
         self, drawing_settings: dict, user_id: str, event=None
-    ) -> tuple[bool, str | None, bool]:
+    ) -> tuple[bool, str | None, bool, bool]:
         """Select the effective model, credential, and backend for a request.
 
         Args:
@@ -3971,16 +3971,21 @@ class NovelAIPlugin(Star):
             event: Current message event, used for group authorization.
 
         Returns:
-            Whether the model changed, an optional personal New API key, and
-            whether this request must use New API. Free and unbound fallback
-            requests always return ``False`` for the backend flag.
+            A ``(model_changed, personal_key, uses_newapi, personal_key_route)``
+            tuple. ``uses_newapi`` selects the New API backend (either a
+            personal/group key or the operator's global ``newapi_api_key`` when
+            ``api_backend`` is ``newapi``). ``personal_key_route`` is ``True``
+            only when a personal or group key funds the request, which keeps
+            personal-key-only behaviour (free-quota exemption and the V4.5
+            access-denied fallback) intact.
         """
         quota_scope = self._resolve_quota_scope(event, user_id)
+        use_global_newapi = self._uses_newapi()
 
         if drawing_settings.get(Constants.PERSONAL_V5_FALLBACK_FLAG):
             previous_model = str(drawing_settings.get("model") or "")
             drawing_settings["model"] = Constants.DAILY_FALLBACK_MODEL
-            return previous_model != Constants.DAILY_FALLBACK_MODEL, None, False
+            return previous_model != Constants.DAILY_FALLBACK_MODEL, None, False, False
 
         # A group authorization explicitly shares the owner's personal key with
         # members who do not have their own key. It is intentionally checked
@@ -3999,10 +4004,10 @@ class NovelAIPlugin(Star):
             if not getattr(self, "enable_v5", True):
                 if previous_model.lower().startswith("nai-diffusion-5"):
                     drawing_settings["model"] = Constants.DAILY_FALLBACK_MODEL
-                    return True, group_key, True
-                return False, group_key, True
+                    return True, group_key, True, True
+                return False, group_key, True, True
             if previous_model.lower().startswith("nai-diffusion-5"):
-                return False, group_key, True
+                return False, group_key, True, True
             drawing_settings["model"] = Constants.PERSONAL_KEY_MODEL
             logger.info(
                 "当前群已授权，用户 %s 使用群授权人的个人密钥，模型: %s -> %s",
@@ -4010,7 +4015,7 @@ class NovelAIPlugin(Star):
                 previous_model,
                 Constants.PERSONAL_KEY_MODEL,
             )
-            return True, group_key, True
+            return True, group_key, True, True
 
         # If the shared NovelAI token is not configured, a sender's own key
         # remains usable even while the free daily quota is available.
@@ -4020,11 +4025,11 @@ class NovelAIPlugin(Star):
                 "nai-diffusion-5"
             ):
                 drawing_settings["model"] = Constants.DAILY_FALLBACK_MODEL
-                return True, personal_key, True
+                return True, personal_key, True, True
             if previous_model.lower().startswith("nai-diffusion-5"):
-                return False, personal_key, True
+                return False, personal_key, True, True
             drawing_settings["model"] = Constants.PERSONAL_KEY_MODEL
-            return True, personal_key, True
+            return True, personal_key, True, True
 
         if not getattr(self, "enable_v5", True):
             previous_model = str(drawing_settings.get("model") or "")
@@ -4035,22 +4040,23 @@ class NovelAIPlugin(Star):
                     previous_model,
                     Constants.DAILY_FALLBACK_MODEL,
                 )
-                return True, None, False
-            return False, None, False
+                return True, None, use_global_newapi, False
+            return False, None, use_global_newapi, False
 
         if self.usage_manager.check_group_daily_limit(quota_scope):
-            return False, None, False
+            return False, None, use_global_newapi, False
 
         if not personal_key:
             return (
                 self._apply_daily_model_fallback(drawing_settings, quota_scope),
                 None,
+                use_global_newapi,
                 False,
             )
 
         previous_model = str(drawing_settings.get("model") or "")
         if previous_model.lower().startswith("nai-diffusion-5"):
-            return False, personal_key, True
+            return False, personal_key, True, True
 
         drawing_settings["model"] = Constants.PERSONAL_KEY_MODEL
         logger.info(
@@ -4059,21 +4065,23 @@ class NovelAIPlugin(Star):
             previous_model,
             Constants.PERSONAL_KEY_MODEL,
         )
-        return True, personal_key, True
+        return True, personal_key, True, True
 
     def _activate_personal_v5_access_fallback(
         self,
         drawing_settings: dict,
         meta_info: dict | None,
-        request_uses_newapi: bool,
+        personal_key_active: bool,
     ) -> bool:
         """Switch a denied personal-key V5 request to the NovelAI V4.5 route.
 
-        The marker is stored only in the mutable per-request settings so Roll
-        requests keep using the fallback after the first denial without changing
-        the session defaults.
+        Only requests funded by a personal or group key are handled here; the
+        shared-token and global New API routes never carry a personal key, so
+        they must not fall back to NovelAI. The marker is stored only in the
+        mutable per-request settings so Roll requests keep using the fallback
+        after the first denial without changing the session defaults.
         """
-        if not request_uses_newapi or not isinstance(meta_info, dict):
+        if not personal_key_active or not isinstance(meta_info, dict):
             return False
 
         model_name = str(drawing_settings.get("model") or "")
@@ -4109,7 +4117,7 @@ class NovelAIPlugin(Star):
         meta_info: dict,
         *,
         drawing_settings: dict,
-        request_uses_newapi: bool,
+        personal_key_active: bool,
         prompt: str,
         prompt_before_normalization: str,
         event,
@@ -4120,7 +4128,7 @@ class NovelAIPlugin(Star):
         if image_data or not self._activate_personal_v5_access_fallback(
             drawing_settings,
             meta_info,
-            request_uses_newapi,
+            personal_key_active,
         ):
             return image_data, meta_info, prompt, False
 
@@ -5263,6 +5271,7 @@ class NovelAIPlugin(Star):
                 route_changed,
                 request_api_token,
                 request_uses_newapi,
+                personal_key_active,
             ) = self._resolve_daily_generation_route(drawing_settings, user_id, event)
             if route_changed:
                 try:
@@ -5316,7 +5325,7 @@ class NovelAIPlugin(Star):
                 image_data,
                 meta_info,
                 drawing_settings=drawing_settings,
-                request_uses_newapi=request_uses_newapi,
+                personal_key_active=personal_key_active,
                 prompt=prompt,
                 prompt_before_normalization=prompt_before_normalization,
                 event=event,
@@ -5331,7 +5340,7 @@ class NovelAIPlugin(Star):
                 # personal keys and group authorizations do not.
                 quota_scope = (
                     self._resolve_quota_scope(event, user_id)
-                    if not request_uses_newapi or personal_v5_fallback_attempted
+                    if not personal_key_active or personal_v5_fallback_attempted
                     else None
                 )
                 self.usage_manager.record_usage(user_id, quota_scope)
@@ -5657,6 +5666,7 @@ class NovelAIPlugin(Star):
                 route_changed,
                 request_api_token,
                 request_uses_newapi,
+                personal_key_active,
             ) = self._resolve_daily_generation_route(drawing_settings, user_id, event)
             if route_changed:
                 try:
@@ -5771,7 +5781,7 @@ class NovelAIPlugin(Star):
                 image_data,
                 meta_info,
                 drawing_settings=drawing_settings,
-                request_uses_newapi=request_uses_newapi,
+                personal_key_active=personal_key_active,
                 prompt=prompt,
                 prompt_before_normalization=prompt_before_normalization,
                 event=event,
@@ -5785,7 +5795,7 @@ class NovelAIPlugin(Star):
                 # personal keys and group authorizations do not.
                 quota_scope = (
                     self._resolve_quota_scope(event, user_id)
-                    if not request_uses_newapi or personal_v5_fallback_attempted
+                    if not personal_key_active or personal_v5_fallback_attempted
                     else None
                 )
                 self.usage_manager.record_usage(user_id, quota_scope)
@@ -7626,7 +7636,7 @@ class NovelAIPlugin(Star):
                         image_data,
                         meta_info,
                         drawing_settings=drawing_settings,
-                        request_uses_newapi=request_uses_newapi,
+                        personal_key_active=personal_key_active,
                         prompt=prompt,
                         prompt_before_normalization=prompt_before_normalization,
                         event=event,
@@ -7648,7 +7658,7 @@ class NovelAIPlugin(Star):
                         # 记录使用次数
                         quota_scope = (
                             self._resolve_quota_scope(event, user_id)
-                            if not request_uses_newapi or fallback_attempted_now
+                            if not personal_key_active or fallback_attempted_now
                             else None
                         )
                         self.usage_manager.record_usage(user_id, quota_scope)

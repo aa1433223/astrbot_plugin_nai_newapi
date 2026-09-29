@@ -2,6 +2,15 @@
 
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 与语义化版本。
 
+## [1.5.2]
+
+### 新增
+
+- 支持“仅用 New API”部署：`api_backend=newapi` 时，普通出图直接使用 `newapi_base_url` + 全局 `newapi_api_key`，无需 NovelAI Token。
+  - 免费/未绑定用户走全局 New API Key，并按每日额度计数；
+  - 个人 Key / 群授权仍走各自的 Key，保持超额路由与 V4.5 权限回退语义；
+  - 新增回归测试覆盖“无 NovelAI Token 也能出图”。
+
 ## [1.5.1]
 
 ### 变更

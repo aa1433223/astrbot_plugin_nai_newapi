@@ -2,7 +2,7 @@ name: "astrbot_plugin_novelai"
 display_name: "NovelAI 绘图与预设"
 author: "xxuanzQAQ"
 description: "AstrBot 的 NovelAI 绘图插件，支持 NovelAI Diffusion V5、文生图、图生图与重画。"
-version: "1.5.1"
+version: "1.5.2"
 repo: "https://github.com/xxuanzQAQ/astrbot_plugin_novelai"
 license: "GPL-3.0"
 tags:
