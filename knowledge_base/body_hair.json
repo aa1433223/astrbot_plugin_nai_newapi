@@ -1,0 +1,882 @@
+[
+  {
+    "tag": "half updo",
+    "zh": "侧发后梳"
+  },
+  {
+    "tag": "drill hair",
+    "zh": "公主卷"
+  },
+  {
+    "tag": "single hair intake",
+    "zh": "单侧进气口"
+  },
+  {
+    "tag": "side drill",
+    "zh": "单钻头卷"
+  },
+  {
+    "tag": "twin drills",
+    "zh": "双钻头卷"
+  },
+  {
+    "tag": "quad drills",
+    "zh": "四钻头卷"
+  },
+  {
+    "tag": "ringlets",
+    "zh": "垂下的长卷发"
+  },
+  {
+    "tag": "sidelocks",
+    "zh": "耳前侧发"
+  },
+  {
+    "tag": "hair behind ear",
+    "zh": "耳后发"
+  },
+  {
+    "tag": "hair intakes",
+    "zh": "进气口(侧发顶部竖起)"
+  },
+  {
+    "tag": "ahoge",
+    "zh": "呆毛"
+  },
+  {
+    "tag": "antenna hair",
+    "zh": "多呆毛(天线)"
+  },
+  {
+    "tag": "huge ahoge",
+    "zh": "大呆毛"
+  },
+  {
+    "tag": "heart ahoge",
+    "zh": "心形呆毛"
+  },
+  {
+    "tag": "bowshaped hair",
+    "zh": "蝴蝶结状头发"
+  },
+  {
+    "tag": "bunny ears",
+    "zh": "兔耳"
+  },
+  {
+    "tag": "kemonomimi mode",
+    "zh": "兽耳"
+  },
+  {
+    "tag": "animal ear fluff",
+    "zh": "兽耳绒毛"
+  },
+  {
+    "tag": "goat ears",
+    "zh": "山羊耳"
+  },
+  {
+    "tag": "squirrel ears",
+    "zh": "松鼠耳"
+  },
+  {
+    "tag": "raccoon ears",
+    "zh": "浣熊耳"
+  },
+  {
+    "tag": "panda ears",
+    "zh": "熊猫耳"
+  },
+  {
+    "tag": "bear ears",
+    "zh": "熊耳"
+  },
+  {
+    "tag": "cow ears",
+    "zh": "牛耳"
+  },
+  {
+    "tag": "fox ears",
+    "zh": "狐耳"
+  },
+  {
+    "tag": "dog ears",
+    "zh": "狗耳"
+  },
+  {
+    "tag": "lion ears",
+    "zh": "狮耳"
+  },
+  {
+    "tag": "wolf ears",
+    "zh": "狼耳"
+  },
+  {
+    "tag": "pig ears",
+    "zh": "猪耳"
+  },
+  {
+    "tag": "cat ears",
+    "zh": "猫耳"
+  },
+  {
+    "tag": "monkey ears",
+    "zh": "猴耳"
+  },
+  {
+    "tag": "sheep ears",
+    "zh": "羊耳"
+  },
+  {
+    "tag": "alpaca ears",
+    "zh": "羊驼耳"
+  },
+  {
+    "tag": "mouse ears",
+    "zh": "老鼠耳"
+  },
+  {
+    "tag": "tiger ears",
+    "zh": "虎耳"
+  },
+  {
+    "tag": "bat ears",
+    "zh": "蝙蝠耳"
+  },
+  {
+    "tag": "horse ears",
+    "zh": "马耳"
+  },
+  {
+    "tag": "deer ears",
+    "zh": "鹿耳"
+  },
+  {
+    "tag": "ferret ears",
+    "zh": "鼬耳"
+  },
+  {
+    "tag": "asymmetrical bangs",
+    "zh": "不对称刘海"
+  },
+  {
+    "tag": "crossed bangs",
+    "zh": "交错刘海"
+  },
+  {
+    "tag": "parted bangs",
+    "zh": "分刘海"
+  },
+  {
+    "tag": "bangs",
+    "zh": "刘海"
+  },
+  {
+    "tag": "jitome",
+    "zh": "半遮眼"
+  },
+  {
+    "tag": "side blunt bangs",
+    "zh": "单侧齐刘海"
+  },
+  {
+    "tag": "hair slicked back",
+    "zh": "大背头"
+  },
+  {
+    "tag": "swept bangs",
+    "zh": "扫刘海"
+  },
+  {
+    "tag": "bangs pinned back",
+    "zh": "掀起的刘海"
+  },
+  {
+    "tag": "diagonal bangs",
+    "zh": "斜刘海"
+  },
+  {
+    "tag": "side swept bangs",
+    "zh": "朝一个方向的刘海"
+  },
+  {
+    "tag": "hair between eyes",
+    "zh": "眼间发"
+  },
+  {
+    "tag": "hair over one eye",
+    "zh": "遮单眼刘海"
+  },
+  {
+    "tag": "hair over eyes",
+    "zh": "遮眼刘海"
+  },
+  {
+    "tag": "long bangs",
+    "zh": "长刘海"
+  },
+  {
+    "tag": "blunt bangs",
+    "zh": "齐刘海"
+  },
+  {
+    "tag": "spiked hair",
+    "zh": "刺发"
+  },
+  {
+    "tag": "curly hair",
+    "zh": "卷发"
+  },
+  {
+    "tag": "flipped hair",
+    "zh": "外卷发"
+  },
+  {
+    "tag": "wavy hair",
+    "zh": "波浪发(自然卷)"
+  },
+  {
+    "tag": "straight hair",
+    "zh": "直发"
+  },
+  {
+    "tag": "big hair",
+    "zh": "头发很多"
+  },
+  {
+    "tag": "bald",
+    "zh": "秃头"
+  },
+  {
+    "tag": "bald girl",
+    "zh": "秃头女孩"
+  },
+  {
+    "tag": "triple bun",
+    "zh": "三发髻"
+  },
+  {
+    "tag": "topknot",
+    "zh": "丸子头"
+  },
+  {
+    "tag": "side bun",
+    "zh": "侧发髻"
+  },
+  {
+    "tag": "single hair ring",
+    "zh": "单发圈"
+  },
+  {
+    "tag": "double bun",
+    "zh": "双发髻"
+  },
+  {
+    "tag": "hair bun",
+    "zh": "发髻/包子头"
+  },
+  {
+    "tag": "braided bun",
+    "zh": "发髻辫"
+  },
+  {
+    "tag": "doughnut hair bun",
+    "zh": "甜甜圈发髻"
+  },
+  {
+    "tag": "cone hair bun",
+    "zh": "锥形发髻"
+  },
+  {
+    "tag": "hair rings",
+    "zh": "飞仙髻"
+  },
+  {
+    "tag": "nail polish",
+    "zh": "手指美甲"
+  },
+  {
+    "tag": "nails",
+    "zh": "指甲"
+  },
+  {
+    "tag": "robot joints",
+    "zh": "机械关节"
+  },
+  {
+    "tag": "mechanical arm",
+    "zh": "机械臂"
+  },
+  {
+    "tag": "slim legs",
+    "zh": "细腿"
+  },
+  {
+    "tag": "thick thigh",
+    "zh": "肉腿"
+  },
+  {
+    "tag": "muscle",
+    "zh": "肌肉"
+  },
+  {
+    "tag": "hime cut",
+    "zh": "公主切"
+  },
+  {
+    "tag": "buzz cut",
+    "zh": "寸头"
+  },
+  {
+    "tag": "undercut",
+    "zh": "帽盔头"
+  },
+  {
+    "tag": "crew cut",
+    "zh": "平头"
+  },
+  {
+    "tag": "bob cut",
+    "zh": "波波头"
+  },
+  {
+    "tag": "afro",
+    "zh": "爆炸头"
+  },
+  {
+    "tag": "pixie cut",
+    "zh": "精灵头"
+  },
+  {
+    "tag": "mohawk",
+    "zh": "莫霍克发型"
+  },
+  {
+    "tag": "pompadour",
+    "zh": "蓬帕杜发型"
+  },
+  {
+    "tag": "bowl cut",
+    "zh": "蘑菇头"
+  },
+  {
+    "tag": "beehive hairdo",
+    "zh": "蜂窝头"
+  },
+  {
+    "tag": "huge afro",
+    "zh": "超大爆炸头"
+  },
+  {
+    "tag": "mullet",
+    "zh": "鲻鱼头"
+  },
+  {
+    "tag": "floppy ears",
+    "zh": "垂耳"
+  },
+  {
+    "tag": "pointy ears",
+    "zh": "尖耳"
+  },
+  {
+    "tag": "robot ears",
+    "zh": "机械耳"
+  },
+  {
+    "tag": "pikachu ears",
+    "zh": "皮卡丘耳"
+  },
+  {
+    "tag": "long pointy ears",
+    "zh": "长尖耳"
+  },
+  {
+    "tag": "armpit",
+    "zh": "腋"
+  },
+  {
+    "tag": "collarbone",
+    "zh": "锁骨"
+  },
+  {
+    "tag": "long neck",
+    "zh": "长脖子"
+  },
+  {
+    "tag": "upperboob",
+    "zh": "上胸"
+  },
+  {
+    "tag": "underboob",
+    "zh": "下胸"
+  },
+  {
+    "tag": "cleavage",
+    "zh": "乳沟"
+  },
+  {
+    "tag": "sideboob",
+    "zh": "侧乳"
+  },
+  {
+    "tag": "sagging breasts",
+    "zh": "俯身下垂胸部"
+  },
+  {
+    "tag": "unaligned breasts",
+    "zh": "动态不一胸部"
+  },
+  {
+    "tag": "backboob",
+    "zh": "后乳"
+  },
+  {
+    "tag": "large pectorals",
+    "zh": "大胸肌"
+  },
+  {
+    "tag": "bouncing breasts",
+    "zh": "摇晃的胸部"
+  },
+  {
+    "tag": "breasts apart",
+    "zh": "摊开的胸部"
+  },
+  {
+    "tag": "ribs",
+    "zh": "肋骨"
+  },
+  {
+    "tag": "chest",
+    "zh": "胸肌"
+  },
+  {
+    "tag": "breasts",
+    "zh": "胸部"
+  },
+  {
+    "tag": "breast expansion",
+    "zh": "胸部展开"
+  },
+  {
+    "tag": "hanging breasts",
+    "zh": "下垂胸部"
+  },
+  {
+    "tag": "medium breasts",
+    "zh": "中等胸部(C)"
+  },
+  {
+    "tag": "plump //",
+    "zh": "这个词效果非常猛 丰满"
+  },
+  {
+    "tag": "perky breasts",
+    "zh": "丰满胸部"
+  },
+  {
+    "tag": "bursting breasts",
+    "zh": "包不住的巨乳"
+  },
+  {
+    "tag": "large breasts",
+    "zh": "大胸部(D)"
+  },
+  {
+    "tag": "wide hips",
+    "zh": "宽胯"
+  },
+  {
+    "tag": "small breasts",
+    "zh": "小胸部(B)"
+  },
+  {
+    "tag": "flat ass",
+    "zh": "小臀"
+  },
+  {
+    "tag": "pointy breasts",
+    "zh": "尖乳"
+  },
+  {
+    "tag": "huge breasts",
+    "zh": "巨乳(E)"
+  },
+  {
+    "tag": "framed breasts",
+    "zh": "有立体感的胸部"
+  },
+  {
+    "tag": "flat chest",
+    "zh": "贫乳(A)"
+  },
+  {
+    "tag": "gigantic breasts",
+    "zh": "魔乳(F)"
+  },
+  {
+    "tag": "waist",
+    "zh": "腰"
+  },
+  {
+    "tag": "muscular",
+    "zh": "肌肉发达"
+  },
+  {
+    "tag": "muscular female",
+    "zh": "肌肉女"
+  },
+  {
+    "tag": "narrow waist",
+    "zh": "窄腰"
+  },
+  {
+    "tag": "slender waist",
+    "zh": "细腰"
+  },
+  {
+    "tag": "fat",
+    "zh": "胖"
+  },
+  {
+    "tag": "skinny",
+    "zh": "苗条"
+  },
+  {
+    "tag": "curvy",
+    "zh": "身体曲线"
+  },
+  {
+    "tag": "pregnant",
+    "zh": "怀孕"
+  },
+  {
+    "tag": "belly",
+    "zh": "肚子"
+  },
+  {
+    "tag": "navel",
+    "zh": "肚脐"
+  },
+  {
+    "tag": "abs",
+    "zh": "腹肌"
+  },
+  {
+    "tag": "stomach",
+    "zh": "腹部"
+  },
+  {
+    "tag": "linea alba",
+    "zh": "马甲线"
+  },
+  {
+    "tag": "thighs",
+    "zh": "大腿"
+  },
+  {
+    "tag": "inner thigh",
+    "zh": "大腿内侧"
+  },
+  {
+    "tag": "knee",
+    "zh": "膝盖"
+  },
+  {
+    "tag": "kneepits",
+    "zh": "膝盖内侧"
+  },
+  {
+    "tag": "buttock",
+    "zh": "翘臀"
+  },
+  {
+    "tag": "groin",
+    "zh": "耻丘"
+  },
+  {
+    "tag": "butt crack",
+    "zh": "股沟"
+  },
+  {
+    "tag": "crotch",
+    "zh": "胯部"
+  },
+  {
+    "tag": "thigh gap",
+    "zh": "腹股沟"
+  },
+  {
+    "tag": "hips",
+    "zh": "臀部"
+  },
+  {
+    "tag": "hipbone",
+    "zh": "髋骨"
+  },
+  {
+    "tag": "heart tattoo",
+    "zh": "心形纹身"
+  },
+  {
+    "tag": "tan lines",
+    "zh": "泳装晒痕"
+  },
+  {
+    "tag": "sweat",
+    "zh": "流汗"
+  },
+  {
+    "tag": "pubic tattoo",
+    "zh": "淫纹"
+  },
+  {
+    "tag": "number tattoo",
+    "zh": "编号纹身"
+  },
+  {
+    "tag": "stomach tattoo",
+    "zh": "腹部纹身"
+  },
+  {
+    "tag": "leg tattoo",
+    "zh": "腿部纹身"
+  },
+  {
+    "tag": "dress tan lines",
+    "zh": "连衣裙晒痕"
+  },
+  {
+    "tag": "goat horns",
+    "zh": "山羊角"
+  },
+  {
+    "tag": "demon horns",
+    "zh": "恶魔角"
+  },
+  {
+    "tag": "cow horns",
+    "zh": "牛角"
+  },
+  {
+    "tag": "color?:horns",
+    "zh": "角"
+  },
+  {
+    "tag": "antlers",
+    "zh": "鹿角"
+  },
+  {
+    "tag": "dragon horns",
+    "zh": "龙角"
+  },
+  {
+    "tag": "pigeon toed",
+    "zh": "内翻足"
+  },
+  {
+    "tag": "toepoint",
+    "zh": "脚尖"
+  },
+  {
+    "tag": "feet soles",
+    "zh": "脚底"
+  },
+  {
+    "tag": "toes",
+    "zh": "脚趾"
+  },
+  {
+    "tag": "toenail polish",
+    "zh": "脚趾美甲"
+  },
+  {
+    "tag": "feet",
+    "zh": "足"
+  },
+  {
+    "tag": "tri braids",
+    "zh": "三股辫"
+  },
+  {
+    "tag": "low twin braids",
+    "zh": "低双辫"
+  },
+  {
+    "tag": "lowbraided long hair",
+    "zh": "低辫长发"
+  },
+  {
+    "tag": "crown braid",
+    "zh": "冠型织辫"
+  },
+  {
+    "tag": "braided bangs",
+    "zh": "刘海辫"
+  },
+  {
+    "tag": "front braid",
+    "zh": "前辫"
+  },
+  {
+    "tag": "side braid",
+    "zh": "单侧辫"
+  },
+  {
+    "tag": "single braid",
+    "zh": "单辫"
+  },
+  {
+    "tag": "side braids",
+    "zh": "双侧辫"
+  },
+  {
+    "tag": "twin braids",
+    "zh": "双辫"
+  },
+  {
+    "tag": "quad braids",
+    "zh": "四股辫"
+  },
+  {
+    "tag": "multiple braids",
+    "zh": "多辫"
+  },
+  {
+    "tag": "french braid",
+    "zh": "法式辫"
+  },
+  {
+    "tag": "dreadlocks",
+    "zh": "脏辫"
+  },
+  {
+    "tag": "braid",
+    "zh": "辫子"
+  },
+  {
+    "tag": "long braid",
+    "zh": "长辫"
+  },
+  {
+    "tag": "medium hair",
+    "zh": "中等长发"
+  },
+  {
+    "tag": "hair over shoulder",
+    "zh": "披肩发"
+  },
+  {
+    "tag": "absurdly long hair",
+    "zh": "极长发"
+  },
+  {
+    "tag": "short hair",
+    "zh": "短发"
+  },
+  {
+    "tag": "very short hair",
+    "zh": "超短发"
+  },
+  {
+    "tag": "very long hair",
+    "zh": "超长发"
+  },
+  {
+    "tag": "long hair",
+    "zh": "长发"
+  },
+  {
+    "tag": "shoulder blades",
+    "zh": "肩胛骨"
+  },
+  {
+    "tag": "nape",
+    "zh": "颈"
+  },
+  {
+    "tag": "colored inner hair",
+    "zh": "内侧染色"
+  },
+  {
+    "tag": "color:hair",
+    "zh": "发色"
+  },
+  {
+    "tag": "multicolored hair",
+    "zh": "多彩头发"
+  },
+  {
+    "tag": "rainbow hair",
+    "zh": "彩虹发"
+  },
+  {
+    "tag": "streaked hair //",
+    "zh": "颜色 条纹头发 条纹头发(挑染)"
+  },
+  {
+    "tag": "gradient hair",
+    "zh": "渐变发"
+  },
+  {
+    "tag": "gradient colour",
+    "zh": "渐变色"
+  },
+  {
+    "tag": "blonde hair",
+    "zh": "金发"
+  },
+  {
+    "tag": "uneven twintails",
+    "zh": "不对称双马尾"
+  },
+  {
+    "tag": "low twintails",
+    "zh": "低双马尾"
+  },
+  {
+    "tag": "low ponytail",
+    "zh": "低马尾"
+  },
+  {
+    "tag": "side ponytail",
+    "zh": "侧马尾"
+  },
+  {
+    "tag": "split ponytail",
+    "zh": "分开的单马尾"
+  },
+  {
+    "tag": "twintails",
+    "zh": "双马尾"
+  },
+  {
+    "tag": "folded ponytail",
+    "zh": "折叠马尾"
+  },
+  {
+    "tag": "short twintails",
+    "zh": "短双马尾"
+  },
+  {
+    "tag": "short ponytail",
+    "zh": "短马尾"
+  },
+  {
+    "tag": "ponytail",
+    "zh": "马尾"
+  },
+  {
+    "tag": "braided ponytail",
+    "zh": "马尾辫"
+  },
+  {
+    "tag": "hair two side up",
+    "zh": "高双马尾"
+  },
+  {
+    "tag": "hair one side up",
+    "zh": "高马尾"
+  }
+]

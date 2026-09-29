@@ -1,0 +1,1002 @@
+[
+  {
+    "tag": "dystopian",
+    "zh": "反乌托邦"
+  },
+  {
+    "tag": "fantasy",
+    "zh": "奇幻"
+  },
+  {
+    "tag": "machinery",
+    "zh": "机械风"
+  },
+  {
+    "tag": "science fiction",
+    "zh": "科学幻想"
+  },
+  {
+    "tag": "steampunk",
+    "zh": "蒸汽朋克"
+  },
+  {
+    "tag": "cyberpunk",
+    "zh": "赛博朋克"
+  },
+  {
+    "tag": "peeping",
+    "zh": "偷窥"
+  },
+  {
+    "tag": "looking up",
+    "zh": "向上看"
+  },
+  {
+    "tag": "looking down",
+    "zh": "向下看"
+  },
+  {
+    "tag": "sideways glance",
+    "zh": "向侧面瞥"
+  },
+  {
+    "tag": "looking outside",
+    "zh": "向外看"
+  },
+  {
+    "tag": "looking back",
+    "zh": "回头看"
+  },
+  {
+    "tag": "looking to the side",
+    "zh": "看向侧面"
+  },
+  {
+    "tag": "looking afar",
+    "zh": "看向远方"
+  },
+  {
+    "tag": "looking away",
+    "zh": "看着别处"
+  },
+  {
+    "tag": "looking ahead",
+    "zh": "看着前方"
+  },
+  {
+    "tag": "looking at another",
+    "zh": "看着另一人"
+  },
+  {
+    "tag": "looking at phone",
+    "zh": "看着电话"
+  },
+  {
+    "tag": "looking at viewer",
+    "zh": "看着观众"
+  },
+  {
+    "tag": "very close to viewer",
+    "zh": "非常接近观众"
+  },
+  {
+    "tag": "close to viewer",
+    "zh": "靠近观众"
+  },
+  {
+    "tag": "facing away",
+    "zh": "面向别处"
+  },
+  {
+    "tag": "facing viewer",
+    "zh": "面对观众"
+  },
+  {
+    "tag": "facing the lens",
+    "zh": "面对镜头"
+  },
+  {
+    "tag": "cowboy shot",
+    "zh": "牛仔镜头"
+  },
+  {
+    "tag": "upper body",
+    "zh": "上半身"
+  },
+  {
+    "tag": "cropped torso upper body",
+    "zh": "上半身在画框外"
+  },
+  {
+    "tag": "lower body",
+    "zh": "下半身"
+  },
+  {
+    "tag": "profile",
+    "zh": "侧面像"
+  },
+  {
+    "tag": "side profile",
+    "zh": "侧面肖像画"
+  },
+  {
+    "tag": "whole body",
+    "zh": "全身"
+  },
+  {
+    "tag": "bust",
+    "zh": "半身像"
+  },
+  {
+    "tag": "back",
+    "zh": "后背"
+  },
+  {
+    "tag": "head out of frame",
+    "zh": "头部在画框外"
+  },
+  {
+    "tag": "cropped arms",
+    "zh": "手臂在画框外"
+  },
+  {
+    "tag": "straighton",
+    "zh": "正脸"
+  },
+  {
+    "tag": "cropped shoulders",
+    "zh": "肩膀在画框外"
+  },
+  {
+    "tag": "feet out of frame",
+    "zh": "脚部在画框外"
+  },
+  {
+    "tag": "cropped legs",
+    "zh": "腿部在画框外"
+  },
+  {
+    "tag": "selfie",
+    "zh": "自拍"
+  },
+  {
+    "tag": "selfiemirror",
+    "zh": "自拍镜"
+  },
+  {
+    "tag": "cropped torso",
+    "zh": "躯干在画框外"
+  },
+  {
+    "tag": "scattered leaves",
+    "zh": "散落的叶子"
+  },
+  {
+    "tag": "maple leaf",
+    "zh": "枫叶"
+  },
+  {
+    "tag": "leaves",
+    "zh": "树叶"
+  },
+  {
+    "tag": "falling leaves",
+    "zh": "落叶"
+  },
+  {
+    "tag": "ginkgo leaf",
+    "zh": "银杏叶"
+  },
+  {
+    "tag": "leaves in wind",
+    "zh": "风中叶"
+  },
+  {
+    "tag": "horizon",
+    "zh": "地平线"
+  },
+  {
+    "tag": "mountainous horizon",
+    "zh": "群山地平线"
+  },
+  {
+    "tag": "colorful startrails",
+    "zh": "五彩斑斓的星轨"
+  },
+  {
+    "tag": "night sky",
+    "zh": "夜空"
+  },
+  {
+    "tag": "color?:sky",
+    "zh": "天空"
+  },
+  {
+    "tag": "skyline",
+    "zh": "天际线"
+  },
+  {
+    "tag": "nebula",
+    "zh": "星云"
+  },
+  {
+    "tag": "starry sky",
+    "zh": "星空"
+  },
+  {
+    "tag": "star trail",
+    "zh": "星轨"
+  },
+  {
+    "tag": "aurora",
+    "zh": "极光"
+  },
+  {
+    "tag": "shooting star",
+    "zh": "流星"
+  },
+  {
+    "tag": "gradient sky",
+    "zh": "渐变天空"
+  },
+  {
+    "tag": "fireworks",
+    "zh": "烟花"
+  },
+  {
+    "tag": "burning sky",
+    "zh": "燃烧的天空"
+  },
+  {
+    "tag": "aerial fireworks",
+    "zh": "空中烟火"
+  },
+  {
+    "tag": "beautiful detailed sky",
+    "zh": "美丽精细的天空"
+  },
+  {
+    "tag": "hyper galaxy",
+    "zh": "超级银河"
+  },
+  {
+    "tag": "the galaxy",
+    "zh": "银河"
+  },
+  {
+    "tag": "sun",
+    "zh": "太阳"
+  },
+  {
+    "tag": "crescent moon",
+    "zh": "弦月"
+  },
+  {
+    "tag": "new moon",
+    "zh": "新月"
+  },
+  {
+    "tag": "luna",
+    "zh": "月亮"
+  },
+  {
+    "tag": "full moon",
+    "zh": "满月"
+  },
+  {
+    "tag": "scarlet moon",
+    "zh": "猩红月亮"
+  },
+  {
+    "tag": "red moon",
+    "zh": "红月"
+  },
+  {
+    "tag": "blue moon",
+    "zh": "蓝月"
+  },
+  {
+    "tag": "glowing butterfly",
+    "zh": "发光蝴蝶"
+  },
+  {
+    "tag": "ptcrowd birds and cloud at sky",
+    "zh": "天空中的鸟和云"
+  },
+  {
+    "tag": "color?:feathers",
+    "zh": "羽毛"
+  },
+  {
+    "tag": "glowworm",
+    "zh": "萤火虫"
+  },
+  {
+    "tag": "bug",
+    "zh": "虫子(实际上蝴蝶)"
+  },
+  {
+    "tag": "bee",
+    "zh": "蜜蜂"
+  },
+  {
+    "tag": "dragonfly",
+    "zh": "蜻蜓"
+  },
+  {
+    "tag": "butterfly",
+    "zh": "蝴蝶"
+  },
+  {
+    "tag": "goldfish",
+    "zh": "金鱼"
+  },
+  {
+    "tag": "flying butterfly",
+    "zh": "飞翔的蝴蝶"
+  },
+  {
+    "tag": "lineup",
+    "zh": "一排人"
+  },
+  {
+    "tag": "column lineup",
+    "zh": "多人柱形特写"
+  },
+  {
+    "tag": "rotational symmetry",
+    "zh": "对称旋转"
+  },
+  {
+    "tag": "symmetry",
+    "zh": "左右对称"
+  },
+  {
+    "tag": "group picture",
+    "zh": "群像"
+  },
+  {
+    "tag": "scenic view",
+    "zh": "风景"
+  },
+  {
+    "tag": "embers",
+    "zh": "余烬"
+  },
+  {
+    "tag": "flames of war",
+    "zh": "战争的火焰"
+  },
+  {
+    "tag": "good looking flame",
+    "zh": "漂亮的火焰"
+  },
+  {
+    "tag": "fire",
+    "zh": "火"
+  },
+  {
+    "tag": "sparks",
+    "zh": "火星子"
+  },
+  {
+    "tag": "flame whirlpool",
+    "zh": "火焰漩涡"
+  },
+  {
+    "tag": "melting",
+    "zh": "熔化"
+  },
+  {
+    "tag": "burning",
+    "zh": "燃烧"
+  },
+  {
+    "tag": "explosion",
+    "zh": "爆裂魔法"
+  },
+  {
+    "tag": "exquisite flame",
+    "zh": "精致的火焰"
+  },
+  {
+    "tag": "beautiful and detailed explosion",
+    "zh": "美丽细致的爆炸"
+  },
+  {
+    "tag": "nuclear explosion behide",
+    "zh": "背后的核爆炸"
+  },
+  {
+    "tag": "flying flames",
+    "zh": "飞舞的火焰"
+  },
+  {
+    "tag": "smoke of gunpowder",
+    "zh": "硝烟"
+  },
+  {
+    "tag": "black smoke",
+    "zh": "黑烟"
+  },
+  {
+    "tag": "bra peek",
+    "zh": "偷窥胸罩"
+  },
+  {
+    "tag": "armpit peek",
+    "zh": "偷窥腋窝"
+  },
+  {
+    "tag": "pantyshot",
+    "zh": "内裤镜头"
+  },
+  {
+    "tag": "face only",
+    "zh": "只画脸"
+  },
+  {
+    "tag": "between legs",
+    "zh": "强调两腿之间"
+  },
+  {
+    "tag": "between thighs",
+    "zh": "强调大腿之间"
+  },
+  {
+    "tag": "between fingers",
+    "zh": "强调指间"
+  },
+  {
+    "tag": "between breasts",
+    "zh": "强调胸部"
+  },
+  {
+    "tag": "1girl solo focus",
+    "zh": "聚焦1个女孩"
+  },
+  {
+    "tag": "solo focus",
+    "zh": "聚焦单人"
+  },
+  {
+    "tag": "female focus",
+    "zh": "聚焦女性"
+  },
+  {
+    "tag": "male focus",
+    "zh": "聚焦男性"
+  },
+  {
+    "tag": "eyes focus",
+    "zh": "聚焦眼睛"
+  },
+  {
+    "tag": "navel focus",
+    "zh": "聚焦肚脐"
+  },
+  {
+    "tag": "back focus",
+    "zh": "聚焦背部"
+  },
+  {
+    "tag": "breast focus",
+    "zh": "聚焦胸部"
+  },
+  {
+    "tag": "foot focus",
+    "zh": "聚焦脚部"
+  },
+  {
+    "tag": "face focus",
+    "zh": "聚焦脸部"
+  },
+  {
+    "tag": "armpit focus",
+    "zh": "聚焦腋部"
+  },
+  {
+    "tag": "ass focus",
+    "zh": "聚焦臀部"
+  },
+  {
+    "tag": "hip focus",
+    "zh": "聚焦髋部"
+  },
+  {
+    "tag": "confetti",
+    "zh": "彩纸屑"
+  },
+  {
+    "tag": "origami",
+    "zh": "折纸"
+  },
+  {
+    "tag": "shredded paper",
+    "zh": "碎纸屑"
+  },
+  {
+    "tag": "paper crane",
+    "zh": "纸鹤"
+  },
+  {
+    "tag": "flying colored shredded paper",
+    "zh": "飞溅的彩色碎纸"
+  },
+  {
+    "tag": "partially submerged",
+    "zh": "半入水"
+  },
+  {
+    "tag": "on desk",
+    "zh": "在书桌上"
+  },
+  {
+    "tag": "on ground",
+    "zh": "在地上"
+  },
+  {
+    "tag": "on bed",
+    "zh": "在床上"
+  },
+  {
+    "tag": "in tree",
+    "zh": "在树上"
+  },
+  {
+    "tag": "under tree",
+    "zh": "在树下"
+  },
+  {
+    "tag": "in water",
+    "zh": "在水中"
+  },
+  {
+    "tag": "on couch",
+    "zh": "在沙发上"
+  },
+  {
+    "tag": "in sky",
+    "zh": "在空中"
+  },
+  {
+    "tag": "on grass",
+    "zh": "在草地上"
+  },
+  {
+    "tag": "sitting on bed",
+    "zh": "坐在床上"
+  },
+  {
+    "tag": "under bridge",
+    "zh": "桥下"
+  },
+  {
+    "tag": "walking on liquid",
+    "zh": "水上行走"
+  },
+  {
+    "tag": "soaking feet",
+    "zh": "泡着脚"
+  },
+  {
+    "tag": "wading",
+    "zh": "涉水"
+  },
+  {
+    "tag": "under covers",
+    "zh": "盖着被子"
+  },
+  {
+    "tag": "lying on water",
+    "zh": "躺在水中"
+  },
+  {
+    "tag": "lying on the lake",
+    "zh": "躺在湖面上"
+  },
+  {
+    "tag": "against tree",
+    "zh": "靠在树边"
+  },
+  {
+    "tag": "near the water edge",
+    "zh": "靠近水边"
+  },
+  {
+    "tag": "medium wind",
+    "zh": "中等风速"
+  },
+  {
+    "tag": "moderate rain",
+    "zh": "中雨"
+  },
+  {
+    "tag": "moderate snow",
+    "zh": "中雪"
+  },
+  {
+    "tag": "cloud",
+    "zh": "云"
+  },
+  {
+    "tag": "ice",
+    "zh": "冰"
+  },
+  {
+    "tag": "ice crystal",
+    "zh": "冰晶"
+  },
+  {
+    "tag": "cloudy",
+    "zh": "多云"
+  },
+  {
+    "tag": "heavy rain",
+    "zh": "大雨"
+  },
+  {
+    "tag": "light rain",
+    "zh": "小雨"
+  },
+  {
+    "tag": "minor snow",
+    "zh": "小雪"
+  },
+  {
+    "tag": "dust tornado",
+    "zh": "尘卷风"
+  },
+  {
+    "tag": "rainbow",
+    "zh": "彩虹"
+  },
+  {
+    "tag": "breeze",
+    "zh": "微风"
+  },
+  {
+    "tag": "rainstorm",
+    "zh": "暴雨"
+  },
+  {
+    "tag": "storm",
+    "zh": "暴风雨"
+  },
+  {
+    "tag": "water drop",
+    "zh": "水滴"
+  },
+  {
+    "tag": "splashing",
+    "zh": "液体飞溅"
+  },
+  {
+    "tag": "dripping",
+    "zh": "滴水"
+  },
+  {
+    "tag": "detailed beautiful snow",
+    "zh": "漂亮精细的雪"
+  },
+  {
+    "tag": "wet",
+    "zh": "潮湿"
+  },
+  {
+    "tag": "electricity",
+    "zh": "电"
+  },
+  {
+    "tag": "cumulonimbus",
+    "zh": "积雨云"
+  },
+  {
+    "tag": "detailed ice",
+    "zh": "精细的冰"
+  },
+  {
+    "tag": "steam",
+    "zh": "蒸汽"
+  },
+  {
+    "tag": "snow covered",
+    "zh": "被雪覆盖的"
+  },
+  {
+    "tag": "windblown",
+    "zh": "被风扬起"
+  },
+  {
+    "tag": "overcast sky",
+    "zh": "阴天"
+  },
+  {
+    "tag": "randomly distributed clouds",
+    "zh": "随机分布的云"
+  },
+  {
+    "tag": "rain",
+    "zh": "雨"
+  },
+  {
+    "tag": "in the rain",
+    "zh": "雨中"
+  },
+  {
+    "tag": "rainy days",
+    "zh": "雨天"
+  },
+  {
+    "tag": "snow",
+    "zh": "雪"
+  },
+  {
+    "tag": "avalanche",
+    "zh": "雪崩"
+  },
+  {
+    "tag": "snowflakes",
+    "zh": "雪花"
+  },
+  {
+    "tag": "electrical storm",
+    "zh": "雷暴"
+  },
+  {
+    "tag": "thunderstorm",
+    "zh": "雷雨"
+  },
+  {
+    "tag": "mist",
+    "zh": "雾气"
+  },
+  {
+    "tag": "frost",
+    "zh": "霜"
+  },
+  {
+    "tag": "wind",
+    "zh": "风"
+  },
+  {
+    "tag": "wind lift",
+    "zh": "风吹起"
+  },
+  {
+    "tag": "hurricane",
+    "zh": "飓风"
+  },
+  {
+    "tag": "floating snowflake",
+    "zh": "飘着的雪花"
+  },
+  {
+    "tag": "flying splashes",
+    "zh": "飞溅水花"
+  },
+  {
+    "tag": "splashing water",
+    "zh": "飞溅的水"
+  },
+  {
+    "tag": "tornado",
+    "zh": "龙卷风"
+  },
+  {
+    "tag": "many colorful petals are flying",
+    "zh": "五颜六色的花瓣飞舞"
+  },
+  {
+    "tag": "catkins",
+    "zh": "柳絮"
+  },
+  {
+    "tag": "flower on liquid",
+    "zh": "水面的花"
+  },
+  {
+    "tag": "petals on liquid",
+    "zh": "水面的花瓣"
+  },
+  {
+    "tag": "floating sakura",
+    "zh": "漂浮的樱花"
+  },
+  {
+    "tag": "rose petals",
+    "zh": "玫瑰花瓣"
+  },
+  {
+    "tag": "surrounded by floating sakura",
+    "zh": "环绕樱花"
+  },
+  {
+    "tag": "flower petals",
+    "zh": "花瓣"
+  },
+  {
+    "tag": "falling petals",
+    "zh": "落下的花瓣"
+  },
+  {
+    "tag": "cotton wool floating in the air",
+    "zh": "飘在空中的棉絮"
+  },
+  {
+    "tag": "flying petals",
+    "zh": "飞舞的花瓣"
+  },
+  {
+    "tag": "pov",
+    "zh": "主观视角"
+  },
+  {
+    "tag": "pov hands",
+    "zh": "主观视角的手"
+  },
+  {
+    "tag": "from below",
+    "zh": "低位视角"
+  },
+  {
+    "tag": "from the side below",
+    "zh": "侧下视角"
+  },
+  {
+    "tag": "from side",
+    "zh": "侧边视角"
+  },
+  {
+    "tag": "side view",
+    "zh": "侧面视角"
+  },
+  {
+    "tag": "front view",
+    "zh": "正面视角"
+  },
+  {
+    "tag": "firstpersion view",
+    "zh": "第一人称视角"
+  },
+  {
+    "tag": "from behind",
+    "zh": "背后视角"
+  },
+  {
+    "tag": "upshirt",
+    "zh": "衬衫底视角"
+  },
+  {
+    "tag": "upskirt",
+    "zh": "裙底视角"
+  },
+  {
+    "tag": "upshorts",
+    "zh": "裤底视角"
+  },
+  {
+    "tag": "pov across table",
+    "zh": "越桌主观视角"
+  },
+  {
+    "tag": "pov crotch",
+    "zh": "越裆主观视角"
+  },
+  {
+    "tag": "from above",
+    "zh": "高位视角"
+  },
+  {
+    "tag": "dynamic angle",
+    "zh": "动态镜头"
+  },
+  {
+    "tag": "intense angle",
+    "zh": "强烈镜头"
+  },
+  {
+    "tag": "dramatic angle",
+    "zh": "戏剧性镜头"
+  },
+  {
+    "tag": "dutch angle",
+    "zh": "斜角镜头"
+  },
+  {
+    "tag": "cinematic angle",
+    "zh": "电影镜头"
+  },
+  {
+    "tag": "cross",
+    "zh": "十字"
+  },
+  {
+    "tag": "heart",
+    "zh": "心形"
+  },
+  {
+    "tag": "star",
+    "zh": "星星"
+  },
+  {
+    "tag": "crescent",
+    "zh": "月牙"
+  },
+  {
+    "tag": "mid shot",
+    "zh": "中景"
+  },
+  {
+    "tag": "panorama",
+    "zh": "全景"
+  },
+  {
+    "tag": "grand scene",
+    "zh": "宏大的场景"
+  },
+  {
+    "tag": "macro",
+    "zh": "微距"
+  },
+  {
+    "tag": "macro shot",
+    "zh": "微距摄像"
+  },
+  {
+    "tag": "close up",
+    "zh": "特写"
+  },
+  {
+    "tag": "close shot",
+    "zh": "近景"
+  },
+  {
+    "tag": "wide shot",
+    "zh": "远景"
+  },
+  {
+    "tag": "aerial",
+    "zh": "鸟瞰"
+  },
+  {
+    "tag": "wideangle",
+    "zh": "广角"
+  },
+  {
+    "tag": "isometric",
+    "zh": "等轴"
+  },
+  {
+    "tag": "vanishing point",
+    "zh": "远景透视法"
+  },
+  {
+    "tag": "foreshortening",
+    "zh": "透视法"
+  },
+  {
+    "tag": "fisheye",
+    "zh": "鱼眼镜头"
+  },
+  {
+    "tag": "summoning",
+    "zh": "召唤魔法阵"
+  },
+  {
+    "tag": "yin yang",
+    "zh": "阴阳"
+  },
+  {
+    "tag": "yin yang orb",
+    "zh": "阴阳球"
+  },
+  {
+    "tag": "foolish fire",
+    "zh": "鬼火"
+  },
+  {
+    "tag": "magical",
+    "zh": "魔法"
+  }
+]

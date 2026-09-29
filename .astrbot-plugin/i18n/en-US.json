@@ -1,0 +1,12 @@
+{
+  "pages": {
+    "preset-manager": {
+      "title": "Preset Manager",
+      "description": "Classify, edit, and move NovelAI prompt presets."
+    },
+    "style-gallery": {
+      "title": "Style Library",
+      "description": "Manage NovelAI styles with previews and positive and negative prompts."
+    }
+  }
+}

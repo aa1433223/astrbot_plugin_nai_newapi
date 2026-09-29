@@ -1,0 +1,3646 @@
+[
+  {
+    "tag": "relationshipping",
+    "zh": "凑CP"
+  },
+  {
+    "tag": "shared food",
+    "zh": "分享食物"
+  },
+  {
+    "tag": "beckoning",
+    "zh": "打招呼"
+  },
+  {
+    "tag": "tickling",
+    "zh": "挠痒"
+  },
+  {
+    "tag": "talking",
+    "zh": "说话"
+  },
+  {
+    "tag": "flirt",
+    "zh": "调情"
+  },
+  {
+    "tag": "scolding",
+    "zh": "责备"
+  },
+  {
+    "tag": "bullying",
+    "zh": "霸凌"
+  },
+  {
+    "tag": "gymnastics",
+    "zh": "体操"
+  },
+  {
+    "tag": "bowling",
+    "zh": "保龄球"
+  },
+  {
+    "tag": "surfing",
+    "zh": "冲浪"
+  },
+  {
+    "tag": "freediving",
+    "zh": "无装备潜水"
+  },
+  {
+    "tag": "swimming",
+    "zh": "游泳"
+  },
+  {
+    "tag": "skating",
+    "zh": "滑冰"
+  },
+  {
+    "tag": "skiing",
+    "zh": "滑雪"
+  },
+  {
+    "tag": "diving",
+    "zh": "潜水"
+  },
+  {
+    "tag": "yoga",
+    "zh": "瑜伽"
+  },
+  {
+    "tag": "rappelling",
+    "zh": "绳索垂降"
+  },
+  {
+    "tag": "ballet",
+    "zh": "芭蕾"
+  },
+  {
+    "tag": "figure skating",
+    "zh": "花样滑冰"
+  },
+  {
+    "tag": "headstand",
+    "zh": "头倒立"
+  },
+  {
+    "tag": "handstand",
+    "zh": "手倒立"
+  },
+  {
+    "tag": "upsidedown",
+    "zh": "颠倒的"
+  },
+  {
+    "tag": "leaning",
+    "zh": "身体倾斜"
+  },
+  {
+    "tag": "leaning forward",
+    "zh": "身体前倾"
+  },
+  {
+    "tag": "leaning back",
+    "zh": "身体后倾"
+  },
+  {
+    "tag": "leaning to the side",
+    "zh": "靠在一边"
+  },
+  {
+    "tag": "leaning on object",
+    "zh": "靠在物体上"
+  },
+  {
+    "tag": "breastfeeding",
+    "zh": "哺乳"
+  },
+  {
+    "tag": "gardening",
+    "zh": "园艺"
+  },
+  {
+    "tag": "crucifixion",
+    "zh": "挂十字架"
+  },
+  {
+    "tag": "juggling",
+    "zh": "杂耍"
+  },
+  {
+    "tag": "burn oneself in flames",
+    "zh": "火中燃烧"
+  },
+  {
+    "tag": "welding",
+    "zh": "焊接"
+  },
+  {
+    "tag": "praying",
+    "zh": "祈祷"
+  },
+  {
+    "tag": "ohikaenasutte",
+    "zh": "要求自我介绍"
+  },
+  {
+    "tag": "pole dancing",
+    "zh": "钢管舞"
+  },
+  {
+    "tag": "reaching",
+    "zh": "伸手触及"
+  },
+  {
+    "tag": "carrying",
+    "zh": "带着"
+  },
+  {
+    "tag": "tying",
+    "zh": "打结"
+  },
+  {
+    "tag": "adjusting eyewear",
+    "zh": "扶眼镜"
+  },
+  {
+    "tag": "pitching",
+    "zh": "投掷"
+  },
+  {
+    "tag": "pillow hug",
+    "zh": "抱着枕头"
+  },
+  {
+    "tag": "object hug",
+    "zh": "抱着某物"
+  },
+  {
+    "tag": "hugging own legs",
+    "zh": "抱自己腿"
+  },
+  {
+    "tag": "polearm",
+    "zh": "拿着长枪"
+  },
+  {
+    "tag": "belly grab",
+    "zh": "捏着肚子"
+  },
+  {
+    "tag": "rubbing eyes",
+    "zh": "揉眼睛"
+  },
+  {
+    "tag": "whisking",
+    "zh": "搅拌"
+  },
+  {
+    "tag": "covering ears",
+    "zh": "遮住耳朵"
+  },
+  {
+    "tag": "twofinger salute",
+    "zh": "二指敬礼"
+  },
+  {
+    "tag": "power fist",
+    "zh": "力量拳头"
+  },
+  {
+    "tag": "presenting panties",
+    "zh": "展示内裤"
+  },
+  {
+    "tag": "presenting armpit",
+    "zh": "展示腋下"
+  },
+  {
+    "tag": "breast hold",
+    "zh": "托胸"
+  },
+  {
+    "tag": "chin rest",
+    "zh": "托腮"
+  },
+  {
+    "tag": "head rest",
+    "zh": "托颊"
+  },
+  {
+    "tag": "carry me",
+    "zh": "抱着我手势"
+  },
+  {
+    "tag": "holding",
+    "zh": "拿着"
+  },
+  {
+    "tag": "waving",
+    "zh": "挥手"
+  },
+  {
+    "tag": "salute",
+    "zh": "敬礼"
+  },
+  {
+    "tag": "vulcan salute",
+    "zh": "瓦肯举手礼"
+  },
+  {
+    "tag": "shadow puppet",
+    "zh": "皮影戏"
+  },
+  {
+    "tag": "shrugging",
+    "zh": "耸肩"
+  },
+  {
+    "tag": "covering crotch",
+    "zh": "遮着裆部"
+  },
+  {
+    "tag": "heart hands trio (",
+    "zh": "三人)三人用手比心"
+  },
+  {
+    "tag": "high five (",
+    "zh": "不限定双人)击掌"
+  },
+  {
+    "tag": "fingering through clothes (",
+    "zh": "不限定双人)手指隔着衣物摸"
+  },
+  {
+    "tag": "headpat (",
+    "zh": "不限定双人)摸头"
+  },
+  {
+    "tag": "fist bump (",
+    "zh": "不限定双人)碰拳"
+  },
+  {
+    "tag": "heart hands duo (",
+    "zh": "双人)两人一起比心"
+  },
+  {
+    "tag": "pinky swear (",
+    "zh": "双人)勾指起誓"
+  },
+  {
+    "tag": "arms around neck (",
+    "zh": "双人)双手搂着脖子"
+  },
+  {
+    "tag": "hands on another's breast (",
+    "zh": "双人)双手放在对方胸前"
+  },
+  {
+    "tag": "hands on another's face (",
+    "zh": "双人)双手放对方脸上"
+  },
+  {
+    "tag": "noogie (",
+    "zh": "双人)双拳挤头"
+  },
+  {
+    "tag": "hand on another's chest (",
+    "zh": "双人)手在对方胸前"
+  },
+  {
+    "tag": "hand on another's chin (",
+    "zh": "双人)手托着对方的下巴"
+  },
+  {
+    "tag": "interlocked fingers (",
+    "zh": "双人)手指相扣"
+  },
+  {
+    "tag": "hand on another's (",
+    "zh": "双人)手接触对方的"
+  },
+  {
+    "tag": "arm around neck (",
+    "zh": "双人)手搂着脖子"
+  },
+  {
+    "tag": "hand on another's cheek (",
+    "zh": "双人)手摸着对方的脸颊"
+  },
+  {
+    "tag": "hand on another's head (",
+    "zh": "双人)手放在对方头上"
+  },
+  {
+    "tag": "hand on another's hand (",
+    "zh": "双人)手放对方手上"
+  },
+  {
+    "tag": "hand on another's stomach (",
+    "zh": "双人)手放对方肚子上"
+  },
+  {
+    "tag": "hand on another's shoulder (",
+    "zh": "双人)手放对方肩上"
+  },
+  {
+    "tag": "hand on another's neck (",
+    "zh": "双人)手放对方脖子"
+  },
+  {
+    "tag": "hand on another's face (",
+    "zh": "双人)手触碰对方的脸"
+  },
+  {
+    "tag": "arm wrestling (",
+    "zh": "双人)扳手腕"
+  },
+  {
+    "tag": "arm grab (",
+    "zh": "双人)抓住手臂"
+  },
+  {
+    "tag": "grabbing another's hair (",
+    "zh": "双人)抓起对方头发"
+  },
+  {
+    "tag": "arm hug (",
+    "zh": "双人)挽手"
+  },
+  {
+    "tag": "holding hands (",
+    "zh": "双人)牵手"
+  },
+  {
+    "tag": "lifted by another (",
+    "zh": "双人)被对方掀起衣物"
+  },
+  {
+    "tag": "stroking on chin (",
+    "zh": "双人)轻抚脸颊"
+  },
+  {
+    "tag": "figure four sitting",
+    "zh": "二郎腿"
+  },
+  {
+    "tag": "indian style",
+    "zh": "印度盘腿"
+  },
+  {
+    "tag": "sitting",
+    "zh": "坐"
+  },
+  {
+    "tag": "sitting on the ground",
+    "zh": "坐在地上"
+  },
+  {
+    "tag": "yokozuwari",
+    "zh": "姐坐"
+  },
+  {
+    "tag": "seiza",
+    "zh": "正坐"
+  },
+  {
+    "tag": "lotus position",
+    "zh": "莲花坐"
+  },
+  {
+    "tag": "straddling",
+    "zh": "跨坐"
+  },
+  {
+    "tag": "thigh straddling",
+    "zh": "跨坐大腿"
+  },
+  {
+    "tag": "reclining",
+    "zh": "靠在靠背上斜着坐"
+  },
+  {
+    "tag": "wariza",
+    "zh": "鸭子坐"
+  },
+  {
+    "tag": "hair twirling",
+    "zh": "卷头发"
+  },
+  {
+    "tag": "bunching hair",
+    "zh": "扎辫子"
+  },
+  {
+    "tag": "hair pull",
+    "zh": "拉头发"
+  },
+  {
+    "tag": "hair flip",
+    "zh": "拨头发"
+  },
+  {
+    "tag": "hair tucking",
+    "zh": "撩头发"
+  },
+  {
+    "tag": "tying hair",
+    "zh": "札头发"
+  },
+  {
+    "tag": "hairdressing",
+    "zh": "梳头"
+  },
+  {
+    "tag": "head down",
+    "zh": "低头"
+  },
+  {
+    "tag": "head back",
+    "zh": "头后仰"
+  },
+  {
+    "tag": "head tilt",
+    "zh": "歪头"
+  },
+  {
+    "tag": "faceplant",
+    "zh": "脸贴地面"
+  },
+  {
+    "tag": "playing game",
+    "zh": "打游戏"
+  },
+  {
+    "tag": "resting",
+    "zh": "休憩"
+  },
+  {
+    "tag": "applying makeup",
+    "zh": "化妆"
+  },
+  {
+    "tag": "eating",
+    "zh": "吃东西"
+  },
+  {
+    "tag": "feeding",
+    "zh": "喂饭"
+  },
+  {
+    "tag": "dining",
+    "zh": "就餐"
+  },
+  {
+    "tag": "drying hair",
+    "zh": "弄干头发"
+  },
+  {
+    "tag": "talking on phone",
+    "zh": "打电话"
+  },
+  {
+    "tag": "sleep talking",
+    "zh": "梦话"
+  },
+  {
+    "tag": "washing",
+    "zh": "洗涤"
+  },
+  {
+    "tag": "cooking",
+    "zh": "烹饪"
+  },
+  {
+    "tag": "watching television",
+    "zh": "看电视"
+  },
+  {
+    "tag": "sleeping",
+    "zh": "睡觉"
+  },
+  {
+    "tag": "shopping",
+    "zh": "购物"
+  },
+  {
+    "tag": "uppercut",
+    "zh": "勾拳"
+  },
+  {
+    "tag": "dual wielding",
+    "zh": "双持武器"
+  },
+  {
+    "tag": "firing",
+    "zh": "开火"
+  },
+  {
+    "tag": "battle",
+    "zh": "战斗"
+  },
+  {
+    "tag": "throwing",
+    "zh": "投掷"
+  },
+  {
+    "tag": "punching",
+    "zh": "拳击"
+  },
+  {
+    "tag": "boxing",
+    "zh": "拳击运动"
+  },
+  {
+    "tag": "slashing",
+    "zh": "斩"
+  },
+  {
+    "tag": "aiming at viewer",
+    "zh": "狙击"
+  },
+  {
+    "tag": "aiming",
+    "zh": "瞄准"
+  },
+  {
+    "tag": "strangling",
+    "zh": "绞杀"
+  },
+  {
+    "tag": "kicking",
+    "zh": "脚踢"
+  },
+  {
+    "tag": "training",
+    "zh": "训练"
+  },
+  {
+    "tag": "taekwondo",
+    "zh": "跆拳道"
+  },
+  {
+    "tag": "flying kick",
+    "zh": "飞踢"
+  },
+  {
+    "tag": "sunbathing",
+    "zh": "日光浴"
+  },
+  {
+    "tag": "grilling",
+    "zh": "烧烤"
+  },
+  {
+    "tag": "swinging",
+    "zh": "荡秋千"
+  },
+  {
+    "tag": "hanami",
+    "zh": "赏花"
+  },
+  {
+    "tag": "hiking",
+    "zh": "远足"
+  },
+  {
+    "tag": "dog walking",
+    "zh": "遛狗"
+  },
+  {
+    "tag": "fishing",
+    "zh": "钓鱼"
+  },
+  {
+    "tag": "smelling flower",
+    "zh": "闻花"
+  },
+  {
+    "tag": "camping",
+    "zh": "露营"
+  },
+  {
+    "tag": "hand on hip",
+    "zh": "单手叉腰"
+  },
+  {
+    "tag": "hands on hips",
+    "zh": "双手叉腰"
+  },
+  {
+    "tag": "hands in pockets",
+    "zh": "双手插兜"
+  },
+  {
+    "tag": "hands on feet",
+    "zh": "双手放脚"
+  },
+  {
+    "tag": "hands on own face",
+    "zh": "双手放脸"
+  },
+  {
+    "tag": "hands on own knees",
+    "zh": "双手放膝盖"
+  },
+  {
+    "tag": "hands on ass",
+    "zh": "双手放臀部"
+  },
+  {
+    "tag": "hand in panties",
+    "zh": "手在内裤里"
+  },
+  {
+    "tag": "hand between legs",
+    "zh": "手在大腿间"
+  },
+  {
+    "tag": "hand in hair",
+    "zh": "手在头发里"
+  },
+  {
+    "tag": "hand in pocket",
+    "zh": "手插兜"
+  },
+  {
+    "tag": "hand on own chin",
+    "zh": "手放下颚"
+  },
+  {
+    "tag": "hand on own forehead",
+    "zh": "手放前额"
+  },
+  {
+    "tag": "hand to own mouth",
+    "zh": "手放嘴上"
+  },
+  {
+    "tag": "hand on headwear",
+    "zh": "手放帽子上"
+  },
+  {
+    "tag": "hand on ear",
+    "zh": "手放耳朵"
+  },
+  {
+    "tag": "hand on own stomach",
+    "zh": "手放肚子"
+  },
+  {
+    "tag": "hand on own shoulder",
+    "zh": "手放肩上"
+  },
+  {
+    "tag": "hand on own chest",
+    "zh": "手放胸部"
+  },
+  {
+    "tag": "hand on own neck",
+    "zh": "手放脖子"
+  },
+  {
+    "tag": "hand on own face",
+    "zh": "手放脸上"
+  },
+  {
+    "tag": "hand on own cheek",
+    "zh": "手放脸颊"
+  },
+  {
+    "tag": "hand on own knee",
+    "zh": "手放膝盖"
+  },
+  {
+    "tag": "hand on own ass",
+    "zh": "手放臀部"
+  },
+  {
+    "tag": "hand on own head",
+    "zh": "手放自己头上"
+  },
+  {
+    "tag": "peace hand V",
+    "zh": "手势"
+  },
+  {
+    "tag": "v over mouth v",
+    "zh": "在嘴上"
+  },
+  {
+    "tag": "raised fist",
+    "zh": "举起拳头"
+  },
+  {
+    "tag": "kujiin",
+    "zh": "九字印"
+  },
+  {
+    "tag": "pinky out",
+    "zh": "伸小拇指"
+  },
+  {
+    "tag": "orchid fingers",
+    "zh": "兰花指"
+  },
+  {
+    "tag": "heart hands",
+    "zh": "双手比心"
+  },
+  {
+    "tag": "own hands together",
+    "zh": "双手相合"
+  },
+  {
+    "tag": "own hands clasped",
+    "zh": "双手相扣"
+  },
+  {
+    "tag": "shushing",
+    "zh": "嘘手势"
+  },
+  {
+    "tag": "open hands",
+    "zh": "张开双手"
+  },
+  {
+    "tag": "open hand",
+    "zh": "张开手"
+  },
+  {
+    "tag": "cupping hands",
+    "zh": "手杯"
+  },
+  {
+    "tag": "steepled fingers",
+    "zh": "指尖抵指间"
+  },
+  {
+    "tag": "finger gun",
+    "zh": "指枪"
+  },
+  {
+    "tag": "fist",
+    "zh": "握拳"
+  },
+  {
+    "tag": "clenched hands",
+    "zh": "攥拳"
+  },
+  {
+    "tag": "middle finger",
+    "zh": "比中指"
+  },
+  {
+    "tag": "cat paw pose",
+    "zh": "猫爪姿势"
+  },
+  {
+    "tag": "shocker",
+    "zh": "爽手势"
+  },
+  {
+    "tag": "fox shadow puppet",
+    "zh": "狐狸手势"
+  },
+  {
+    "tag": "cat pose",
+    "zh": "猫爪"
+  },
+  {
+    "tag": "finger counting",
+    "zh": "用手指比数字"
+  },
+  {
+    "tag": "fidgeting",
+    "zh": "紧张手势"
+  },
+  {
+    "tag": "thumbs up",
+    "zh": "翘大拇指"
+  },
+  {
+    "tag": "victory pose",
+    "zh": "胜利手势"
+  },
+  {
+    "tag": "finger to mouth",
+    "zh": "舔手指"
+  },
+  {
+    "tag": "claw pose",
+    "zh": "虎爪"
+  },
+  {
+    "tag": "index finger raised",
+    "zh": "食指抬起"
+  },
+  {
+    "tag": "crossed arms",
+    "zh": "交叉双臂"
+  },
+  {
+    "tag": "outstretched arm",
+    "zh": "伸出单臂"
+  },
+  {
+    "tag": "outstretched hand",
+    "zh": "伸出手"
+  },
+  {
+    "tag": "outstretched arms",
+    "zh": "伸直双臂"
+  },
+  {
+    "tag": "arm up",
+    "zh": "单抬臂"
+  },
+  {
+    "tag": "arms at sides",
+    "zh": "双手垂放"
+  },
+  {
+    "tag": "arms under breasts",
+    "zh": "双手托胸"
+  },
+  {
+    "tag": "arms up",
+    "zh": "双抬臂"
+  },
+  {
+    "tag": "spread arms",
+    "zh": "张手"
+  },
+  {
+    "tag": "arms crossed",
+    "zh": "手交叉于胸前"
+  },
+  {
+    "tag": "arm held back",
+    "zh": "手臂后拉"
+  },
+  {
+    "tag": "arms behind head",
+    "zh": "手臂在头后"
+  },
+  {
+    "tag": "arms behind back",
+    "zh": "手臂在背后"
+  },
+  {
+    "tag": "heart arms",
+    "zh": "手臂摆出心姿势"
+  },
+  {
+    "tag": "arm under breasts",
+    "zh": "托胸"
+  },
+  {
+    "tag": "arm support",
+    "zh": "用手支撑住"
+  },
+  {
+    "tag": "convenient arm",
+    "zh": "遮住关键部位的手臂"
+  },
+  {
+    "tag": "pointing",
+    "zh": "指向"
+  },
+  {
+    "tag": "pointing up",
+    "zh": "指向上"
+  },
+  {
+    "tag": "pointing down",
+    "zh": "指向下"
+  },
+  {
+    "tag": "pointing forward",
+    "zh": "指向前"
+  },
+  {
+    "tag": "pointing at viewer",
+    "zh": "指向观众"
+  },
+  {
+    "tag": "holding phone",
+    "zh": "拿着电话"
+  },
+  {
+    "tag": "open book",
+    "zh": "打开书"
+  },
+  {
+    "tag": "holding book",
+    "zh": "拿着书"
+  },
+  {
+    "tag": "holding pen",
+    "zh": "拿着笔"
+  },
+  {
+    "tag": "holding pencil",
+    "zh": "拿着铅笔"
+  },
+  {
+    "tag": "sheet grab",
+    "zh": "抓着床单"
+  },
+  {
+    "tag": "holding umbrella",
+    "zh": "拿着伞"
+  },
+  {
+    "tag": "holding tray",
+    "zh": "拿着托盘"
+  },
+  {
+    "tag": "holding syringe",
+    "zh": "拿着注射器"
+  },
+  {
+    "tag": "holding eyewear",
+    "zh": "拿着眼镜"
+  },
+  {
+    "tag": "holding gift",
+    "zh": "拿着礼物"
+  },
+  {
+    "tag": "squeeze bottle",
+    "zh": "挤压瓶子"
+  },
+  {
+    "tag": "holding bag",
+    "zh": "提着包"
+  },
+  {
+    "tag": "holding lantern",
+    "zh": "提着灯笼"
+  },
+  {
+    "tag": "holding basket",
+    "zh": "提着篮子"
+  },
+  {
+    "tag": "writing",
+    "zh": "写字"
+  },
+  {
+    "tag": "studying",
+    "zh": "学习"
+  },
+  {
+    "tag": "typing",
+    "zh": "打字"
+  },
+  {
+    "tag": "reading",
+    "zh": "阅读"
+  },
+  {
+    "tag": "leaf on head",
+    "zh": "叶子在头上"
+  },
+  {
+    "tag": "holding leaf",
+    "zh": "拿着树叶"
+  },
+  {
+    "tag": "holding flower",
+    "zh": "拿着花"
+  },
+  {
+    "tag": "holding bouquet",
+    "zh": "拿着花束"
+  },
+  {
+    "tag": "holding weapon",
+    "zh": "拿着武器"
+  },
+  {
+    "tag": "holding arrow",
+    "zh": "拿着箭"
+  },
+  {
+    "tag": "holding whip",
+    "zh": "拿着鞭子"
+  },
+  {
+    "tag": "bathing",
+    "zh": "洗澡"
+  },
+  {
+    "tag": "showering",
+    "zh": "淋浴"
+  },
+  {
+    "tag": "afternoon tea party",
+    "zh": "下午茶会"
+  },
+  {
+    "tag": "masquerade",
+    "zh": "化妆舞会"
+  },
+  {
+    "tag": "graduation",
+    "zh": "毕业式"
+  },
+  {
+    "tag": "party",
+    "zh": "派对"
+  },
+  {
+    "tag": "birthday party",
+    "zh": "生日聚会"
+  },
+  {
+    "tag": "wedding",
+    "zh": "结婚"
+  },
+  {
+    "tag": "tea party",
+    "zh": "茶会"
+  },
+  {
+    "tag": "concert",
+    "zh": "音乐会"
+  },
+  {
+    "tag": "doll hug",
+    "zh": "抱着玩偶"
+  },
+  {
+    "tag": "holding water gun",
+    "zh": "拿着水枪"
+  },
+  {
+    "tag": "rowing",
+    "zh": "划船"
+  },
+  {
+    "tag": "running",
+    "zh": "奔跑"
+  },
+  {
+    "tag": "racing",
+    "zh": "竞速"
+  },
+  {
+    "tag": "walking",
+    "zh": "走路"
+  },
+  {
+    "tag": "jumping",
+    "zh": "跳跃"
+  },
+  {
+    "tag": "stepping",
+    "zh": "迈步"
+  },
+  {
+    "tag": "driving",
+    "zh": "驾驶"
+  },
+  {
+    "tag": "riding",
+    "zh": "骑"
+  },
+  {
+    "tag": "horseback riding",
+    "zh": "骑马"
+  },
+  {
+    "tag": "panty pull",
+    "zh": "拉下内裤"
+  },
+  {
+    "tag": "leotard pull",
+    "zh": "拉下连衣裤"
+  },
+  {
+    "tag": "mask pull",
+    "zh": "拉开口罩"
+  },
+  {
+    "tag": "kimono pull",
+    "zh": "拉开和服"
+  },
+  {
+    "tag": "bikini pull",
+    "zh": "拉开比基尼"
+  },
+  {
+    "tag": "swimsuit pull",
+    "zh": "拉开泳衣"
+  },
+  {
+    "tag": "bra pull",
+    "zh": "拉开胸罩"
+  },
+  {
+    "tag": "clothes pull",
+    "zh": "拉开衣服"
+  },
+  {
+    "tag": "skirt pull",
+    "zh": "拉开裙子"
+  },
+  {
+    "tag": "undressing",
+    "zh": "脱衣服中"
+  },
+  {
+    "tag": "pulled by self",
+    "zh": "自己拉开"
+  },
+  {
+    "tag": "unzipping",
+    "zh": "解拉链"
+  },
+  {
+    "tag": "contrapposto S",
+    "zh": "型曲线站立"
+  },
+  {
+    "tag": "standing on one leg",
+    "zh": "单脚站立"
+  },
+  {
+    "tag": "curtsy",
+    "zh": "屈膝礼"
+  },
+  {
+    "tag": "bent over",
+    "zh": "弯腰"
+  },
+  {
+    "tag": "standing",
+    "zh": "站立"
+  },
+  {
+    "tag": "breast squeeze",
+    "zh": "两侧挤胸"
+  },
+  {
+    "tag": "breast lift",
+    "zh": "托胸"
+  },
+  {
+    "tag": "breast suppress",
+    "zh": "挤压胸部"
+  },
+  {
+    "tag": "breasts on glass",
+    "zh": "胸压玻璃"
+  },
+  {
+    "tag": "m legs M",
+    "zh": "字腿"
+  },
+  {
+    "tag": "crossed legs",
+    "zh": "二郎腿"
+  },
+  {
+    "tag": "crossed ankles",
+    "zh": "交叉脚踝"
+  },
+  {
+    "tag": "legs over head",
+    "zh": "双脚过头"
+  },
+  {
+    "tag": "legs apart",
+    "zh": "双腿分开"
+  },
+  {
+    "tag": "knees up",
+    "zh": "双膝向上"
+  },
+  {
+    "tag": "knees together feet apart",
+    "zh": "双膝并拢脚分开"
+  },
+  {
+    "tag": "presenting foot",
+    "zh": "展示脚部"
+  },
+  {
+    "tag": "spread legs",
+    "zh": "张开腿"
+  },
+  {
+    "tag": "leg lift",
+    "zh": "抬一只脚"
+  },
+  {
+    "tag": "legs up",
+    "zh": "抬双腿"
+  },
+  {
+    "tag": "leg up",
+    "zh": "抬腿"
+  },
+  {
+    "tag": "convenient leg",
+    "zh": "挡住关键部位的腿"
+  },
+  {
+    "tag": "feet up",
+    "zh": "脚悬空"
+  },
+  {
+    "tag": "outstretched leg",
+    "zh": "腿部伸展"
+  },
+  {
+    "tag": "knees to chest",
+    "zh": "膝盖顶胸"
+  },
+  {
+    "tag": "filming",
+    "zh": "拍摄"
+  },
+  {
+    "tag": "taking picture",
+    "zh": "拍照"
+  },
+  {
+    "tag": "painting",
+    "zh": "绘画"
+  },
+  {
+    "tag": "knitting",
+    "zh": "编织"
+  },
+  {
+    "tag": "necktie grab",
+    "zh": "抓着领带"
+  },
+  {
+    "tag": "dress tug",
+    "zh": "拉下连衣裙下摆"
+  },
+  {
+    "tag": "holding strap",
+    "zh": "拉着吊带"
+  },
+  {
+    "tag": "kimono lift",
+    "zh": "拉起和服"
+  },
+  {
+    "tag": "lifted by self",
+    "zh": "拉起自己衣服"
+  },
+  {
+    "tag": "clothes lift",
+    "zh": "拉起衣服"
+  },
+  {
+    "tag": "dress lift",
+    "zh": "拉起连衣裙"
+  },
+  {
+    "tag": "adjusting panties",
+    "zh": "拨内裤"
+  },
+  {
+    "tag": "hat tip",
+    "zh": "捏着帽檐"
+  },
+  {
+    "tag": "skirt hold",
+    "zh": "提裙"
+  },
+  {
+    "tag": "adjusting legwear",
+    "zh": "整理裤袜"
+  },
+  {
+    "tag": "bra lift",
+    "zh": "胸罩拉到胸上方"
+  },
+  {
+    "tag": "crawling",
+    "zh": "趴着"
+  },
+  {
+    "tag": "topdown bottomup",
+    "zh": "趴着翘臀"
+  },
+  {
+    "tag": "one knee",
+    "zh": "单膝跪"
+  },
+  {
+    "tag": "on knees",
+    "zh": "跪"
+  },
+  {
+    "tag": "on back",
+    "zh": "仰卧"
+  },
+  {
+    "tag": "lying on side",
+    "zh": "侧卧"
+  },
+  {
+    "tag": "lying down",
+    "zh": "躺下"
+  },
+  {
+    "tag": "lying",
+    "zh": "躺着"
+  },
+  {
+    "tag": "superhero landing",
+    "zh": "三点着地"
+  },
+  {
+    "tag": "zombie pose",
+    "zh": "僵尸姿势"
+  },
+  {
+    "tag": "bunny pose",
+    "zh": "兔耳姿势"
+  },
+  {
+    "tag": "posing",
+    "zh": "凹造型"
+  },
+  {
+    "tag": "saturday night fever",
+    "zh": "叉腰向上指"
+  },
+  {
+    "tag": "fighting stance",
+    "zh": "战斗姿势"
+  },
+  {
+    "tag": "kamina pose",
+    "zh": "抬高手臂上指"
+  },
+  {
+    "tag": "battoujutsu stance",
+    "zh": "拔刀起手式"
+  },
+  {
+    "tag": "caramelldansen",
+    "zh": "焦糖舞"
+  },
+  {
+    "tag": "scorpion pose",
+    "zh": "蝎子姿势"
+  },
+  {
+    "tag": "the pose",
+    "zh": "那个姿势"
+  },
+  {
+    "tag": "singing",
+    "zh": "唱歌"
+  },
+  {
+    "tag": "recording",
+    "zh": "录音"
+  },
+  {
+    "tag": "playing instrument",
+    "zh": "演奏乐器"
+  },
+  {
+    "tag": "dancing",
+    "zh": "跳舞"
+  },
+  {
+    "tag": "holding pizza",
+    "zh": "拿着披萨"
+  },
+  {
+    "tag": "holding fruit",
+    "zh": "拿着水果"
+  },
+  {
+    "tag": "holding candy",
+    "zh": "拿着糖果"
+  },
+  {
+    "tag": "holding vegetable",
+    "zh": "拿着蔬菜"
+  },
+  {
+    "tag": "chocolate on breasts",
+    "zh": "胸上巧克力"
+  },
+  {
+    "tag": "broom riding",
+    "zh": "骑扫帚"
+  },
+  {
+    "tag": "on stomach",
+    "zh": "趴"
+  },
+  {
+    "tag": "kneeling",
+    "zh": "跪"
+  },
+  {
+    "tag": "on_side",
+    "zh": "侧卧"
+  },
+  {
+    "tag": "on_stomach",
+    "zh": "趴着"
+  },
+  {
+    "tag": "topdown_bottomup",
+    "zh": "趴着翘臀"
+  },
+  {
+    "tag": "the_pose",
+    "zh": "趴在地上并翘起脚"
+  },
+  {
+    "tag": "bent_over",
+    "zh": "翘臀姿势"
+  },
+  {
+    "tag": "reversal",
+    "zh": "反转"
+  },
+  {
+    "tag": "fighting_stance",
+    "zh": "战斗姿态"
+  },
+  {
+    "tag": "leaning_to_the_side",
+    "zh": "靠在一边"
+  },
+  {
+    "tag": "leaning_back",
+    "zh": "身体往后靠"
+  },
+  {
+    "tag": "leaning_on_object",
+    "zh": "靠在物体上"
+  },
+  {
+    "tag": "arched_back",
+    "zh": "弓身体"
+  },
+  {
+    "tag": "leaning_forward",
+    "zh": "身体前屈"
+  },
+  {
+    "tag": "afloat",
+    "zh": "浮(在水上"
+  },
+  {
+    "tag": "fetal_position",
+    "zh": "胎儿姿势(躺)"
+  },
+  {
+    "tag": "lying_on_person",
+    "zh": "躺在人身上"
+  },
+  {
+    "tag": "lying_on_the_lake",
+    "zh": "躺在湖面上"
+  },
+  {
+    "tag": "lying_on_water",
+    "zh": "躺在水中"
+  },
+  {
+    "tag": "on_back",
+    "zh": "仰躺"
+  },
+  {
+    "tag": "prone_bone",
+    "zh": "俯卧后入"
+  },
+  {
+    "tag": "sleeping_upright (",
+    "zh": "不躺着)睡觉|直立睡觉"
+  },
+  {
+    "tag": "presenting",
+    "zh": "展示（后接部位）"
+  },
+  {
+    "tag": "spinning",
+    "zh": "旋转"
+  },
+  {
+    "tag": "stylish_pose",
+    "zh": "时尚姿势"
+  },
+  {
+    "tag": "public_indecency",
+    "zh": "公然猥亵"
+  },
+  {
+    "tag": "parody",
+    "zh": "模仿"
+  },
+  {
+    "tag": "in_container",
+    "zh": "在容器中"
+  },
+  {
+    "tag": "against_glass",
+    "zh": "挤压玻璃(无效)"
+  },
+  {
+    "tag": "aiming_at_viewer",
+    "zh": "瞄准了读者(的视角)"
+  },
+  {
+    "tag": "applying_makeup",
+    "zh": "化妆"
+  },
+  {
+    "tag": "biting",
+    "zh": "咬"
+  },
+  {
+    "tag": "bleeding",
+    "zh": "出血"
+  },
+  {
+    "tag": "blowing",
+    "zh": "吹"
+  },
+  {
+    "tag": "bowing",
+    "zh": "鞠躬"
+  },
+  {
+    "tag": "breathing_fire",
+    "zh": "喷火"
+  },
+  {
+    "tag": "broom_riding",
+    "zh": "骑扫帚"
+  },
+  {
+    "tag": "brushing_teeth",
+    "zh": "刷牙"
+  },
+  {
+    "tag": "bubble_blowing",
+    "zh": "吹泡泡"
+  },
+  {
+    "tag": "chasing",
+    "zh": "追逐"
+  },
+  {
+    "tag": "sweeping",
+    "zh": "打扫"
+  },
+  {
+    "tag": "climbing",
+    "zh": "攀爬"
+  },
+  {
+    "tag": "comforting",
+    "zh": "安慰"
+  },
+  {
+    "tag": "hug",
+    "zh": "拥抱"
+  },
+  {
+    "tag": "dragging",
+    "zh": "拖某物"
+  },
+  {
+    "tag": "drawing_bow",
+    "zh": "拉弓"
+  },
+  {
+    "tag": "dreaming",
+    "zh": "做梦"
+  },
+  {
+    "tag": "drinking",
+    "zh": "喝酒"
+  },
+  {
+    "tag": "dropping (",
+    "zh": "意外)掉落"
+  },
+  {
+    "tag": "drying",
+    "zh": "弄干(浴后)"
+  },
+  {
+    "tag": "dual_wielding",
+    "zh": "双持"
+  },
+  {
+    "tag": "exercise",
+    "zh": "做运动"
+  },
+  {
+    "tag": "fighting",
+    "zh": "战斗中的"
+  },
+  {
+    "tag": "flapping",
+    "zh": "拍打动作"
+  },
+  {
+    "tag": "flashing",
+    "zh": "露出"
+  },
+  {
+    "tag": "fleeing",
+    "zh": "在逃跑的"
+  },
+  {
+    "tag": "flexing",
+    "zh": "秀肌肉"
+  },
+  {
+    "tag": "flying",
+    "zh": "飞行"
+  },
+  {
+    "tag": "flying_kick",
+    "zh": "飞踢"
+  },
+  {
+    "tag": "hair_brushing",
+    "zh": "梳头"
+  },
+  {
+    "tag": "hair_tucking",
+    "zh": "撩头发"
+  },
+  {
+    "tag": "hanging",
+    "zh": "吊起来的"
+  },
+  {
+    "tag": "hitting",
+    "zh": "击打"
+  },
+  {
+    "tag": "imagining",
+    "zh": "在想象的"
+  },
+  {
+    "tag": "licking",
+    "zh": "舔"
+  },
+  {
+    "tag": "licking_lips",
+    "zh": "舔嘴唇"
+  },
+  {
+    "tag": "lip_biting",
+    "zh": "咬嘴唇"
+  },
+  {
+    "tag": "meditation",
+    "zh": "冥想"
+  },
+  {
+    "tag": "Painting_(Action)",
+    "zh": "画画"
+  },
+  {
+    "tag": "playing_card",
+    "zh": "扑克牌"
+  },
+  {
+    "tag": "playing_games",
+    "zh": "打游戏"
+  },
+  {
+    "tag": "playing_instrument",
+    "zh": "演奏乐器"
+  },
+  {
+    "tag": "pole_dancing",
+    "zh": "钢管舞"
+  },
+  {
+    "tag": "pushing",
+    "zh": "推搡"
+  },
+  {
+    "tag": "sewing",
+    "zh": "缝纫"
+  },
+  {
+    "tag": "smelling",
+    "zh": "闻"
+  },
+  {
+    "tag": "smoking",
+    "zh": "抽烟"
+  },
+  {
+    "tag": "snowing",
+    "zh": "下雪"
+  },
+  {
+    "tag": "soaking_feet",
+    "zh": "泡脚"
+  },
+  {
+    "tag": "soccer",
+    "zh": "足球运动"
+  },
+  {
+    "tag": "spilling",
+    "zh": "从容器中倒出液体的动作"
+  },
+  {
+    "tag": "spitting",
+    "zh": "从嘴里吐出液体的动作"
+  },
+  {
+    "tag": "standing_on_liquid",
+    "zh": "站在水上或液体上"
+  },
+  {
+    "tag": "standing_on_one_leg",
+    "zh": "单腿站立"
+  },
+  {
+    "tag": "standing_split",
+    "zh": "站立劈叉|站立高抬腿"
+  },
+  {
+    "tag": "steepled_fingers",
+    "zh": "指尖抵着指间"
+  },
+  {
+    "tag": "做伸展运动|伸懒腰",
+    "zh": "做伸展运动|伸懒腰"
+  },
+  {
+    "tag": "tail_wagging",
+    "zh": "摇尾巴"
+  },
+  {
+    "tag": "taking_picture",
+    "zh": "拍照|自拍"
+  },
+  {
+    "tag": "talking_on_phone",
+    "zh": "打电话"
+  },
+  {
+    "tag": "teasing",
+    "zh": "戏弄"
+  },
+  {
+    "tag": "thinking",
+    "zh": "思考"
+  },
+  {
+    "tag": "toilet_use",
+    "zh": "上厕所"
+  },
+  {
+    "tag": "tripping",
+    "zh": "被绊倒"
+  },
+  {
+    "tag": "trolling",
+    "zh": "恶搞行为"
+  },
+  {
+    "tag": "twitching",
+    "zh": "抽搐"
+  },
+  {
+    "tag": "unsheathing",
+    "zh": "拔出鞘的"
+  },
+  {
+    "tag": "untying",
+    "zh": "解开的"
+  },
+  {
+    "tag": "waking_up",
+    "zh": "醒来"
+  },
+  {
+    "tag": "walking_on_liquid",
+    "zh": "在液体上行走"
+  },
+  {
+    "tag": "whispering",
+    "zh": "讲悄悄话"
+  },
+  {
+    "tag": "wrestling",
+    "zh": "摔角(运动)"
+  },
+  {
+    "tag": "hiding",
+    "zh": "躲藏"
+  },
+  {
+    "tag": "arms_out_of_frame",
+    "zh": "手臂超出图片外"
+  },
+  {
+    "tag": "body_writing",
+    "zh": "在身上写字"
+  },
+  {
+    "tag": "feet_out_of_frame",
+    "zh": "脚超出图片外"
+  },
+  {
+    "tag": "giving_up_the_ghost",
+    "zh": "灵魂出窍"
+  },
+  {
+    "tag": "glowing_eye",
+    "zh": "发光的眼睛(单眼)"
+  },
+  {
+    "tag": "glowing_weapon",
+    "zh": "发光的武器"
+  },
+  {
+    "tag": "hands_out_of_frame",
+    "zh": "手超出图片外"
+  },
+  {
+    "tag": "out_of_frame",
+    "zh": "超出图片外"
+  },
+  {
+    "tag": "paid_reward",
+    "zh": "支付报酬"
+  },
+  {
+    "tag": "piercing",
+    "zh": "刺穿"
+  },
+  {
+    "tag": "asymmetrical_docking",
+    "zh": "胸部互碰|胸顶着胸"
+  },
+  {
+    "tag": "backtoback",
+    "zh": "背对背"
+  },
+  {
+    "tag": "cunnilingus",
+    "zh": "舔阴"
+  },
+  {
+    "tag": "eye_contact",
+    "zh": "眼对眼（对视）"
+  },
+  {
+    "tag": "facing_another",
+    "zh": "面对另一个"
+  },
+  {
+    "tag": "facing_away",
+    "zh": "二人面对面(脸贴得很近)"
+  },
+  {
+    "tag": "finger_in_another's_mouth",
+    "zh": "口内指交"
+  },
+  {
+    "tag": "fingering",
+    "zh": "指交"
+  },
+  {
+    "tag": "french_kiss",
+    "zh": "法国之吻"
+  },
+  {
+    "tag": "giving",
+    "zh": "递|赠送"
+  },
+  {
+    "tag": "grinding",
+    "zh": "素股|臀推"
+  },
+  {
+    "tag": "groping",
+    "zh": "猥亵"
+  },
+  {
+    "tag": "holding_hands",
+    "zh": "牵手"
+  },
+  {
+    "tag": "imminent_kiss",
+    "zh": "即将接吻"
+  },
+  {
+    "tag": "incoming_food",
+    "zh": "递食物"
+  },
+  {
+    "tag": "incoming_gift",
+    "zh": "递礼物"
+  },
+  {
+    "tag": "incoming_kiss",
+    "zh": "等待接吻|献吻"
+  },
+  {
+    "tag": "interlocked_fingers",
+    "zh": "紧扣的双手"
+  },
+  {
+    "tag": "Kabedon",
+    "zh": "壁咚"
+  },
+  {
+    "tag": "lap_pillow",
+    "zh": "膝枕"
+  },
+  {
+    "tag": "licking_penis",
+    "zh": "舔阴茎"
+  },
+  {
+    "tag": "long_tongue",
+    "zh": "长舌头"
+  },
+  {
+    "tag": "mimikaki",
+    "zh": "掏耳勺"
+  },
+  {
+    "tag": "oral_invitation",
+    "zh": "迎接射精而伸出舌头"
+  },
+  {
+    "tag": "princess_carry",
+    "zh": "公主抱"
+  },
+  {
+    "tag": "shared_bathing",
+    "zh": "共浴|鸳鸯浴"
+  },
+  {
+    "tag": "shared_food",
+    "zh": "共享食物|用嘴递食物"
+  },
+  {
+    "tag": "sitting_on_head",
+    "zh": "坐在头上"
+  },
+  {
+    "tag": "sitting_on_shoulder",
+    "zh": "坐在肩膀上"
+  },
+  {
+    "tag": "slapping",
+    "zh": "掌掴"
+  },
+  {
+    "tag": "spanking",
+    "zh": "打屁股"
+  },
+  {
+    "tag": "special_feeling_(meme)",
+    "zh": "雪中打伞的恋人梗"
+  },
+  {
+    "tag": "symmetrical_docking",
+    "zh": "胸挤胸"
+  },
+  {
+    "tag": "tongue_out",
+    "zh": "吐舌头"
+  },
+  {
+    "tag": "uvula",
+    "zh": "小舌头|口盖垂|悬雍垂"
+  },
+  {
+    "tag": "ear_biting",
+    "zh": "咬耳朵"
+  },
+  {
+    "tag": "mixed_bathing",
+    "zh": "混浴"
+  },
+  {
+    "tag": "arms_behind_back",
+    "zh": "手放在身后"
+  },
+  {
+    "tag": "arm_above_head",
+    "zh": "手在头上"
+  },
+  {
+    "tag": "arm_behind_head",
+    "zh": "手放头后"
+  },
+  {
+    "tag": "arms_crossed",
+    "zh": "手交叉于胸前"
+  },
+  {
+    "tag": "arm_support",
+    "zh": "用手支撑住"
+  },
+  {
+    "tag": "armpits",
+    "zh": "露腋"
+  },
+  {
+    "tag": "arms_up",
+    "zh": "抬手"
+  },
+  {
+    "tag": "hand_on_hip",
+    "zh": "单手插腰"
+  },
+  {
+    "tag": "hands_on_hips",
+    "zh": "双手叉腰"
+  },
+  {
+    "tag": "arm_around_waist",
+    "zh": "单手搂腰"
+  },
+  {
+    "tag": "hands_in_opposite_sleeves",
+    "zh": "双手反袖"
+  },
+  {
+    "tag": "spread_arms",
+    "zh": "张手"
+  },
+  {
+    "tag": "crossed_arms",
+    "zh": "交叉双臂"
+  },
+  {
+    "tag": "outstretched_arms",
+    "zh": "伸出双臂"
+  },
+  {
+    "tag": "v_arms",
+    "zh": "双臂摆出V"
+  },
+  {
+    "tag": "w_arms",
+    "zh": "双臂摆出W"
+  },
+  {
+    "tag": "reaching_out",
+    "zh": "朝画外伸手"
+  },
+  {
+    "tag": "stretch",
+    "zh": "伸懒腰"
+  },
+  {
+    "tag": "hugging_own_legs",
+    "zh": "拥抱自己的腿"
+  },
+  {
+    "tag": "arm_blade",
+    "zh": "手臂刀刃"
+  },
+  {
+    "tag": "arm_grab",
+    "zh": "抓住手臂"
+  },
+  {
+    "tag": "arm_held_back",
+    "zh": "手臂往后拉"
+  },
+  {
+    "tag": "arm_ribbon",
+    "zh": "手臂丝带"
+  },
+  {
+    "tag": "bandaged_arm",
+    "zh": "缠着绷带的手臂"
+  },
+  {
+    "tag": "bandaid_on_arm",
+    "zh": "手臂上贴着创可贴"
+  },
+  {
+    "tag": "bound_arms",
+    "zh": "手臂被束缚"
+  },
+  {
+    "tag": "convenient_arm",
+    "zh": "遮住关键部位的手臂"
+  },
+  {
+    "tag": "extra_arms",
+    "zh": "多只手臂"
+  },
+  {
+    "tag": "locked_arms",
+    "zh": "互挽手臂"
+  },
+  {
+    "tag": "outstretched_arm",
+    "zh": "伸出手臂"
+  },
+  {
+    "tag": "waving_arms",
+    "zh": "挥舞着手臂"
+  },
+  {
+    "tag": "arm_at_side",
+    "zh": "单手垂放"
+  },
+  {
+    "tag": "arm_behind_back",
+    "zh": "单手背到身后"
+  },
+  {
+    "tag": "arm_cannon",
+    "zh": "手炮"
+  },
+  {
+    "tag": "arm_hug",
+    "zh": "挽手"
+  },
+  {
+    "tag": "arm_up",
+    "zh": "举着手"
+  },
+  {
+    "tag": "arms_at_sides",
+    "zh": "双手垂放"
+  },
+  {
+    "tag": "arms_behind_head",
+    "zh": "双手抱头"
+  },
+  {
+    "tag": "hand_to_mouth",
+    "zh": "手放在嘴边"
+  },
+  {
+    "tag": "cat_pose",
+    "zh": "猫爪手势"
+  },
+  {
+    "tag": "claw_pose",
+    "zh": "爪手势"
+  },
+  {
+    "tag": "paw_pose",
+    "zh": "招财猫手势(下弯手腕)"
+  },
+  {
+    "tag": "fox_shadow_puppet",
+    "zh": "狐狸手势"
+  },
+  {
+    "tag": "double_fox_shadow_puppet",
+    "zh": "双手狐狸手势"
+  },
+  {
+    "tag": "finger_gun",
+    "zh": "手指枪手势"
+  },
+  {
+    "tag": "double_v",
+    "zh": "双_v"
+  },
+  {
+    "tag": "thumbs_up",
+    "zh": "翘大拇指"
+  },
+  {
+    "tag": "index_finger_raised",
+    "zh": "食指抬起"
+  },
+  {
+    "tag": "middle_finger",
+    "zh": "国际友好手势"
+  },
+  {
+    "tag": "eyelid_pull",
+    "zh": "做鬼脸"
+  },
+  {
+    "tag": "fingersmile",
+    "zh": "用手指做出笑脸"
+  },
+  {
+    "tag": "wiping_tears",
+    "zh": "擦眼泪"
+  },
+  {
+    "tag": "finger_on_trigger",
+    "zh": "准备扣扳机的手势"
+  },
+  {
+    "tag": "pointing_at_self",
+    "zh": "指着自己"
+  },
+  {
+    "tag": "pointing_at_viewer",
+    "zh": "指向看图的人"
+  },
+  {
+    "tag": "pointing_up",
+    "zh": "向上指"
+  },
+  {
+    "tag": "poking",
+    "zh": "戳"
+  },
+  {
+    "tag": "hand_gesture",
+    "zh": "做手势"
+  },
+  {
+    "tag": "ok_sign OK",
+    "zh": "手势"
+  },
+  {
+    "tag": "shading_eyes",
+    "zh": "遮阳手势"
+  },
+  {
+    "tag": "finger_biting",
+    "zh": "咬手指"
+  },
+  {
+    "tag": "finger_in_mouth",
+    "zh": "手指伸进嘴里"
+  },
+  {
+    "tag": "finger_sucking",
+    "zh": "吮吸手指"
+  },
+  {
+    "tag": "fingering_through_clothes",
+    "zh": "手指"
+  },
+  {
+    "tag": "fingers_together",
+    "zh": "手指并拢"
+  },
+  {
+    "tag": "hair_twirling",
+    "zh": "手指卷着头发"
+  },
+  {
+    "tag": "hands_clasped",
+    "zh": "双手手指交叉|双手紧握"
+  },
+  {
+    "tag": "holding_hair",
+    "zh": "握着头发|手指绕着头发"
+  },
+  {
+    "tag": "sharp_fingernails",
+    "zh": "锐利的手指甲"
+  },
+  {
+    "tag": "sleeves_past_fingers",
+    "zh": "袖子长过手指"
+  },
+  {
+    "tag": "spread_fingers",
+    "zh": "张开手指"
+  },
+  {
+    "tag": "trigger_discipline",
+    "zh": "手指没放在扳机上"
+  },
+  {
+    "tag": "balancing (",
+    "zh": "保持)平衡的姿势"
+  },
+  {
+    "tag": "multiple_views",
+    "zh": "多角度|多姿势"
+  },
+  {
+    "tag": "pose",
+    "zh": "姿势"
+  },
+  {
+    "tag": "ready_to_draw",
+    "zh": "准备拔刀的姿势"
+  },
+  {
+    "tag": "zombie_pose",
+    "zh": "僵尸姿势"
+  },
+  {
+    "tag": "bunching_hair",
+    "zh": "手持辫子"
+  },
+  {
+    "tag": "carrying_over_shoulder",
+    "zh": "肩扛"
+  },
+  {
+    "tag": "carrying_under_arm",
+    "zh": "夹在腋下"
+  },
+  {
+    "tag": "cheering",
+    "zh": "助威"
+  },
+  {
+    "tag": "finger_to_mouth",
+    "zh": "手抵在嘴唇边"
+  },
+  {
+    "tag": "cheek_pinching",
+    "zh": "捏脸颊"
+  },
+  {
+    "tag": "cheek_poking",
+    "zh": "戳脸颊"
+  },
+  {
+    "tag": "chin_stroking",
+    "zh": "摸下巴"
+  },
+  {
+    "tag": "hair_pull",
+    "zh": "拉头发"
+  },
+  {
+    "tag": "musou_isshin_(genshin_impact)",
+    "zh": "胸口拔刀"
+  },
+  {
+    "tag": "covering_mouth",
+    "zh": "遮盖嘴"
+  },
+  {
+    "tag": "covering_xx",
+    "zh": "遮盖xx"
+  },
+  {
+    "tag": "self_fondle",
+    "zh": "自我抚摸"
+  },
+  {
+    "tag": "adjusting_thighhigh",
+    "zh": "调整过膝袜"
+  },
+  {
+    "tag": "chin_rest",
+    "zh": "托脸颊"
+  },
+  {
+    "tag": "head_rest",
+    "zh": "托头"
+  },
+  {
+    "tag": "take",
+    "zh": "拿着"
+  },
+  {
+    "tag": "_sheet_grab",
+    "zh": "抓床单"
+  },
+  {
+    "tag": "skirt_lift",
+    "zh": "掀裙子"
+  },
+  {
+    "tag": "crotch_grab",
+    "zh": "手抓裆部"
+  },
+  {
+    "tag": "covering_chest_by_hand",
+    "zh": "用手遮住胸部"
+  },
+  {
+    "tag": "bangs_pinned_back",
+    "zh": "掀起的刘海"
+  },
+  {
+    "tag": "clothes_lift",
+    "zh": "掀起衣物"
+  },
+  {
+    "tag": "dress_lift",
+    "zh": "掀起裙子"
+  },
+  {
+    "tag": "kimono_lift",
+    "zh": "掀起和服"
+  },
+  {
+    "tag": "lifted_by_another",
+    "zh": "被对方掀起衣物"
+  },
+  {
+    "tag": "lifted_by_self",
+    "zh": "掀起自己的衣物"
+  },
+  {
+    "tag": "shirt_lift",
+    "zh": "拉起掀起卷起衬衫"
+  },
+  {
+    "tag": "skirt_basket",
+    "zh": "指掀起裙子时形成的篮子形状"
+  },
+  {
+    "tag": "skirt_flip",
+    "zh": "被掀起裙子(含突发情况意义)"
+  },
+  {
+    "tag": "bikini_lift",
+    "zh": "往上剥开的比基尼"
+  },
+  {
+    "tag": "leg_lift",
+    "zh": "单腿抬高"
+  },
+  {
+    "tag": "lifting_person",
+    "zh": "将人抱起"
+  },
+  {
+    "tag": "strap_lift",
+    "zh": "往上掰衣物的吊带"
+  },
+  {
+    "tag": "wind_lift",
+    "zh": "起风效果|上升气流"
+  },
+  {
+    "tag": "bikini_pull",
+    "zh": "扯着比基尼"
+  },
+  {
+    "tag": "cheek_pull",
+    "zh": "扯脸颊"
+  },
+  {
+    "tag": "clothes_pull",
+    "zh": "拉开衣物"
+  },
+  {
+    "tag": "dress_pull",
+    "zh": "剥下裙子胸口的部分"
+  },
+  {
+    "tag": "hair_pulled_back",
+    "zh": "头发往后扎"
+  },
+  {
+    "tag": "kimono_pull",
+    "zh": "剥开和服"
+  },
+  {
+    "tag": "leotard_pull",
+    "zh": "剥开连衣裤"
+  },
+  {
+    "tag": "mask_pull",
+    "zh": "拉着口罩"
+  },
+  {
+    "tag": "pants_pull",
+    "zh": "拉着裤子"
+  },
+  {
+    "tag": "pulled_by_another",
+    "zh": "被另一个人拉(或拉衣物)"
+  },
+  {
+    "tag": "pulled_by_self",
+    "zh": "拉下自己的衣物"
+  },
+  {
+    "tag": "pulling",
+    "zh": "拉"
+  },
+  {
+    "tag": "shirt_pull",
+    "zh": "拉开衬衫"
+  },
+  {
+    "tag": "shorts_pull",
+    "zh": "褪下短裤"
+  },
+  {
+    "tag": "skirt_pull",
+    "zh": "拉开裙子"
+  },
+  {
+    "tag": "swimsuit_pull",
+    "zh": "扯下泳衣"
+  },
+  {
+    "tag": "zipper_pull_tab",
+    "zh": "拉链的拉片"
+  },
+  {
+    "tag": "adjusting_clothes",
+    "zh": "拨弄衣服"
+  },
+  {
+    "tag": "adjusting_eyewear",
+    "zh": "扶眼镜"
+  },
+  {
+    "tag": "adjusting_gloves",
+    "zh": "拨弄手套"
+  },
+  {
+    "tag": "adjusting_hair",
+    "zh": "理头发"
+  },
+  {
+    "tag": "adjusting_hat",
+    "zh": "整理帽子"
+  },
+  {
+    "tag": "adjusting_swimsuit",
+    "zh": "拨弄泳衣"
+  },
+  {
+    "tag": "holding_animal",
+    "zh": "抱着动物"
+  },
+  {
+    "tag": "holding_arrow",
+    "zh": "拉着弓"
+  },
+  {
+    "tag": "holding_axe",
+    "zh": "握着斧头"
+  },
+  {
+    "tag": "holding_bag",
+    "zh": "提着包"
+  },
+  {
+    "tag": "holding_ball",
+    "zh": "抱着球"
+  },
+  {
+    "tag": "holding_basket",
+    "zh": "提着篮子"
+  },
+  {
+    "tag": "holding_book",
+    "zh": "捧着书"
+  },
+  {
+    "tag": "holding_bottle",
+    "zh": "拿着瓶子"
+  },
+  {
+    "tag": "holding_bouquet",
+    "zh": "手捧花束"
+  },
+  {
+    "tag": "holding_bow_(weapon)",
+    "zh": "拿着弓(武器)"
+  },
+  {
+    "tag": "holding_bowl",
+    "zh": "端着碗"
+  },
+  {
+    "tag": "holding_box",
+    "zh": "端着箱子"
+  },
+  {
+    "tag": "holding_breath",
+    "zh": "憋气"
+  },
+  {
+    "tag": "holding_broom",
+    "zh": "手持扫帚"
+  },
+  {
+    "tag": "holding_camera",
+    "zh": "手持摄像机"
+  },
+  {
+    "tag": "holding_can",
+    "zh": "拿着易拉罐"
+  },
+  {
+    "tag": "holding_candy",
+    "zh": "手持糖果"
+  },
+  {
+    "tag": "holding_card",
+    "zh": "手持卡片"
+  },
+  {
+    "tag": "holding_cat",
+    "zh": "抱着猫"
+  },
+  {
+    "tag": "holding_chopsticks",
+    "zh": "拿着筷子"
+  },
+  {
+    "tag": "holding_cigarette",
+    "zh": "手叼香烟"
+  },
+  {
+    "tag": "holding_clothes",
+    "zh": "拿着衣服"
+  },
+  {
+    "tag": "holding_condom",
+    "zh": "拿着避孕套"
+  },
+  {
+    "tag": "holding_cup",
+    "zh": "手持杯子"
+  },
+  {
+    "tag": "holding_dagger",
+    "zh": "手持匕首"
+  },
+  {
+    "tag": "holding_doll",
+    "zh": "抱着玩偶"
+  },
+  {
+    "tag": "holding_eyewear",
+    "zh": "拿着眼镜|正在摘眼镜"
+  },
+  {
+    "tag": "holding_fan",
+    "zh": "拿着扇子"
+  },
+  {
+    "tag": "holding_flag",
+    "zh": "手持旗帜"
+  },
+  {
+    "tag": "holding_flower",
+    "zh": "拿着花"
+  },
+  {
+    "tag": "holding_food",
+    "zh": "拿着食物"
+  },
+  {
+    "tag": "holding_fork",
+    "zh": "拿着餐叉"
+  },
+  {
+    "tag": "holding_fruit",
+    "zh": "拿着水果"
+  },
+  {
+    "tag": "holding_gift",
+    "zh": "拿着礼物"
+  },
+  {
+    "tag": "holding_gun",
+    "zh": "拿着枪"
+  },
+  {
+    "tag": "holding_hat",
+    "zh": "拿着帽子"
+  },
+  {
+    "tag": "holding_head",
+    "zh": "手里捧着头"
+  },
+  {
+    "tag": "holding_helmet",
+    "zh": "拿着头盔"
+  },
+  {
+    "tag": "holding_innertube",
+    "zh": "拿着泳圈"
+  },
+  {
+    "tag": "holding_instrument",
+    "zh": "拿着乐器"
+  },
+  {
+    "tag": "holding_knife",
+    "zh": "拿着刀"
+  },
+  {
+    "tag": "holding_leaf",
+    "zh": "拿着叶子"
+  },
+  {
+    "tag": "holding_lollipop",
+    "zh": "拿着棒棒糖"
+  },
+  {
+    "tag": "holding_mask",
+    "zh": "拿着面具"
+  },
+  {
+    "tag": "holding_microphone",
+    "zh": "拿着麦克风"
+  },
+  {
+    "tag": "holding_needle",
+    "zh": "拿着缝衣针"
+  },
+  {
+    "tag": "holding_own_foot",
+    "zh": "握着自己的脚"
+  },
+  {
+    "tag": "holding_paintbrush",
+    "zh": "手握画笔"
+  },
+  {
+    "tag": "holding_paper",
+    "zh": "拿着纸"
+  },
+  {
+    "tag": "holding_pen",
+    "zh": "握笔"
+  },
+  {
+    "tag": "holding_pencil",
+    "zh": "手持铅笔"
+  },
+  {
+    "tag": "holding_phone",
+    "zh": "拿着手机"
+  },
+  {
+    "tag": "holding_pillow",
+    "zh": "抱着枕头"
+  },
+  {
+    "tag": "holding_pipe",
+    "zh": "拿着烟斗"
+  },
+  {
+    "tag": "holding_pizza",
+    "zh": "拿着披萨"
+  },
+  {
+    "tag": "holding_plate",
+    "zh": "端着碟子"
+  },
+  {
+    "tag": "holding_poke_ball",
+    "zh": "拿着精灵球"
+  },
+  {
+    "tag": "holding_pokemon",
+    "zh": "抱着宝可梦"
+  },
+  {
+    "tag": "holding_polearm",
+    "zh": "手持长柄武器"
+  },
+  {
+    "tag": "holding_sack",
+    "zh": "拎着包袱"
+  },
+  {
+    "tag": "holding_scythe",
+    "zh": "手持镰刀"
+  },
+  {
+    "tag": "holding_sheath",
+    "zh": "握着刀鞘"
+  },
+  {
+    "tag": "holding_shield",
+    "zh": "手持盾牌"
+  },
+  {
+    "tag": "holding_shoes",
+    "zh": "拿着鞋子"
+  },
+  {
+    "tag": "holding_sign",
+    "zh": "手持招牌"
+  },
+  {
+    "tag": "holding_spear",
+    "zh": "手持长矛"
+  },
+  {
+    "tag": "holding_spoon",
+    "zh": "拿着汤勺"
+  },
+  {
+    "tag": "holding_staff",
+    "zh": "手持法杖"
+  },
+  {
+    "tag": "holding_strap",
+    "zh": "手拉着吊带"
+  },
+  {
+    "tag": "holding_stuffed_animal",
+    "zh": "抱着毛绒玩具"
+  },
+  {
+    "tag": "holding_stylus",
+    "zh": "手持手写笔"
+  },
+  {
+    "tag": "holding_sword",
+    "zh": "手持剑"
+  },
+  {
+    "tag": "holding_syringe",
+    "zh": "手持注射器"
+  },
+  {
+    "tag": "holding_towel",
+    "zh": "拿着毛巾"
+  },
+  {
+    "tag": "holding_tray",
+    "zh": "托着盘子"
+  },
+  {
+    "tag": "holding_umbrella",
+    "zh": "撑伞"
+  },
+  {
+    "tag": "holding_wand",
+    "zh": "握着棒子"
+  },
+  {
+    "tag": "holding_weapon",
+    "zh": "手持武器"
+  },
+  {
+    "tag": "holding_whip",
+    "zh": "握着鞭子"
+  },
+  {
+    "tag": "arm_around_neck",
+    "zh": "单手搂着脖子"
+  },
+  {
+    "tag": "arms_around_neck",
+    "zh": "双手搂着脖子"
+  },
+  {
+    "tag": "covering",
+    "zh": "遮盖的动作"
+  },
+  {
+    "tag": "covering_ass",
+    "zh": "遮着臀部"
+  },
+  {
+    "tag": "covering_crotch",
+    "zh": "遮着裆部"
+  },
+  {
+    "tag": "covering_eyes",
+    "zh": "遮住眼睛"
+  },
+  {
+    "tag": "covering_nipples",
+    "zh": "挡住乳头"
+  },
+  {
+    "tag": "hands_on_another's_cheeks",
+    "zh": "双手放在对方的脸颊上"
+  },
+  {
+    "tag": "hands_on_ass",
+    "zh": "双手放在屁股上"
+  },
+  {
+    "tag": "hands_on_feet",
+    "zh": "双手放在脚上"
+  },
+  {
+    "tag": "hands_on_headwear",
+    "zh": "双手碰到头上的饰物"
+  },
+  {
+    "tag": "hands_on_hilt",
+    "zh": "双手搭在刀柄上"
+  },
+  {
+    "tag": "hands_on_lap",
+    "zh": "双手放在两腿之间"
+  },
+  {
+    "tag": "hands_on_own_face",
+    "zh": "双手放在自己的脸上"
+  },
+  {
+    "tag": "hands_on_own_cheeks",
+    "zh": "双手放在自己的脸颊上"
+  },
+  {
+    "tag": "hands_on_own_chest",
+    "zh": "双手放在自己的胸口"
+  },
+  {
+    "tag": "hands_on_own_head",
+    "zh": "双手放在自己的头上"
+  },
+  {
+    "tag": "hands_on_own_knees",
+    "zh": "双手放在自己的膝盖上"
+  },
+  {
+    "tag": "hands_on_own_stomach",
+    "zh": "双手放在自己的肚子上"
+  },
+  {
+    "tag": "hands_on_own_thighs",
+    "zh": "双手放在自己的大腿上"
+  },
+  {
+    "tag": "hands_on_another's_shoulders",
+    "zh": "双手放在别人的肩膀上"
+  },
+  {
+    "tag": "hand_on_another's_cheek",
+    "zh": "手摸着对方的脸颊"
+  },
+  {
+    "tag": "hand_on_another's_chest",
+    "zh": "手放在对方的胸前"
+  },
+  {
+    "tag": "hand_on_another's_chin",
+    "zh": "手托着对方的下巴"
+  },
+  {
+    "tag": "hand_on_another's_head",
+    "zh": "手放在对方的头上"
+  },
+  {
+    "tag": "hand_on_another's_shoulder",
+    "zh": "手放在对方的肩上"
+  },
+  {
+    "tag": "hand_on_another's_stomach",
+    "zh": "手放在对方的肚子上"
+  },
+  {
+    "tag": "hand_on_ass",
+    "zh": "手放在屁股上"
+  },
+  {
+    "tag": "hand_on_head",
+    "zh": "手放在头上"
+  },
+  {
+    "tag": "hand_on_headwear",
+    "zh": "手触碰帽子"
+  },
+  {
+    "tag": "hand_on_hilt",
+    "zh": "手搁在刀柄上"
+  },
+  {
+    "tag": "hand_on_own_cheek",
+    "zh": "把手放在自己的脸颊上"
+  },
+  {
+    "tag": "hand_on_own_chest",
+    "zh": "把手放在自己的胸口"
+  },
+  {
+    "tag": "hand_on_own_chin",
+    "zh": "手碰着自己的下巴"
+  },
+  {
+    "tag": "hand_on_own_stomach",
+    "zh": "把手放在自己的肚子上"
+  },
+  {
+    "tag": "hand_on_shoulder",
+    "zh": "手放在肩上"
+  },
+  {
+    "tag": "hand_in_another's_hair",
+    "zh": "手放在对方的头发上"
+  },
+  {
+    "tag": "hand_in_hair",
+    "zh": "手埋在头发里"
+  },
+  {
+    "tag": "hand_in_pocket",
+    "zh": "手插在口袋里"
+  },
+  {
+    "tag": "ass_grab",
+    "zh": "抓着屁股"
+  },
+  {
+    "tag": "flat_chest_grab",
+    "zh": "抓着贫乳"
+  },
+  {
+    "tag": "grabbing",
+    "zh": "抓住|抓着"
+  },
+  {
+    "tag": "grabbing_another's_ass",
+    "zh": "抓着对方屁股"
+  },
+  {
+    "tag": "grabbing_another's_hair",
+    "zh": "抓着对方的头发"
+  },
+  {
+    "tag": "grabbing_from_behind",
+    "zh": "从背后揉胸|从背后抓住胸部"
+  },
+  {
+    "tag": "grabbing_own_ass",
+    "zh": "抓着自己的屁股"
+  },
+  {
+    "tag": "guided_penetration",
+    "zh": "抓住男性器插入自己"
+  },
+  {
+    "tag": "hair_grab",
+    "zh": "抓着头发"
+  },
+  {
+    "tag": "leg_grab",
+    "zh": "抓着腿"
+  },
+  {
+    "tag": "necktie_grab",
+    "zh": "抓着领带"
+  },
+  {
+    "tag": "neckwear_grab",
+    "zh": "抓着颈部的衣服"
+  },
+  {
+    "tag": "penis_grab",
+    "zh": "抓着阴茎"
+  },
+  {
+    "tag": "pillow_grab",
+    "zh": "抓着枕头"
+  },
+  {
+    "tag": "sheet_grab",
+    "zh": "抓着床单"
+  },
+  {
+    "tag": "tail_grab",
+    "zh": "抓着尾巴"
+  },
+  {
+    "tag": "thigh_grab",
+    "zh": "抓着大腿"
+  },
+  {
+    "tag": "torso_grab",
+    "zh": "抓着躯干"
+  },
+  {
+    "tag": "wrist_grab",
+    "zh": "抓着手腕"
+  },
+  {
+    "tag": "bad_hands",
+    "zh": "手的画法错误"
+  },
+  {
+    "tag": "bandaged_hands",
+    "zh": "缠着绷带的手"
+  },
+  {
+    "tag": "bird_on_hand",
+    "zh": "手上的鸟"
+  },
+  {
+    "tag": "boxers",
+    "zh": "拳击手"
+  },
+  {
+    "tag": "brown_sailor_collar",
+    "zh": "棕色水手领"
+  },
+  {
+    "tag": "cellphone_picture",
+    "zh": "手机相片"
+  },
+  {
+    "tag": "clenched_hand",
+    "zh": "握紧的手"
+  },
+  {
+    "tag": "clenched_hands",
+    "zh": "紧握的双手"
+  },
+  {
+    "tag": "consensual_tentacles",
+    "zh": "非强行的触手侵犯"
+  },
+  {
+    "tag": "faux_figurine",
+    "zh": "仿手办风格"
+  },
+  {
+    "tag": "flashlight",
+    "zh": "手电筒"
+  },
+  {
+    "tag": "flip_phone",
+    "zh": "翻盖手机"
+  },
+  {
+    "tag": "gamepad",
+    "zh": "游戏手柄"
+  },
+  {
+    "tag": "grenade",
+    "zh": "手榴弹"
+  },
+  {
+    "tag": "hand_mirror",
+    "zh": "手镜"
+  },
+  {
+    "tag": "hand_net",
+    "zh": "手里拿着捕虫网"
+  },
+  {
+    "tag": "hand_over_own_mouth",
+    "zh": "手掩着嘴"
+  },
+  {
+    "tag": "hand_puppet",
+    "zh": "手上套着玩偶"
+  },
+  {
+    "tag": "hand_to_own_mouth",
+    "zh": "手朝向自己嘴"
+  },
+  {
+    "tag": "hand_under_shirt",
+    "zh": "手伸进衬衫下面"
+  },
+  {
+    "tag": "hand_up",
+    "zh": "抬起手"
+  },
+  {
+    "tag": "handbag",
+    "zh": "手提包"
+  },
+  {
+    "tag": "pistol",
+    "zh": "手枪"
+  },
+  {
+    "tag": "handheld_game_console",
+    "zh": "手里拿着游戏机"
+  },
+  {
+    "tag": "handkerchief",
+    "zh": "手帕"
+  },
+  {
+    "tag": "hands",
+    "zh": "手|双手"
+  },
+  {
+    "tag": "hands_in_pockets",
+    "zh": "双手插在兜里"
+  },
+  {
+    "tag": "hands_together",
+    "zh": "双手合十|自己的双手碰一起"
+  },
+  {
+    "tag": "hands_up",
+    "zh": "双手朝上|双手抬起|双手举起"
+  },
+  {
+    "tag": "kote",
+    "zh": "小手"
+  },
+  {
+    "tag": "mixed_media",
+    "zh": "手绘和数绘并存风格"
+  },
+  {
+    "tag": "outstretched_hand",
+    "zh": "伸出的手"
+  },
+  {
+    "tag": "own_hands_together",
+    "zh": "双手合十"
+  },
+  {
+    "tag": "palm",
+    "zh": "以手掩面"
+  },
+  {
+    "tag": "palms",
+    "zh": "手掌"
+  },
+  {
+    "tag": "phone_screen",
+    "zh": "手机屏幕"
+  },
+  {
+    "tag": "pov_hands",
+    "zh": "手伸来方向的视角"
+  },
+  {
+    "tag": "puppet",
+    "zh": "木偶|手偶"
+  },
+  {
+    "tag": "reacharound",
+    "zh": "从背后伸手过来刺激性伴侣"
+  },
+  {
+    "tag": "revolver",
+    "zh": "左轮手枪"
+  },
+  {
+    "tag": "wedding_band",
+    "zh": "左手无名指"
+  },
+  {
+    "tag": "shuriken",
+    "zh": "手里剑"
+  },
+  {
+    "tag": "suction_cups",
+    "zh": "触手吸盘"
+  },
+  {
+    "tag": "suitcase",
+    "zh": "手提箱"
+  },
+  {
+    "tag": "tambourine",
+    "zh": "手鼓"
+  },
+  {
+    "tag": "tentacles",
+    "zh": "触手"
+  },
+  {
+    "tag": "tissue",
+    "zh": "纸巾|手帕"
+  },
+  {
+    "tag": "traditional_media",
+    "zh": "纯手绘"
+  },
+  {
+    "tag": "twohanded",
+    "zh": "用双手"
+  },
+  {
+    "tag": "v_over_eye",
+    "zh": "在眼边比剪刀手"
+  },
+  {
+    "tag": "virgin_killer_outfit",
+    "zh": "处男杀手服"
+  },
+  {
+    "tag": "vocaloid_append V",
+    "zh": "家歌手的头戴设备"
+  },
+  {
+    "tag": "voyakiloid",
+    "zh": "弱音(歌手)"
+  },
+  {
+    "tag": "wrench",
+    "zh": "扳手"
+  },
+  {
+    "tag": "open_hand",
+    "zh": "张开的手"
+  },
+  {
+    "tag": "center_opening",
+    "zh": "正中间开口的服装"
+  },
+  {
+    "tag": "opening_door",
+    "zh": "开门"
+  },
+  {
+    "tag": "open_mouth",
+    "zh": "张嘴的"
+  },
+  {
+    "tag": "open_window",
+    "zh": "打开的窗户"
+  },
+  {
+    "tag": "legs_up",
+    "zh": "抬两只腿"
+  },
+  {
+    "tag": "legs_together",
+    "zh": "两腿并拢"
+  },
+  {
+    "tag": "crossed_legs",
+    "zh": "二郎腿"
+  },
+  {
+    "tag": "standing_split,_leg_up M",
+    "zh": "字摆腿"
+  },
+  {
+    "tag": "hand_between_legs",
+    "zh": "双腿之间的手"
+  },
+  {
+    "tag": "open_stance",
+    "zh": "稍息"
+  },
+  {
+    "tag": "convenient_leg",
+    "zh": "挡住关键部位的腿"
+  },
+  {
+    "tag": "leg_lock",
+    "zh": "用双腿夹住"
+  },
+  {
+    "tag": "legs",
+    "zh": "双腿"
+  },
+  {
+    "tag": "legs_over_head",
+    "zh": "双腿抬过头"
+  },
+  {
+    "tag": "squatting,_open_legs",
+    "zh": "蹲下分开双腿"
+  },
+  {
+    "tag": "knees_together_feet_apart",
+    "zh": "膝盖合并，两脚分开"
+  },
+  {
+    "tag": "animal_on_lap",
+    "zh": "膝盖上有动物"
+  },
+  {
+    "tag": "hand_on_own_knee",
+    "zh": "手放在自己的膝盖上"
+  },
+  {
+    "tag": "knee_up",
+    "zh": "顶起膝盖"
+  },
+  {
+    "tag": "knees",
+    "zh": "膝盖"
+  },
+  {
+    "tag": "knees_on_chest",
+    "zh": "膝盖蜷到胸前"
+  },
+  {
+    "tag": "knees_to_chest",
+    "zh": "膝盖顶到胸部"
+  },
+  {
+    "tag": "on_lap",
+    "zh": "在膝盖上"
+  },
+  {
+    "tag": "sitting_backwards",
+    "zh": "向后坐"
+  },
+  {
+    "tag": "sitting_in_tree",
+    "zh": "坐在树上"
+  },
+  {
+    "tag": "sitting_on_xx",
+    "zh": "坐在物体上"
+  },
+  {
+    "tag": "butterfly_sitting",
+    "zh": "蝴蝶坐"
+  },
+  {
+    "tag": "sitting_on_table",
+    "zh": "坐在桌子上"
+  },
+  {
+    "tag": "sitting_on_railing",
+    "zh": "坐在栏杆上"
+  },
+  {
+    "tag": "sitting_on_stairs",
+    "zh": "坐在楼梯上"
+  },
+  {
+    "tag": "sitting_on_water",
+    "zh": "坐在水上"
+  },
+  {
+    "tag": "indian_style",
+    "zh": "盘腿坐"
+  },
+  {
+    "tag": "sitting_on_chair",
+    "zh": "坐在椅子上"
+  },
+  {
+    "tag": "sidesaddle",
+    "zh": "侧坐在鞍上"
+  },
+  {
+    "tag": "sitting_on_bed",
+    "zh": "坐在床上"
+  },
+  {
+    "tag": "sitting_on_desk",
+    "zh": "坐在课桌上"
+  },
+  {
+    "tag": "sitting_on_lap",
+    "zh": "坐在大腿上"
+  },
+  {
+    "tag": "sitting_on_person",
+    "zh": "坐在人身上"
+  },
+  {
+    "tag": "upright_straddle",
+    "zh": "对坐体位"
+  },
+  {
+    "tag": "squatting",
+    "zh": "蹲下"
+  },
+  {
+    "tag": "one_knee",
+    "zh": "一只膝盖"
+  },
+  {
+    "tag": "all_fours",
+    "zh": "四肢着地"
+  },
+  {
+    "tag": "gravure_pose",
+    "zh": "凹版姿势"
+  },
+  {
+    "tag": "high_kick",
+    "zh": "高踢"
+  },
+  {
+    "tag": "bare_legs",
+    "zh": "裸腿"
+  },
+  {
+    "tag": "between_legs (",
+    "zh": "强调)两腿之间"
+  },
+  {
+    "tag": "cropped_legs",
+    "zh": "只画了一部分腿"
+  },
+  {
+    "tag": "k/da_(league_of_legends) KDA",
+    "zh": "组合(英雄联盟)"
+  },
+  {
+    "tag": "leg_belt",
+    "zh": "腿部系着带子"
+  },
+  {
+    "tag": "leg_hair",
+    "zh": "腿毛"
+  },
+  {
+    "tag": "leg_up",
+    "zh": "抬起腿"
+  },
+  {
+    "tag": "legs_apart",
+    "zh": "两腿分开"
+  },
+  {
+    "tag": "long_legs",
+    "zh": "长腿"
+  },
+  {
+    "tag": "lowleg",
+    "zh": "低胸装"
+  },
+  {
+    "tag": "mechanical_legs",
+    "zh": "机械义足"
+  },
+  {
+    "tag": "multiple_legs",
+    "zh": "多足角色"
+  },
+  {
+    "tag": "no_legs",
+    "zh": "没画出腿"
+  },
+  {
+    "tag": "no_legwear",
+    "zh": "裆胯以下裸着"
+  },
+  {
+    "tag": "tail_between_legs",
+    "zh": "尾巴蜷到两腿之间"
+  },
+  {
+    "tag": "foot_out_of_frame",
+    "zh": "单脚不在图内"
+  },
+  {
+    "tag": "footprints",
+    "zh": "脚印"
+  },
+  {
+    "tag": "feet_up",
+    "zh": "翘起脚"
+  },
+  {
+    "tag": "wrong_feet",
+    "zh": "脚部作画错误"
+  },
+  {
+    "tag": "cameltoe",
+    "zh": "骆驼趾"
+  },
+  {
+    "tag": "pigeontoed",
+    "zh": "萌向的内八腿"
+  },
+  {
+    "tag": "tiptoes",
+    "zh": "踮起脚尖"
+  },
+  {
+    "tag": "amputee",
+    "zh": "欠损|独脚|肢体残缺|欠损少女"
+  },
+  {
+    "tag": "ankle_strap",
+    "zh": "脚踝丝环"
+  },
+  {
+    "tag": "ankle_wrap",
+    "zh": "脚踝套"
+  },
+  {
+    "tag": "crossed_ankles",
+    "zh": "交叉脚踝"
+  },
+  {
+    "tag": "pincenez",
+    "zh": "夹鼻眼镜|无脚眼镜"
+  },
+  {
+    "tag": "folded",
+    "zh": "抬腿露阴"
+  },
+  {
+    "tag": "thick_thighs",
+    "zh": "肉腿"
+  },
+  {
+    "tag": "thigh_holster",
+    "zh": "腿上系着带子或工具包或枪套"
+  }
+]

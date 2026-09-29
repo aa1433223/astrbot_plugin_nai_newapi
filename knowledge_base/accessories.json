@@ -1,0 +1,2730 @@
+[
+  {
+    "tag": "x hair ornament X",
+    "zh": "发饰"
+  },
+  {
+    "tag": "clover hair ornament",
+    "zh": "三叶草发饰"
+  },
+  {
+    "tag": "bunny hair ornament",
+    "zh": "兔子头饰"
+  },
+  {
+    "tag": "pumpkin hair ornament",
+    "zh": "南瓜发饰"
+  },
+  {
+    "tag": "hair ornament",
+    "zh": "发饰"
+  },
+  {
+    "tag": "heart hair ornament",
+    "zh": "心形发饰"
+  },
+  {
+    "tag": "star hair ornament",
+    "zh": "星星发饰"
+  },
+  {
+    "tag": "crescent hair ornament",
+    "zh": "月牙发饰"
+  },
+  {
+    "tag": "leaf hair ornament",
+    "zh": "树叶发饰"
+  },
+  {
+    "tag": "cat hair ornament",
+    "zh": "猫头饰"
+  },
+  {
+    "tag": "feather hair ornament",
+    "zh": "羽毛发饰"
+  },
+  {
+    "tag": "wing hair ornament",
+    "zh": "翅膀发饰"
+  },
+  {
+    "tag": "carrot hair ornament",
+    "zh": "胡萝卜发饰"
+  },
+  {
+    "tag": "snake hair ornament",
+    "zh": "蛇发饰"
+  },
+  {
+    "tag": "bat hair ornament",
+    "zh": "蝙蝠发饰"
+  },
+  {
+    "tag": "butterfly hair ornament",
+    "zh": "蝴蝶发饰"
+  },
+  {
+    "tag": "anchor hair ornament",
+    "zh": "锚发饰"
+  },
+  {
+    "tag": "snowflake hair ornament",
+    "zh": "雪花头饰"
+  },
+  {
+    "tag": "frog hair ornament",
+    "zh": "青蛙发饰"
+  },
+  {
+    "tag": "musical note hair ornament",
+    "zh": "音符发饰"
+  },
+  {
+    "tag": "foodthemed hair ornament",
+    "zh": "食物主题发饰"
+  },
+  {
+    "tag": "bone hair ornament",
+    "zh": "骨发饰"
+  },
+  {
+    "tag": "skull hair ornament",
+    "zh": "骷髅发饰"
+  },
+  {
+    "tag": "fish hair ornament",
+    "zh": "鱼形发饰"
+  },
+  {
+    "tag": "instrument",
+    "zh": "乐器"
+  },
+  {
+    "tag": "guitar",
+    "zh": "吉他"
+  },
+  {
+    "tag": "cello",
+    "zh": "大提琴"
+  },
+  {
+    "tag": "microphone",
+    "zh": "麦克风"
+  },
+  {
+    "tag": "surfboard",
+    "zh": "冲浪板"
+  },
+  {
+    "tag": "playing card",
+    "zh": "扑克"
+  },
+  {
+    "tag": "chess piece",
+    "zh": "棋子"
+  },
+  {
+    "tag": "beachball",
+    "zh": "沙滩球"
+  },
+  {
+    "tag": "innertube",
+    "zh": "泳圈"
+  },
+  {
+    "tag": "ball",
+    "zh": "球"
+  },
+  {
+    "tag": "basketball",
+    "zh": "篮球"
+  },
+  {
+    "tag": "tennis",
+    "zh": "网球"
+  },
+  {
+    "tag": "football",
+    "zh": "足球"
+  },
+  {
+    "tag": "fishing rod",
+    "zh": "鱼竿"
+  },
+  {
+    "tag": "cha throres (AI",
+    "zh": "语)黏糊糊的食物"
+  },
+  {
+    "tag": "meal",
+    "zh": "一顿饭"
+  },
+  {
+    "tag": "okosama lunch",
+    "zh": "儿童餐"
+  },
+  {
+    "tag": "lunch",
+    "zh": "午餐"
+  },
+  {
+    "tag": "breakfast",
+    "zh": "早餐"
+  },
+  {
+    "tag": "dinner",
+    "zh": "晚餐"
+  },
+  {
+    "tag": "feast",
+    "zh": "盛宴"
+  },
+  {
+    "tag": "food",
+    "zh": "食物"
+  },
+  {
+    "tag": "pennant",
+    "zh": "三角小旗"
+  },
+  {
+    "tag": "pearl",
+    "zh": "珍珠"
+  },
+  {
+    "tag": "bouquet",
+    "zh": "花束"
+  },
+  {
+    "tag": "hairpin",
+    "zh": "发卡"
+  },
+  {
+    "tag": "hairclip",
+    "zh": "发夹"
+  },
+  {
+    "tag": "hair tie",
+    "zh": "发带"
+  },
+  {
+    "tag": "hair scrunchie",
+    "zh": "发束"
+  },
+  {
+    "tag": "hair beads",
+    "zh": "发珠"
+  },
+  {
+    "tag": "color?:hairband",
+    "zh": "发箍"
+  },
+  {
+    "tag": "bun cover",
+    "zh": "发髻套"
+  },
+  {
+    "tag": "multiple hair bows",
+    "zh": "多个蝴蝶结"
+  },
+  {
+    "tag": "hair bell",
+    "zh": "头上铃铛"
+  },
+  {
+    "tag": "veil",
+    "zh": "头纱"
+  },
+  {
+    "tag": "headwear",
+    "zh": "头饰"
+  },
+  {
+    "tag": "hair flower",
+    "zh": "头饰花"
+  },
+  {
+    "tag": "hair bow",
+    "zh": "头饰蝴蝶结"
+  },
+  {
+    "tag": "maid headdress",
+    "zh": "女仆头饰"
+  },
+  {
+    "tag": "hair bobbles",
+    "zh": "扎发绒球"
+  },
+  {
+    "tag": "bridal veil",
+    "zh": "新娘头纱"
+  },
+  {
+    "tag": "lolita hairband",
+    "zh": "洛丽塔发箍"
+  },
+  {
+    "tag": "kanzashi",
+    "zh": "簪子"
+  },
+  {
+    "tag": "head wreath",
+    "zh": "花环"
+  },
+  {
+    "tag": "hairpods",
+    "zh": "蓝牙耳机头饰"
+  },
+  {
+    "tag": "bow hairband",
+    "zh": "蝴蝶结发箍"
+  },
+  {
+    "tag": "silk",
+    "zh": "丝带"
+  },
+  {
+    "tag": "bandaid",
+    "zh": "创可贴"
+  },
+  {
+    "tag": "gemstone",
+    "zh": "宝石"
+  },
+  {
+    "tag": "badge",
+    "zh": "徽章"
+  },
+  {
+    "tag": "plaid bow",
+    "zh": "格子蝴蝶结"
+  },
+  {
+    "tag": "tassel",
+    "zh": "流苏"
+  },
+  {
+    "tag": "color?:ribbon",
+    "zh": "缎带"
+  },
+  {
+    "tag": "flower trim",
+    "zh": "花饰"
+  },
+  {
+    "tag": "jeweled branch of hourai",
+    "zh": "蓬莱玉枝"
+  },
+  {
+    "tag": "color?:bow",
+    "zh": "蝴蝶结"
+  },
+  {
+    "tag": "diamond",
+    "zh": "钻石"
+  },
+  {
+    "tag": "spatula",
+    "zh": "锅铲"
+  },
+  {
+    "tag": "halo",
+    "zh": "光环"
+  },
+  {
+    "tag": "mechanical halo",
+    "zh": "机械式光环"
+  },
+  {
+    "tag": "halloween bucket",
+    "zh": "万圣节桶"
+  },
+  {
+    "tag": "milk bottle",
+    "zh": "奶瓶"
+  },
+  {
+    "tag": "wooden bucket",
+    "zh": "木桶"
+  },
+  {
+    "tag": "pail",
+    "zh": "桶"
+  },
+  {
+    "tag": "water bottle",
+    "zh": "水瓶"
+  },
+  {
+    "tag": "bottle",
+    "zh": "瓶子"
+  },
+  {
+    "tag": "basket",
+    "zh": "篮子"
+  },
+  {
+    "tag": "sack",
+    "zh": "麻袋"
+  },
+  {
+    "tag": "bunny tail",
+    "zh": "兔尾"
+  },
+  {
+    "tag": "color?:tail",
+    "zh": "尾巴"
+  },
+  {
+    "tag": "demon tail",
+    "zh": "恶魔尾巴"
+  },
+  {
+    "tag": "squirrel tail",
+    "zh": "松鼠尾"
+  },
+  {
+    "tag": "raccoon tail",
+    "zh": "浣熊尾"
+  },
+  {
+    "tag": "cow tail",
+    "zh": "牛尾"
+  },
+  {
+    "tag": "fox tail",
+    "zh": "狐狸尾"
+  },
+  {
+    "tag": "dog tail",
+    "zh": "狗尾"
+  },
+  {
+    "tag": "wolf tail",
+    "zh": "狼尾"
+  },
+  {
+    "tag": "cat tail",
+    "zh": "猫尾"
+  },
+  {
+    "tag": "tiger tail",
+    "zh": "老虎尾"
+  },
+  {
+    "tag": "horse tail",
+    "zh": "马尾巴"
+  },
+  {
+    "tag": "mouse tail",
+    "zh": "鼠尾"
+  },
+  {
+    "tag": "dragon tail",
+    "zh": "龙尾"
+  },
+  {
+    "tag": "scissors",
+    "zh": "剪刀"
+  },
+  {
+    "tag": "axe",
+    "zh": "斧头"
+  },
+  {
+    "tag": "hatchet",
+    "zh": "短斧"
+  },
+  {
+    "tag": "hammer",
+    "zh": "锤子"
+  },
+  {
+    "tag": "latex gloves",
+    "zh": "乳胶手套"
+  },
+  {
+    "tag": "color?:gloves",
+    "zh": "手套"
+  },
+  {
+    "tag": "fingerless gloves",
+    "zh": "无指手套"
+  },
+  {
+    "tag": "cat paws",
+    "zh": "猫爪"
+  },
+  {
+    "tag": "paw gloves",
+    "zh": "猫猫手套"
+  },
+  {
+    "tag": "elbow gloves",
+    "zh": "肘部手套"
+  },
+  {
+    "tag": "nintendo 3ds",
+    "zh": "任天堂3ds"
+  },
+  {
+    "tag": "nintendo ds",
+    "zh": "任天堂ds"
+  },
+  {
+    "tag": "megaphone",
+    "zh": "喇叭"
+  },
+  {
+    "tag": "tablet pc",
+    "zh": "平板电脑"
+  },
+  {
+    "tag": "cellphone",
+    "zh": "手机"
+  },
+  {
+    "tag": "controller",
+    "zh": "手柄"
+  },
+  {
+    "tag": "handheld game console",
+    "zh": "掌上游戏机"
+  },
+  {
+    "tag": "cable",
+    "zh": "数据线"
+  },
+  {
+    "tag": "smartphone",
+    "zh": "智能手机"
+  },
+  {
+    "tag": "phone",
+    "zh": "电话"
+  },
+  {
+    "tag": "camera",
+    "zh": "相机"
+  },
+  {
+    "tag": "cassette",
+    "zh": "磁带盒"
+  },
+  {
+    "tag": "laptop",
+    "zh": "笔记本电脑"
+  },
+  {
+    "tag": "sheet music",
+    "zh": "乐谱"
+  },
+  {
+    "tag": "book stack",
+    "zh": "书堆"
+  },
+  {
+    "tag": "book",
+    "zh": "书本"
+  },
+  {
+    "tag": "letter",
+    "zh": "信"
+  },
+  {
+    "tag": "calendar",
+    "zh": "日历"
+  },
+  {
+    "tag": "postcard",
+    "zh": "明信片"
+  },
+  {
+    "tag": "mechanical pencil",
+    "zh": "活动铅笔"
+  },
+  {
+    "tag": "paintbrush",
+    "zh": "画笔"
+  },
+  {
+    "tag": "pen",
+    "zh": "笔"
+  },
+  {
+    "tag": "notebook",
+    "zh": "笔记本"
+  },
+  {
+    "tag": "sketchbook",
+    "zh": "素描本"
+  },
+  {
+    "tag": "paper",
+    "zh": "纸张"
+  },
+  {
+    "tag": "pencil",
+    "zh": "铅笔"
+  },
+  {
+    "tag": "school bag",
+    "zh": "书包"
+  },
+  {
+    "tag": "lotion bottle",
+    "zh": "乳液瓶子"
+  },
+  {
+    "tag": "color?:umbrella",
+    "zh": "伞"
+  },
+  {
+    "tag": "bag",
+    "zh": "包"
+  },
+  {
+    "tag": "shoulder bag",
+    "zh": "单肩包"
+  },
+  {
+    "tag": "dumpling hug pillow",
+    "zh": "团子抱枕"
+  },
+  {
+    "tag": "uchiwa",
+    "zh": "团扇"
+  },
+  {
+    "tag": "parasol",
+    "zh": "太阳伞"
+  },
+  {
+    "tag": "trophy",
+    "zh": "奖杯"
+  },
+  {
+    "tag": "cane",
+    "zh": "手杖"
+  },
+  {
+    "tag": "wristwatch",
+    "zh": "手表"
+  },
+  {
+    "tag": "folding fan",
+    "zh": "折扇"
+  },
+  {
+    "tag": "satchel",
+    "zh": "挎包"
+  },
+  {
+    "tag": "pillow",
+    "zh": "枕头"
+  },
+  {
+    "tag": "hose",
+    "zh": "水管"
+  },
+  {
+    "tag": "beach umbrella",
+    "zh": "沙滩伞"
+  },
+  {
+    "tag": "oilpaper umbrella",
+    "zh": "油纸伞"
+  },
+  {
+    "tag": "watering can",
+    "zh": "洒水壶"
+  },
+  {
+    "tag": "coin",
+    "zh": "硬币"
+  },
+  {
+    "tag": "gift box",
+    "zh": "礼物盒"
+  },
+  {
+    "tag": "candy cane",
+    "zh": "糖果手杖"
+  },
+  {
+    "tag": "paper fan",
+    "zh": "纸扇"
+  },
+  {
+    "tag": "backpack",
+    "zh": "背包"
+  },
+  {
+    "tag": "frilled pillow",
+    "zh": "荷叶边枕头"
+  },
+  {
+    "tag": "lotion",
+    "zh": "身体乳"
+  },
+  {
+    "tag": "transparent umbrella",
+    "zh": "透明伞"
+  },
+  {
+    "tag": "key",
+    "zh": "钥匙"
+  },
+  {
+    "tag": "money",
+    "zh": "钱"
+  },
+  {
+    "tag": "cigarette",
+    "zh": "香烟"
+  },
+  {
+    "tag": "gelatin",
+    "zh": "凝胶"
+  },
+  {
+    "tag": "cream",
+    "zh": "奶油"
+  },
+  {
+    "tag": "custard",
+    "zh": "奶黄"
+  },
+  {
+    "tag": "bavarois",
+    "zh": "巴伐利亚奶油"
+  },
+  {
+    "tag": "whipped cream",
+    "zh": "打发的奶油"
+  },
+  {
+    "tag": "caramel",
+    "zh": "焦糖"
+  },
+  {
+    "tag": "red bean paste",
+    "zh": "红豆馅"
+  },
+  {
+    "tag": "crumbs",
+    "zh": "面包屑"
+  },
+  {
+    "tag": "bread crust",
+    "zh": "面包皮"
+  },
+  {
+    "tag": "dough",
+    "zh": "面团"
+  },
+  {
+    "tag": "flour",
+    "zh": "面粉"
+  },
+  {
+    "tag": "butter",
+    "zh": "黄油"
+  },
+  {
+    "tag": "trident",
+    "zh": "三叉枪"
+  },
+  {
+    "tag": "warship",
+    "zh": "军舰"
+  },
+  {
+    "tag": "scabbard",
+    "zh": "刀鞘"
+  },
+  {
+    "tag": "sword",
+    "zh": "剑"
+  },
+  {
+    "tag": "cannon",
+    "zh": "加农炮"
+  },
+  {
+    "tag": "dagger",
+    "zh": "匕首"
+  },
+  {
+    "tag": "holy sword",
+    "zh": "圣剑"
+  },
+  {
+    "tag": "huge weapon",
+    "zh": "大尺寸武器"
+  },
+  {
+    "tag": "scythe",
+    "zh": "大镰"
+  },
+  {
+    "tag": "missile",
+    "zh": "导弹"
+  },
+  {
+    "tag": "antitank grenade",
+    "zh": "手雷"
+  },
+  {
+    "tag": "gun",
+    "zh": "枪"
+  },
+  {
+    "tag": "weapon",
+    "zh": "武器"
+  },
+  {
+    "tag": "weapons",
+    "zh": "武器(复)"
+  },
+  {
+    "tag": "katana",
+    "zh": "武士刀"
+  },
+  {
+    "tag": "thompson submachine gun",
+    "zh": "汤普森冲锋枪"
+  },
+  {
+    "tag": "energy saber",
+    "zh": "激光剑"
+  },
+  {
+    "tag": "laser rifle",
+    "zh": "激光枪"
+  },
+  {
+    "tag": "turret",
+    "zh": "炮台"
+  },
+  {
+    "tag": "bomb",
+    "zh": "炸弹"
+  },
+  {
+    "tag": "sniper rifle",
+    "zh": "狙击步枪"
+  },
+  {
+    "tag": "scientific and technological weapons",
+    "zh": "科技武器"
+  },
+  {
+    "tag": "arrow",
+    "zh": "箭"
+  },
+  {
+    "tag": "aircraft carrier",
+    "zh": "航空母舰"
+  },
+  {
+    "tag": "whip",
+    "zh": "鞭"
+  },
+  {
+    "tag": "maxim machine gun",
+    "zh": "马克沁机枪"
+  },
+  {
+    "tag": "riding crop",
+    "zh": "马鞭"
+  },
+  {
+    "tag": "shadowbane",
+    "zh": "魔剑"
+  },
+  {
+    "tag": "wand",
+    "zh": "魔杖"
+  },
+  {
+    "tag": "magic sword",
+    "zh": "魔法剑"
+  },
+  {
+    "tag": "7up",
+    "zh": "七喜"
+  },
+  {
+    "tag": "vodka",
+    "zh": "伏特加"
+  },
+  {
+    "tag": "earl grey tea",
+    "zh": "伯爵红茶"
+  },
+  {
+    "tag": "yakult",
+    "zh": "养乐多"
+  },
+  {
+    "tag": "iced tea",
+    "zh": "冰茶"
+  },
+  {
+    "tag": "cocacola",
+    "zh": "可口可乐"
+  },
+  {
+    "tag": "calpis",
+    "zh": "可尔必思"
+  },
+  {
+    "tag": "miso soup",
+    "zh": "味噌汤"
+  },
+  {
+    "tag": "coffee",
+    "zh": "咖啡"
+  },
+  {
+    "tag": "latte art",
+    "zh": "咖啡拉花"
+  },
+  {
+    "tag": "coffee beans",
+    "zh": "咖啡豆"
+  },
+  {
+    "tag": "beer",
+    "zh": "啤酒"
+  },
+  {
+    "tag": "milkshake",
+    "zh": "奶昔"
+  },
+  {
+    "tag": "milk tea",
+    "zh": "奶茶"
+  },
+  {
+    "tag": "whiskey",
+    "zh": "威士忌"
+  },
+  {
+    "tag": "chocolate milk",
+    "zh": "巧克力牛奶"
+  },
+  {
+    "tag": "kefir",
+    "zh": "开菲尔"
+  },
+  {
+    "tag": "cafe au lait",
+    "zh": "拿铁咖啡"
+  },
+  {
+    "tag": "nonalcoholic beer",
+    "zh": "无酒精啤酒"
+  },
+  {
+    "tag": "sake",
+    "zh": "日本酒"
+  },
+  {
+    "tag": "starbucks",
+    "zh": "星巴克"
+  },
+  {
+    "tag": "juice",
+    "zh": "果汁"
+  },
+  {
+    "tag": "lemonade",
+    "zh": "柠檬汽水"
+  },
+  {
+    "tag": "root beer",
+    "zh": "根汁啤酒"
+  },
+  {
+    "tag": "orange juice",
+    "zh": "橙汁"
+  },
+  {
+    "tag": "soup",
+    "zh": "汤"
+  },
+  {
+    "tag": "soda can",
+    "zh": "汽水罐"
+  },
+  {
+    "tag": "ramune",
+    "zh": "波子汽水"
+  },
+  {
+    "tag": "mountain dew",
+    "zh": "激浪"
+  },
+  {
+    "tag": "tropical drink",
+    "zh": "热带饮料"
+  },
+  {
+    "tag": "milk",
+    "zh": "牛奶"
+  },
+  {
+    "tag": "milk churn",
+    "zh": "牛奶周转桶"
+  },
+  {
+    "tag": "margarita",
+    "zh": "玛格丽塔"
+  },
+  {
+    "tag": "bubble tea",
+    "zh": "珍珠奶茶"
+  },
+  {
+    "tag": "amazake",
+    "zh": "甘酒"
+  },
+  {
+    "tag": "pepsi",
+    "zh": "百事可乐"
+  },
+  {
+    "tag": "milk carton",
+    "zh": "盒装牛奶"
+  },
+  {
+    "tag": "black tea",
+    "zh": "红茶"
+  },
+  {
+    "tag": "wine",
+    "zh": "红酒"
+  },
+  {
+    "tag": "green tea",
+    "zh": "绿茶"
+  },
+  {
+    "tag": "canned coffee",
+    "zh": "罐装咖啡"
+  },
+  {
+    "tag": "dr pepper",
+    "zh": "胡椒博士"
+  },
+  {
+    "tag": "fanta",
+    "zh": "芬达"
+  },
+  {
+    "tag": "soda",
+    "zh": "苏打"
+  },
+  {
+    "tag": "tea",
+    "zh": "茶"
+  },
+  {
+    "tag": "herbal tea",
+    "zh": "草药茶"
+  },
+  {
+    "tag": "strawberry milk",
+    "zh": "草莓牛奶"
+  },
+  {
+    "tag": "dandelion coffee",
+    "zh": "蒲公英咖啡"
+  },
+  {
+    "tag": "spear mint tea",
+    "zh": "薄荷茶"
+  },
+  {
+    "tag": "darjeeling tea",
+    "zh": "达吉岭茶"
+  },
+  {
+    "tag": "liquor",
+    "zh": "酒"
+  },
+  {
+    "tag": "alcohol",
+    "zh": "酒精"
+  },
+  {
+    "tag": "yogurt",
+    "zh": "酸奶"
+  },
+  {
+    "tag": "champagne",
+    "zh": "香槟酒"
+  },
+  {
+    "tag": "cocktail",
+    "zh": "鸡尾酒"
+  },
+  {
+    "tag": "tequila",
+    "zh": "龙舌兰酒"
+  },
+  {
+    "tag": "stuffed bunny",
+    "zh": "兔子玩偶"
+  },
+  {
+    "tag": "stuffed animal",
+    "zh": "动物玩偶"
+  },
+  {
+    "tag": "pinwheel",
+    "zh": "小风车"
+  },
+  {
+    "tag": "rubber duck",
+    "zh": "橡皮鸭"
+  },
+  {
+    "tag": "water gun",
+    "zh": "水枪"
+  },
+  {
+    "tag": "stuffed toy",
+    "zh": "玩偶"
+  },
+  {
+    "tag": "toys",
+    "zh": "玩具"
+  },
+  {
+    "tag": "m&m's MM",
+    "zh": "巧克力"
+  },
+  {
+    "tag": "country ma'am country ma'am",
+    "zh": "糕点"
+  },
+  {
+    "tag": "cheesecake",
+    "zh": "乳酪蛋糕"
+  },
+  {
+    "tag": "senbei",
+    "zh": "仙贝"
+  },
+  {
+    "tag": "popsicle",
+    "zh": "冰棒"
+  },
+  {
+    "tag": "slushie",
+    "zh": "冰沙"
+  },
+  {
+    "tag": "ice cream",
+    "zh": "冰淇淋"
+  },
+  {
+    "tag": "ice cream sandwich",
+    "zh": "冰淇淋三明治"
+  },
+  {
+    "tag": "wafer",
+    "zh": "冰淇淋脆片"
+  },
+  {
+    "tag": "cake slice",
+    "zh": "分层蛋糕"
+  },
+  {
+    "tag": "shaved ice",
+    "zh": "刨冰"
+  },
+  {
+    "tag": "layer cake",
+    "zh": "千层蛋糕"
+  },
+  {
+    "tag": "millefeuille",
+    "zh": "千层酥"
+  },
+  {
+    "tag": "waffle",
+    "zh": "华夫饼"
+  },
+  {
+    "tag": "waffle cone",
+    "zh": "华夫饼蛋筒"
+  },
+  {
+    "tag": "double scoop",
+    "zh": "双球冰淇淋"
+  },
+  {
+    "tag": "chewing gum",
+    "zh": "口香糖"
+  },
+  {
+    "tag": "gumball",
+    "zh": "口香糖球"
+  },
+  {
+    "tag": "crepe",
+    "zh": "可丽饼"
+  },
+  {
+    "tag": "wagashi",
+    "zh": "和果子"
+  },
+  {
+    "tag": "pringles",
+    "zh": "品客"
+  },
+  {
+    "tag": "dango",
+    "zh": "团子"
+  },
+  {
+    "tag": "sundae",
+    "zh": "圣代"
+  },
+  {
+    "tag": "christmas cake",
+    "zh": "圣诞蛋糕"
+  },
+  {
+    "tag": "doritos",
+    "zh": "多力兹"
+  },
+  {
+    "tag": "daifuku",
+    "zh": "大福"
+  },
+  {
+    "tag": "sandwich cookie",
+    "zh": "夹心饼干"
+  },
+  {
+    "tag": "kitkat",
+    "zh": "奇巧巧克力"
+  },
+  {
+    "tag": "oreo",
+    "zh": "奥利奥"
+  },
+  {
+    "tag": "bugles",
+    "zh": "妙脆角"
+  },
+  {
+    "tag": "gingerbread man",
+    "zh": "姜饼人"
+  },
+  {
+    "tag": "gingerbread house",
+    "zh": "姜饼屋"
+  },
+  {
+    "tag": "gingerbread cookie",
+    "zh": "姜饼饼干"
+  },
+  {
+    "tag": "chocolate",
+    "zh": "巧克力"
+  },
+  {
+    "tag": "chocolate fountain",
+    "zh": "巧克力喷泉"
+  },
+  {
+    "tag": "chocolate marquise",
+    "zh": "巧克力女爵"
+  },
+  {
+    "tag": "chocolate chip cookie",
+    "zh": "巧克力片饼干"
+  },
+  {
+    "tag": "chocolate doughnut",
+    "zh": "巧克力甜甜圈"
+  },
+  {
+    "tag": "creme egg",
+    "zh": "巧克力蛋"
+  },
+  {
+    "tag": "chocolate cake",
+    "zh": "巧克力蛋糕"
+  },
+  {
+    "tag": "pudding",
+    "zh": "布丁"
+  },
+  {
+    "tag": "brownie",
+    "zh": "布朗尼巧克力"
+  },
+  {
+    "tag": "heartshaped chocolate",
+    "zh": "心形巧克力"
+  },
+  {
+    "tag": "tart",
+    "zh": "挞"
+  },
+  {
+    "tag": "tiramisu",
+    "zh": "提拉米苏"
+  },
+  {
+    "tag": "swirl lollipop",
+    "zh": "旋涡棒棒糖"
+  },
+  {
+    "tag": "mooncake",
+    "zh": "月饼"
+  },
+  {
+    "tag": "muffin",
+    "zh": "松饼"
+  },
+  {
+    "tag": "cotton candy",
+    "zh": "棉花糖"
+  },
+  {
+    "tag": "checkerboard cookie",
+    "zh": "棋盘花纹的饼干"
+  },
+  {
+    "tag": "lollipop",
+    "zh": "棒棒糖"
+  },
+  {
+    "tag": "sakura mochi",
+    "zh": "樱花麻薯"
+  },
+  {
+    "tag": "opera cake",
+    "zh": "歌剧院蛋糕"
+  },
+  {
+    "tag": "fruit tart",
+    "zh": "水果挞"
+  },
+  {
+    "tag": "pudding a la mode",
+    "zh": "法式布丁"
+  },
+  {
+    "tag": "cream puff",
+    "zh": "泡芙"
+  },
+  {
+    "tag": "fondant au chocolat",
+    "zh": "熔岩巧克力蛋糕"
+  },
+  {
+    "tag": "popcorn",
+    "zh": "爆米花"
+  },
+  {
+    "tag": "swiss roll",
+    "zh": "瑞士卷"
+  },
+  {
+    "tag": "doughnut",
+    "zh": "甜甜圈"
+  },
+  {
+    "tag": "birthday cake",
+    "zh": "生日蛋糕"
+  },
+  {
+    "tag": "namagashi",
+    "zh": "生果子"
+  },
+  {
+    "tag": "white chocolate",
+    "zh": "白巧克力"
+  },
+  {
+    "tag": "pocky",
+    "zh": "百奇饼干"
+  },
+  {
+    "tag": "pinata",
+    "zh": "皮纳塔"
+  },
+  {
+    "tag": "pound cake",
+    "zh": "磅蛋糕"
+  },
+  {
+    "tag": "pastry",
+    "zh": "糕点"
+  },
+  {
+    "tag": "candy",
+    "zh": "糖果"
+  },
+  {
+    "tag": "candy wrapper",
+    "zh": "糖果包装"
+  },
+  {
+    "tag": "jelly bean",
+    "zh": "糖果豆"
+  },
+  {
+    "tag": "candy apple",
+    "zh": "糖苹果"
+  },
+  {
+    "tag": "icing",
+    "zh": "糖霜"
+  },
+  {
+    "tag": "red velvet cake",
+    "zh": "红丝绒蛋糕"
+  },
+  {
+    "tag": "anpan",
+    "zh": "红豆包"
+  },
+  {
+    "tag": "cupcake",
+    "zh": "纸杯蛋糕"
+  },
+  {
+    "tag": "cinnamon roll",
+    "zh": "肉桂卷"
+  },
+  {
+    "tag": "parfait",
+    "zh": "芭菲"
+  },
+  {
+    "tag": "apple pie",
+    "zh": "苹果派"
+  },
+  {
+    "tag": "ichigo daifuku",
+    "zh": "草莓大福"
+  },
+  {
+    "tag": "strawberry shortcake",
+    "zh": "草莓奶油海绵蛋糕"
+  },
+  {
+    "tag": "strawberry tart",
+    "zh": "草莓挞"
+  },
+  {
+    "tag": "strawberry swiss roll",
+    "zh": "草莓瑞士卷"
+  },
+  {
+    "tag": "strawberry parfait",
+    "zh": "草莓芭菲"
+  },
+  {
+    "tag": "blueberry tart",
+    "zh": "蓝莓挞"
+  },
+  {
+    "tag": "chips",
+    "zh": "薯片"
+  },
+  {
+    "tag": "ice cream cone",
+    "zh": "蛋卷冰淇淋"
+  },
+  {
+    "tag": "cake",
+    "zh": "蛋糕"
+  },
+  {
+    "tag": "french cruller",
+    "zh": "螺旋脊状甜甜圈"
+  },
+  {
+    "tag": "soft serve",
+    "zh": "软冰淇淋"
+  },
+  {
+    "tag": "oldfashioned doughnut",
+    "zh": "酥皮甜甜圈"
+  },
+  {
+    "tag": "dorayaki",
+    "zh": "铜锣烧"
+  },
+  {
+    "tag": "eclair",
+    "zh": "闪电泡芙"
+  },
+  {
+    "tag": "biscuit",
+    "zh": "饼干"
+  },
+  {
+    "tag": "pie",
+    "zh": "馅饼"
+  },
+  {
+    "tag": "cigarette candy",
+    "zh": "香烟糖果"
+  },
+  {
+    "tag": "banana split",
+    "zh": "香蕉冰淇淋"
+  },
+  {
+    "tag": "macaron",
+    "zh": "马卡龙"
+  },
+  {
+    "tag": "taiyaki",
+    "zh": "鲷鱼烧"
+  },
+  {
+    "tag": "narutomaki",
+    "zh": "鸣门卷"
+  },
+  {
+    "tag": "mochi",
+    "zh": "麻薯"
+  },
+  {
+    "tag": "black forest cake",
+    "zh": "黑森林蛋糕"
+  },
+  {
+    "tag": "low wings",
+    "zh": "低位翅膀"
+  },
+  {
+    "tag": "fake wings",
+    "zh": "假翅膀"
+  },
+  {
+    "tag": "ice crystal texture wings",
+    "zh": "冰纹理翅膀"
+  },
+  {
+    "tag": "detached wings",
+    "zh": "分离的翅膀"
+  },
+  {
+    "tag": "feathered wings",
+    "zh": "天使翅膀"
+  },
+  {
+    "tag": "head wings",
+    "zh": "头上翅膀"
+  },
+  {
+    "tag": "fairy wings",
+    "zh": "妖精翅膀"
+  },
+  {
+    "tag": "demon wings",
+    "zh": "恶魔翅膀"
+  },
+  {
+    "tag": "color?:wings",
+    "zh": "翅膀"
+  },
+  {
+    "tag": "bat wings",
+    "zh": "蝙蝠翅膀"
+  },
+  {
+    "tag": "butterfly wings",
+    "zh": "蝴蝶翅膀"
+  },
+  {
+    "tag": "mini wings",
+    "zh": "迷你翅膀"
+  },
+  {
+    "tag": "dragon wings",
+    "zh": "龙翅膀"
+  },
+  {
+    "tag": "behindthehead headphones",
+    "zh": "后脑带的耳机"
+  },
+  {
+    "tag": "heart earrings",
+    "zh": "心形耳饰"
+  },
+  {
+    "tag": "crescent earrings",
+    "zh": "月牙耳饰"
+  },
+  {
+    "tag": "crystal earrings",
+    "zh": "水晶耳饰"
+  },
+  {
+    "tag": "cat ear headphones",
+    "zh": "猫耳耳机"
+  },
+  {
+    "tag": "headphones",
+    "zh": "耳机"
+  },
+  {
+    "tag": "headset",
+    "zh": "耳机(带话筒)"
+  },
+  {
+    "tag": "hoop earrings",
+    "zh": "耳环"
+  },
+  {
+    "tag": "earrings",
+    "zh": "耳饰"
+  },
+  {
+    "tag": "boned meat",
+    "zh": "圆柱形带骨肉"
+  },
+  {
+    "tag": "bacon",
+    "zh": "培根"
+  },
+  {
+    "tag": "hardboiled egg",
+    "zh": "水煮蛋"
+  },
+  {
+    "tag": "ham",
+    "zh": "火腿"
+  },
+  {
+    "tag": "turkey",
+    "zh": "火鸡"
+  },
+  {
+    "tag": "scrambled egg",
+    "zh": "炒鸡蛋"
+  },
+  {
+    "tag": "fried chicken",
+    "zh": "炸鸡"
+  },
+  {
+    "tag": "kebab",
+    "zh": "烤肉串"
+  },
+  {
+    "tag": "yakitori",
+    "zh": "烤鸡肉串"
+  },
+  {
+    "tag": "omelet",
+    "zh": "煎蛋卷"
+  },
+  {
+    "tag": "steak",
+    "zh": "牛排"
+  },
+  {
+    "tag": "pork",
+    "zh": "猪肉"
+  },
+  {
+    "tag": "century egg",
+    "zh": "皮蛋"
+  },
+  {
+    "tag": "takosan wiener",
+    "zh": "章鱼状香肠"
+  },
+  {
+    "tag": "meat",
+    "zh": "肉"
+  },
+  {
+    "tag": "meatball",
+    "zh": "肉丸"
+  },
+  {
+    "tag": "egg",
+    "zh": "蛋"
+  },
+  {
+    "tag": "egg yolk",
+    "zh": "蛋黄"
+  },
+  {
+    "tag": "sausage",
+    "zh": "香肠"
+  },
+  {
+    "tag": "chicken nuggets",
+    "zh": "鸡块"
+  },
+  {
+    "tag": "chest jewel",
+    "zh": "胸部宝石"
+  },
+  {
+    "tag": "breast bondage",
+    "zh": "胸部束缚"
+  },
+  {
+    "tag": "brooch",
+    "zh": "胸针"
+  },
+  {
+    "tag": "head mounted display VR",
+    "zh": "头显"
+  },
+  {
+    "tag": "overrim eyewear",
+    "zh": "下半无框眼镜"
+  },
+  {
+    "tag": "surgical mask",
+    "zh": "医用口罩"
+  },
+  {
+    "tag": "bandage over one eye",
+    "zh": "单眼绷带"
+  },
+  {
+    "tag": "mouth mask",
+    "zh": "口罩"
+  },
+  {
+    "tag": "tengu mask",
+    "zh": "天狗面具"
+  },
+  {
+    "tag": "sunglasses",
+    "zh": "太阳镜"
+  },
+  {
+    "tag": "mask on head",
+    "zh": "头上面具"
+  },
+  {
+    "tag": "bespectacled",
+    "zh": "带眼镜的"
+  },
+  {
+    "tag": "heartshaped eyewear",
+    "zh": "心形眼镜"
+  },
+  {
+    "tag": "goggles",
+    "zh": "护目镜"
+  },
+  {
+    "tag": "goggles on head",
+    "zh": "护目镜在头上"
+  },
+  {
+    "tag": "mask removed",
+    "zh": "摘下的面具"
+  },
+  {
+    "tag": "rimless eyewear",
+    "zh": "无框眼镜"
+  },
+  {
+    "tag": "fox mask",
+    "zh": "狐狸面具"
+  },
+  {
+    "tag": "blindfold",
+    "zh": "眼罩"
+  },
+  {
+    "tag": "eyepatch",
+    "zh": "眼罩(独眼)"
+  },
+  {
+    "tag": "glasses",
+    "zh": "眼镜"
+  },
+  {
+    "tag": "eyewear on head",
+    "zh": "眼镜在头上"
+  },
+  {
+    "tag": "bandage on face",
+    "zh": "脸绷带"
+  },
+  {
+    "tag": "covered eyes",
+    "zh": "蒙上的眼"
+  },
+  {
+    "tag": "gas mask",
+    "zh": "防毒面具"
+  },
+  {
+    "tag": "mask",
+    "zh": "面具"
+  },
+  {
+    "tag": "mouth veil",
+    "zh": "面纱"
+  },
+  {
+    "tag": "shackles",
+    "zh": "宽手铐"
+  },
+  {
+    "tag": "cuffs",
+    "zh": "手枷"
+  },
+  {
+    "tag": "handcuffs",
+    "zh": "手铐"
+  },
+  {
+    "tag": "bangle",
+    "zh": "手镯"
+  },
+  {
+    "tag": "bracer",
+    "zh": "护腕"
+  },
+  {
+    "tag": "bead bracelet",
+    "zh": "珠子手链"
+  },
+  {
+    "tag": "wristband",
+    "zh": "腕带"
+  },
+  {
+    "tag": "wrist cuffs",
+    "zh": "腕饰"
+  },
+  {
+    "tag": "arm belt",
+    "zh": "臂环"
+  },
+  {
+    "tag": "color?:armband",
+    "zh": "臂章"
+  },
+  {
+    "tag": "flower bracelet",
+    "zh": "花手镯"
+  },
+  {
+    "tag": "buckles",
+    "zh": "搭扣"
+  },
+  {
+    "tag": "sam browne belt",
+    "zh": "武装带"
+  },
+  {
+    "tag": "belt",
+    "zh": "腰带"
+  },
+  {
+    "tag": "sash",
+    "zh": "饰带"
+  },
+  {
+    "tag": "thigh strap",
+    "zh": "大腿带"
+  },
+  {
+    "tag": "bound legs",
+    "zh": "绑脚"
+  },
+  {
+    "tag": "anklet",
+    "zh": "脚环"
+  },
+  {
+    "tag": "bandaid on leg",
+    "zh": "腿上创可贴"
+  },
+  {
+    "tag": "leg belt",
+    "zh": "腿带"
+  },
+  {
+    "tag": "ankle laceup",
+    "zh": "腿部系带"
+  },
+  {
+    "tag": "leg garter",
+    "zh": "腿部花边环"
+  },
+  {
+    "tag": "star anise",
+    "zh": "八角"
+  },
+  {
+    "tag": "curry",
+    "zh": "咖喱"
+  },
+  {
+    "tag": "chocolate syrup",
+    "zh": "巧克力酱"
+  },
+  {
+    "tag": "furikake",
+    "zh": "拌饭素"
+  },
+  {
+    "tag": "salt shaker",
+    "zh": "撒盐瓶子"
+  },
+  {
+    "tag": "sugar cube",
+    "zh": "方糖"
+  },
+  {
+    "tag": "jam",
+    "zh": "果酱"
+  },
+  {
+    "tag": "marmalade",
+    "zh": "橘子酱"
+  },
+  {
+    "tag": "condensed milk",
+    "zh": "炼乳"
+  },
+  {
+    "tag": "ketchup",
+    "zh": "番茄酱"
+  },
+  {
+    "tag": "salt",
+    "zh": "盐"
+  },
+  {
+    "tag": "cinnamon",
+    "zh": "肉桂"
+  },
+  {
+    "tag": "pepper shaker",
+    "zh": "胡椒瓶"
+  },
+  {
+    "tag": "wasabi",
+    "zh": "芥末"
+  },
+  {
+    "tag": "peanut butter",
+    "zh": "花生酱"
+  },
+  {
+    "tag": "strawberry ketchup",
+    "zh": "草莓酱"
+  },
+  {
+    "tag": "mayonnaise",
+    "zh": "蛋黄酱"
+  },
+  {
+    "tag": "honey",
+    "zh": "蜂蜜"
+  },
+  {
+    "tag": "hot sauce",
+    "zh": "辣酱"
+  },
+  {
+    "tag": "soy sauce",
+    "zh": "酱油"
+  },
+  {
+    "tag": "scarf",
+    "zh": "围巾"
+  },
+  {
+    "tag": "heart lock",
+    "zh": "心锁"
+  },
+  {
+    "tag": "latin cross",
+    "zh": "拉丁十字架"
+  },
+  {
+    "tag": "plaid necktie",
+    "zh": "格子领带"
+  },
+  {
+    "tag": "dog tags",
+    "zh": "狗牌"
+  },
+  {
+    "tag": "dog collar",
+    "zh": "狗项圈"
+  },
+  {
+    "tag": "bead necklace",
+    "zh": "珠子项链"
+  },
+  {
+    "tag": "whistle around neck",
+    "zh": "脖子挂口哨"
+  },
+  {
+    "tag": "headphones around neck",
+    "zh": "脖子挂耳机"
+  },
+  {
+    "tag": "bell",
+    "zh": "铃铛"
+  },
+  {
+    "tag": "chains",
+    "zh": "锁链"
+  },
+  {
+    "tag": "anchor choker",
+    "zh": "锚形项圈"
+  },
+  {
+    "tag": "collar",
+    "zh": "项圈"
+  },
+  {
+    "tag": "necklace",
+    "zh": "项链"
+  },
+  {
+    "tag": "color?:neckerchief",
+    "zh": "领巾"
+  },
+  {
+    "tag": "necktie",
+    "zh": "领带"
+  },
+  {
+    "tag": "color?:bowtie",
+    "zh": "领结"
+  },
+  {
+    "tag": "neck ribbon",
+    "zh": "颈带"
+  },
+  {
+    "tag": "choker",
+    "zh": "颈饰"
+  },
+  {
+    "tag": "noppo bread noppo",
+    "zh": "面包"
+  },
+  {
+    "tag": "sandwich",
+    "zh": "三明治"
+  },
+  {
+    "tag": "udon",
+    "zh": "乌冬面"
+  },
+  {
+    "tag": "okonomiyaki",
+    "zh": "什锦煎饼"
+  },
+  {
+    "tag": "bento",
+    "zh": "便当"
+  },
+  {
+    "tag": "oden",
+    "zh": "关东煮"
+  },
+  {
+    "tag": "japari bun",
+    "zh": "加帕里包"
+  },
+  {
+    "tag": "baozi",
+    "zh": "包子"
+  },
+  {
+    "tag": "hot cross bun",
+    "zh": "十字包"
+  },
+  {
+    "tag": "lasagne",
+    "zh": "千层面"
+  },
+  {
+    "tag": "toast",
+    "zh": "吐司"
+  },
+  {
+    "tag": "curry rice",
+    "zh": "咖喱饭"
+  },
+  {
+    "tag": "taco",
+    "zh": "塔可"
+  },
+  {
+    "tag": "sushi",
+    "zh": "寿司"
+  },
+  {
+    "tag": "a sushi roll",
+    "zh": "寿司卷"
+  },
+  {
+    "tag": "sukiyaki",
+    "zh": "寿喜烧"
+  },
+  {
+    "tag": "empanada",
+    "zh": "恩巴纳达"
+  },
+  {
+    "tag": "spaghetti",
+    "zh": "意大利面"
+  },
+  {
+    "tag": "pizza",
+    "zh": "披萨"
+  },
+  {
+    "tag": "pizza slice",
+    "zh": "披萨片"
+  },
+  {
+    "tag": "pizza box",
+    "zh": "披萨盒"
+  },
+  {
+    "tag": "ramen",
+    "zh": "拉面"
+  },
+  {
+    "tag": "zouni soup",
+    "zh": "日式烩年糕"
+  },
+  {
+    "tag": "katsudon",
+    "zh": "日式猪排饭"
+  },
+  {
+    "tag": "cup ramen",
+    "zh": "杯面"
+  },
+  {
+    "tag": "cheeseburger",
+    "zh": "汉堡包"
+  },
+  {
+    "tag": "tang yuan",
+    "zh": "汤圆"
+  },
+  {
+    "tag": "french toast",
+    "zh": "法式吐司"
+  },
+  {
+    "tag": "baguette",
+    "zh": "法棍"
+  },
+  {
+    "tag": "nabe",
+    "zh": "火锅"
+  },
+  {
+    "tag": "yakisoba",
+    "zh": "炒面"
+  },
+  {
+    "tag": "fried rice",
+    "zh": "炒饭"
+  },
+  {
+    "tag": "scone",
+    "zh": "烤饼"
+  },
+  {
+    "tag": "hot dog",
+    "zh": "热狗"
+  },
+  {
+    "tag": "pancake",
+    "zh": "煎饼"
+  },
+  {
+    "tag": "pancake stack",
+    "zh": "煎饼堆"
+  },
+  {
+    "tag": "gyuudon",
+    "zh": "牛井"
+  },
+  {
+    "tag": "corn dog",
+    "zh": "玉米热狗"
+  },
+  {
+    "tag": "tamagokake gohan",
+    "zh": "生蛋盖饭"
+  },
+  {
+    "tag": "rice porridge",
+    "zh": "稀饭"
+  },
+  {
+    "tag": "rice",
+    "zh": "米饭"
+  },
+  {
+    "tag": "zongzi",
+    "zh": "粽子"
+  },
+  {
+    "tag": "canned food",
+    "zh": "罐头食品"
+  },
+  {
+    "tag": "croissant",
+    "zh": "羊角面包"
+  },
+  {
+    "tag": "spaghetti and meatballs",
+    "zh": "肉丸意大利面"
+  },
+  {
+    "tag": "meatbun",
+    "zh": "肉包"
+  },
+  {
+    "tag": "fondue",
+    "zh": "芝士火锅"
+  },
+  {
+    "tag": "soba",
+    "zh": "荞麦面"
+  },
+  {
+    "tag": "melon bread",
+    "zh": "菠萝包"
+  },
+  {
+    "tag": "omurice",
+    "zh": "蛋包饭"
+  },
+  {
+    "tag": "cereal",
+    "zh": "谷物早餐"
+  },
+  {
+    "tag": "bread",
+    "zh": "面包"
+  },
+  {
+    "tag": "bread bun",
+    "zh": "面包包子"
+  },
+  {
+    "tag": "noodles",
+    "zh": "面条"
+  },
+  {
+    "tag": "onigiri",
+    "zh": "饭团"
+  },
+  {
+    "tag": "jiaozi",
+    "zh": "饺子"
+  },
+  {
+    "tag": "manjuu",
+    "zh": "馒头"
+  },
+  {
+    "tag": "black spaghetti",
+    "zh": "黑色意大利面"
+  },
+  {
+    "tag": "spoon",
+    "zh": "勺子"
+  },
+  {
+    "tag": "lunchbox",
+    "zh": "午餐盒"
+  },
+  {
+    "tag": "fork",
+    "zh": "叉子"
+  },
+  {
+    "tag": "saucer",
+    "zh": "小碟"
+  },
+  {
+    "tag": "tray",
+    "zh": "托盘"
+  },
+  {
+    "tag": "yunomi",
+    "zh": "日式茶碗"
+  },
+  {
+    "tag": "tumbler",
+    "zh": "普通玻璃杯"
+  },
+  {
+    "tag": "cup",
+    "zh": "杯"
+  },
+  {
+    "tag": "drinking glass",
+    "zh": "水杯"
+  },
+  {
+    "tag": "plate",
+    "zh": "盘子"
+  },
+  {
+    "tag": "bowl",
+    "zh": "碗"
+  },
+  {
+    "tag": "chopsticks",
+    "zh": "筷子"
+  },
+  {
+    "tag": "teapot",
+    "zh": "茶壶"
+  },
+  {
+    "tag": "teacup",
+    "zh": "茶杯"
+  },
+  {
+    "tag": "wine gourd",
+    "zh": "酒葫芦"
+  },
+  {
+    "tag": "ladle",
+    "zh": "长柄勺"
+  },
+  {
+    "tag": "mug",
+    "zh": "马克杯"
+  },
+  {
+    "tag": "orange slice",
+    "zh": "一片橙子"
+  },
+  {
+    "tag": "squash",
+    "zh": "南瓜"
+  },
+  {
+    "tag": "cabbage",
+    "zh": "卷心菜"
+  },
+  {
+    "tag": "canteloupe",
+    "zh": "哈密瓜"
+  },
+  {
+    "tag": "habanero pepper",
+    "zh": "哈瓦那辣椒"
+  },
+  {
+    "tag": "potato",
+    "zh": "土豆"
+  },
+  {
+    "tag": "cherry tomato",
+    "zh": "圣女果"
+  },
+  {
+    "tag": "jalapeno pepper",
+    "zh": "墨西哥辣椒"
+  },
+  {
+    "tag": "spring onion",
+    "zh": "大葱"
+  },
+  {
+    "tag": "garlic",
+    "zh": "大蒜"
+  },
+  {
+    "tag": "tempura",
+    "zh": "天妇罗"
+  },
+  {
+    "tag": "cheese",
+    "zh": "奶酪"
+  },
+  {
+    "tag": "currant",
+    "zh": "小葡萄干"
+  },
+  {
+    "tag": "orangette",
+    "zh": "巧克力橙片"
+  },
+  {
+    "tag": "chocolate banana",
+    "zh": "巧克力香蕉"
+  },
+  {
+    "tag": "almond",
+    "zh": "扁桃"
+  },
+  {
+    "tag": "plum",
+    "zh": "李子"
+  },
+  {
+    "tag": "chestnut",
+    "zh": "板栗"
+  },
+  {
+    "tag": "fruit bowl",
+    "zh": "果盘"
+  },
+  {
+    "tag": "lemon",
+    "zh": "柠檬"
+  },
+  {
+    "tag": "lemon slice",
+    "zh": "柠檬片"
+  },
+  {
+    "tag": "raspberry",
+    "zh": "树莓"
+  },
+  {
+    "tag": "peach",
+    "zh": "桃"
+  },
+  {
+    "tag": "umeboshi",
+    "zh": "梅干"
+  },
+  {
+    "tag": "pear",
+    "zh": "梨"
+  },
+  {
+    "tag": "pretzel",
+    "zh": "椒盐卷饼"
+  },
+  {
+    "tag": "coconut",
+    "zh": "椰子"
+  },
+  {
+    "tag": "cherry",
+    "zh": "樱桃"
+  },
+  {
+    "tag": "mandarin orange",
+    "zh": "橘子"
+  },
+  {
+    "tag": "acorn",
+    "zh": "橡子"
+  },
+  {
+    "tag": "parsley",
+    "zh": "欧芹"
+  },
+  {
+    "tag": "fruit",
+    "zh": "水果"
+  },
+  {
+    "tag": "fruit cup",
+    "zh": "水果杯"
+  },
+  {
+    "tag": "salad",
+    "zh": "沙拉"
+  },
+  {
+    "tag": "churro",
+    "zh": "油条"
+  },
+  {
+    "tag": "pickle",
+    "zh": "泡菜"
+  },
+  {
+    "tag": "onion",
+    "zh": "洋葱"
+  },
+  {
+    "tag": "onion rings",
+    "zh": "洋葱圈"
+  },
+  {
+    "tag": "berry",
+    "zh": "浆果"
+  },
+  {
+    "tag": "bell pepper",
+    "zh": "灯笼椒"
+  },
+  {
+    "tag": "katsuo no tataki",
+    "zh": "炙烤鲣鱼片"
+  },
+  {
+    "tag": "croquette",
+    "zh": "炸丸"
+  },
+  {
+    "tag": "french fries",
+    "zh": "炸薯条"
+  },
+  {
+    "tag": "smoked cheese",
+    "zh": "烟熏奶酪"
+  },
+  {
+    "tag": "shumai",
+    "zh": "烧麦"
+  },
+  {
+    "tag": "avocado",
+    "zh": "牛油果"
+  },
+  {
+    "tag": "kiwi",
+    "zh": "猕猴桃"
+  },
+  {
+    "tag": "kiwi slice",
+    "zh": "猕猴桃切片"
+  },
+  {
+    "tag": "corn",
+    "zh": "玉米"
+  },
+  {
+    "tag": "swiss cheese",
+    "zh": "瑞士奶酪"
+  },
+  {
+    "tag": "melon",
+    "zh": "瓜"
+  },
+  {
+    "tag": "lettuce",
+    "zh": "生菜"
+  },
+  {
+    "tag": "sashimi",
+    "zh": "生鱼片"
+  },
+  {
+    "tag": "papaya",
+    "zh": "番木瓜"
+  },
+  {
+    "tag": "tomato",
+    "zh": "番茄"
+  },
+  {
+    "tag": "bok choy",
+    "zh": "白菜"
+  },
+  {
+    "tag": "pomegranate",
+    "zh": "石榴"
+  },
+  {
+    "tag": "takoyaki",
+    "zh": "章鱼烧"
+  },
+  {
+    "tag": "framboise",
+    "zh": "红桑子莓"
+  },
+  {
+    "tag": "red pepper",
+    "zh": "红椒"
+  },
+  {
+    "tag": "rambutan",
+    "zh": "红毛丹"
+  },
+  {
+    "tag": "red apple",
+    "zh": "红苹果"
+  },
+  {
+    "tag": "sweet potato",
+    "zh": "红薯"
+  },
+  {
+    "tag": "pepper",
+    "zh": "胡椒"
+  },
+  {
+    "tag": "carrot",
+    "zh": "胡萝卜"
+  },
+  {
+    "tag": "mango",
+    "zh": "芒果"
+  },
+  {
+    "tag": "turnip",
+    "zh": "芜菁"
+  },
+  {
+    "tag": "asparagus",
+    "zh": "芦笋"
+  },
+  {
+    "tag": "peanut",
+    "zh": "花生"
+  },
+  {
+    "tag": "apple",
+    "zh": "苹果"
+  },
+  {
+    "tag": "eggplant",
+    "zh": "茄子"
+  },
+  {
+    "tag": "strawberry",
+    "zh": "草莓"
+  },
+  {
+    "tag": "lychee",
+    "zh": "荔枝"
+  },
+  {
+    "tag": "cauliflower",
+    "zh": "菜花"
+  },
+  {
+    "tag": "pineapple",
+    "zh": "菠萝"
+  },
+  {
+    "tag": "radish",
+    "zh": "萝卜"
+  },
+  {
+    "tag": "grapes",
+    "zh": "葡萄"
+  },
+  {
+    "tag": "blueberry",
+    "zh": "蓝莓"
+  },
+  {
+    "tag": "vegetable",
+    "zh": "蔬菜"
+  },
+  {
+    "tag": "shrimp tempura",
+    "zh": "虾天妇罗"
+  },
+  {
+    "tag": "honeydew",
+    "zh": "蜜瓜"
+  },
+  {
+    "tag": "broccoli",
+    "zh": "西兰花"
+  },
+  {
+    "tag": "grapefruit",
+    "zh": "西柚"
+  },
+  {
+    "tag": "watermelon",
+    "zh": "西瓜"
+  },
+  {
+    "tag": "beans",
+    "zh": "豆子"
+  },
+  {
+    "tag": "tofu",
+    "zh": "豆腐"
+  },
+  {
+    "tag": "chili pepper",
+    "zh": "辣椒"
+  },
+  {
+    "tag": "lime slice",
+    "zh": "青柠片"
+  },
+  {
+    "tag": "green pepper",
+    "zh": "青椒"
+  },
+  {
+    "tag": "green apple",
+    "zh": "青苹果"
+  },
+  {
+    "tag": "banana",
+    "zh": "香蕉"
+  },
+  {
+    "tag": "banana slice",
+    "zh": "香蕉片"
+  },
+  {
+    "tag": "banana peel",
+    "zh": "香蕉皮"
+  },
+  {
+    "tag": "fish and chips",
+    "zh": "鱼和薯条"
+  },
+  {
+    "tag": "kamaboko",
+    "zh": "鱼糕"
+  },
+  {
+    "tag": "mapo tofu",
+    "zh": "麻婆豆腐"
+  },
+  {
+    "tag": "yellow pepper",
+    "zh": "黄椒"
+  },
+  {
+    "tag": "cucumber",
+    "zh": "黄瓜"
+  },
+  {
+    "tag": "nashi pear",
+    "zh": "黄金梨"
+  },
+  {
+    "tag": "blackberry",
+    "zh": "黑莓"
+  }
+]

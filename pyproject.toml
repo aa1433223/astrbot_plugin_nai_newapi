@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "astrbot_plugin_novelai"
+version = "1.5.1"
+description = "AstrBot 的 NovelAI 绘图插件，支持文生图、图生图与重画。"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "GPL-3.0-or-later" }
+authors = [{ name = "xxuanzQAQ" }]
+keywords = ["astrbot", "novelai", "ai-drawing", "text-to-image"]
+classifiers = [
+    "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+dependencies = [
+    "httpx>=0.24.0",
+    "Pillow>=9.0.0",
+    "numpy>=1.20.0",
+    "Jinja2>=3.1.0",
+]
+
+[project.optional-dependencies]
+render = ["playwright>=1.40.0"]
+test = ["pytest>=7.0"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+addopts = "-q"

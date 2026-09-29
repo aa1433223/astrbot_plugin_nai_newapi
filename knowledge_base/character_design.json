@@ -1,0 +1,670 @@
+[
+  {
+    "tag": "kyuubi",
+    "zh": "九尾狐"
+  },
+  {
+    "tag": "monster girl",
+    "zh": "人外娘"
+  },
+  {
+    "tag": "centaur",
+    "zh": "人马"
+  },
+  {
+    "tag": "slime musume",
+    "zh": "史莱姆娘"
+  },
+  {
+    "tag": "cow girl",
+    "zh": "奶牛娘"
+  },
+  {
+    "tag": "kitsune",
+    "zh": "妖狐"
+  },
+  {
+    "tag": "plant girl",
+    "zh": "娘化植物"
+  },
+  {
+    "tag": "raccoon girl",
+    "zh": "浣熊娘"
+  },
+  {
+    "tag": "dog girl",
+    "zh": "犬娘"
+  },
+  {
+    "tag": "fox girl",
+    "zh": "狐娘"
+  },
+  {
+    "tag": "wolf girl",
+    "zh": "狼女"
+  },
+  {
+    "tag": "cat girl",
+    "zh": "猫娘"
+  },
+  {
+    "tag": "furry",
+    "zh": "福瑞"
+  },
+  {
+    "tag": "mermaid",
+    "zh": "美人鱼"
+  },
+  {
+    "tag": "lamia",
+    "zh": "蛇娘"
+  },
+  {
+    "tag": "spider girl",
+    "zh": "蜘蛛娘"
+  },
+  {
+    "tag": "frog girl",
+    "zh": "青蛙娘"
+  },
+  {
+    "tag": "horse girl",
+    "zh": "马娘"
+  },
+  {
+    "tag": "mouse girl",
+    "zh": "鼠娘"
+  },
+  {
+    "tag": "dragon girl",
+    "zh": "龙娘"
+  },
+  {
+    "tag": "siblings",
+    "zh": "兄弟姐妹"
+  },
+  {
+    "tag": "twins",
+    "zh": "双胞胎"
+  },
+  {
+    "tag": "harem",
+    "zh": "后宫"
+  },
+  {
+    "tag": "husband and wife",
+    "zh": "夫妻"
+  },
+  {
+    "tag": "brother and sisiter",
+    "zh": "姐弟/兄妹"
+  },
+  {
+    "tag": "mother and daughter",
+    "zh": "母女"
+  },
+  {
+    "tag": "mother and son",
+    "zh": "母子"
+  },
+  {
+    "tag": "yuri",
+    "zh": "百合"
+  },
+  {
+    "tag": "cousins",
+    "zh": "表亲"
+  },
+  {
+    "tag": "height difference",
+    "zh": "身高差"
+  },
+  {
+    "tag": "child",
+    "zh": "儿童"
+  },
+  {
+    "tag": "teenage",
+    "zh": "十几岁"
+  },
+  {
+    "tag": "bara",
+    "zh": "大叔"
+  },
+  {
+    "tag": "female child",
+    "zh": "女童"
+  },
+  {
+    "tag": "petite",
+    "zh": "小女孩"
+  },
+  {
+    "tag": "young",
+    "zh": "年轻"
+  },
+  {
+    "tag": "toddler",
+    "zh": "幼童"
+  },
+  {
+    "tag": "underage",
+    "zh": "未成年"
+  },
+  {
+    "tag": "shota",
+    "zh": "正太"
+  },
+  {
+    "tag": "mature female",
+    "zh": "熟女"
+  },
+  {
+    "tag": "oppai loli",
+    "zh": "童颜巨乳"
+  },
+  {
+    "tag": "bishoujo",
+    "zh": "美少女"
+  },
+  {
+    "tag": "loli",
+    "zh": "萝莉"
+  },
+  {
+    "tag": "adolescent",
+    "zh": "青春期的"
+  },
+  {
+    "tag": "crossdressing",
+    "zh": "伪娘"
+  },
+  {
+    "tag": "dominatrix sm",
+    "zh": "女王"
+  },
+  {
+    "tag": "nun",
+    "zh": "修女"
+  },
+  {
+    "tag": "princess",
+    "zh": "公主"
+  },
+  {
+    "tag": "witch",
+    "zh": "女巫"
+  },
+  {
+    "tag": "valkyrie",
+    "zh": "女武神"
+  },
+  {
+    "tag": "queen",
+    "zh": "女王"
+  },
+  {
+    "tag": "miko",
+    "zh": "巫女"
+  },
+  {
+    "tag": "ninja",
+    "zh": "忍者"
+  },
+  {
+    "tag": "prostitute",
+    "zh": "性工作者"
+  },
+  {
+    "tag": "samurai",
+    "zh": "武士"
+  },
+  {
+    "tag": "necromancer",
+    "zh": "死灵术士"
+  },
+  {
+    "tag": "pharaoh",
+    "zh": "法老"
+  },
+  {
+    "tag": "pirate",
+    "zh": "海盗"
+  },
+  {
+    "tag": "priest",
+    "zh": "牧师"
+  },
+  {
+    "tag": "cleric",
+    "zh": "神职人员"
+  },
+  {
+    "tag": "sailor senshi",
+    "zh": "美少女战士"
+  },
+  {
+    "tag": "gladiator",
+    "zh": "角斗士"
+  },
+  {
+    "tag": "magician",
+    "zh": "魔术师"
+  },
+  {
+    "tag": "magical girl",
+    "zh": "魔法少女"
+  },
+  {
+    "tag": "serious",
+    "zh": "严肃"
+  },
+  {
+    "tag": "cool",
+    "zh": "冷酷"
+  },
+  {
+    "tag": "kogal",
+    "zh": "小辣妹"
+  },
+  {
+    "tag": "innocent",
+    "zh": "清纯"
+  },
+  {
+    "tag": "female pervert",
+    "zh": "痴女"
+  },
+  {
+    "tag": "naughty",
+    "zh": "色气"
+  },
+  {
+    "tag": "gyaru",
+    "zh": "辣妹"
+  },
+  {
+    "tag": "cyborg",
+    "zh": "半机械人"
+  },
+  {
+    "tag": "robot girl",
+    "zh": "机器人"
+  },
+  {
+    "tag": "gynoid",
+    "zh": "机娘"
+  },
+  {
+    "tag": "mecha",
+    "zh": "机甲"
+  },
+  {
+    "tag": "mecha design",
+    "zh": "机设"
+  },
+  {
+    "tag": "humanoid robot",
+    "zh": "类人机器人"
+  },
+  {
+    "tag": "super robot wars original generation",
+    "zh": "超级机器人大战风机设"
+  },
+  {
+    "tag": "train attendants",
+    "zh": "乘务员（火车）"
+  },
+  {
+    "tag": "gym leader",
+    "zh": "体操队长"
+  },
+  {
+    "tag": "bodyguard",
+    "zh": "保镖"
+  },
+  {
+    "tag": "idol",
+    "zh": "偶像"
+  },
+  {
+    "tag": "bunny girl",
+    "zh": "兔女郎"
+  },
+  {
+    "tag": "office lady",
+    "zh": "办公室女性"
+  },
+  {
+    "tag": "chemist",
+    "zh": "化学家"
+  },
+  {
+    "tag": "doctor",
+    "zh": "医生"
+  },
+  {
+    "tag": "chef",
+    "zh": "厨师"
+  },
+  {
+    "tag": "wa maid",
+    "zh": "和风女仆"
+  },
+  {
+    "tag": "cheerleading",
+    "zh": "啦啦队"
+  },
+  {
+    "tag": "cheerleader",
+    "zh": "啦啦队员"
+  },
+  {
+    "tag": "stewardess",
+    "zh": "女乘务员"
+  },
+  {
+    "tag": "maid",
+    "zh": "女仆"
+  },
+  {
+    "tag": "waitress",
+    "zh": "女服务员"
+  },
+  {
+    "tag": "policewoman",
+    "zh": "女警"
+  },
+  {
+    "tag": "construction worker",
+    "zh": "建筑工人"
+  },
+  {
+    "tag": "nurse",
+    "zh": "护士"
+  },
+  {
+    "tag": "cashier",
+    "zh": "收银员"
+  },
+  {
+    "tag": "waiter",
+    "zh": "服务员"
+  },
+  {
+    "tag": "mechanic",
+    "zh": "机修工"
+  },
+  {
+    "tag": "singer",
+    "zh": "歌手"
+  },
+  {
+    "tag": "sailor",
+    "zh": "水手"
+  },
+  {
+    "tag": "shepherd",
+    "zh": "牧羊人"
+  },
+  {
+    "tag": "hunter",
+    "zh": "猎人"
+  },
+  {
+    "tag": "flight attendants",
+    "zh": "空姐"
+  },
+  {
+    "tag": "butler",
+    "zh": "管家"
+  },
+  {
+    "tag": "teacher",
+    "zh": "老师"
+  },
+  {
+    "tag": "cyclist",
+    "zh": "自行车运动员"
+  },
+  {
+    "tag": "dancer",
+    "zh": "舞者"
+  },
+  {
+    "tag": "rhythmic gymastics",
+    "zh": "艺术体操运动员"
+  },
+  {
+    "tag": "ballerina",
+    "zh": "芭蕾舞者"
+  },
+  {
+    "tag": "croupier",
+    "zh": "荷官"
+  },
+  {
+    "tag": "police",
+    "zh": "警察"
+  },
+  {
+    "tag": "race queen",
+    "zh": "赛车女郎"
+  },
+  {
+    "tag": "bartender",
+    "zh": "酒保"
+  },
+  {
+    "tag": "pilot",
+    "zh": "飞行员"
+  },
+  {
+    "tag": "hacker",
+    "zh": "黑客"
+  },
+  {
+    "tag": "white marble glowing skin",
+    "zh": "如白色大理石般光泽的皮肤"
+  },
+  {
+    "tag": "colored skin",
+    "zh": "带颜色皮肤"
+  },
+  {
+    "tag": "shiny skin",
+    "zh": "有光泽皮肤"
+  },
+  {
+    "tag": "deep skin",
+    "zh": "深色皮肤"
+  },
+  {
+    "tag": "white skin",
+    "zh": "白皙皮肤"
+  },
+  {
+    "tag": "color:skin",
+    "zh": "皮肤色"
+  },
+  {
+    "tag": "pale skin",
+    "zh": "苍白皮肤"
+  },
+  {
+    "tag": "brown skin",
+    "zh": "褐色皮肤"
+  },
+  {
+    "tag": "black skin",
+    "zh": "黑皮"
+  },
+  {
+    "tag": "1girl 1",
+    "zh": "个女孩"
+  },
+  {
+    "tag": "1girl solo 1",
+    "zh": "个女孩单人"
+  },
+  {
+    "tag": "1boy 1",
+    "zh": "个男孩"
+  },
+  {
+    "tag": "2girls 2",
+    "zh": "个女孩"
+  },
+  {
+    "tag": "2boys 2",
+    "zh": "个男孩"
+  },
+  {
+    "tag": "3girls 3",
+    "zh": "个女孩"
+  },
+  {
+    "tag": "3boys 3",
+    "zh": "个男孩"
+  },
+  {
+    "tag": "4girls 4",
+    "zh": "个女孩"
+  },
+  {
+    "tag": "4boys 4",
+    "zh": "个男孩"
+  },
+  {
+    "tag": "5girls 5",
+    "zh": "个女孩"
+  },
+  {
+    "tag": "5boys 5",
+    "zh": "个男孩"
+  },
+  {
+    "tag": "6girls 6",
+    "zh": "个以上女孩"
+  },
+  {
+    "tag": "6boys 6",
+    "zh": "个以上男孩"
+  },
+  {
+    "tag": "crowd",
+    "zh": "人群"
+  },
+  {
+    "tag": "solo",
+    "zh": "单人"
+  },
+  {
+    "tag": "multiple girls",
+    "zh": "多个女孩"
+  },
+  {
+    "tag": "multiple boys",
+    "zh": "多个男孩"
+  },
+  {
+    "tag": "female",
+    "zh": "女性"
+  },
+  {
+    "tag": "male",
+    "zh": "男性"
+  },
+  {
+    "tag": "doll",
+    "zh": "人偶"
+  },
+  {
+    "tag": "werewolf",
+    "zh": "人狼"
+  },
+  {
+    "tag": "jiangshi",
+    "zh": "僵尸"
+  },
+  {
+    "tag": "orc",
+    "zh": "兽人"
+  },
+  {
+    "tag": "vampire",
+    "zh": "吸血鬼"
+  },
+  {
+    "tag": "goblin",
+    "zh": "哥布林"
+  },
+  {
+    "tag": "angel",
+    "zh": "天使"
+  },
+  {
+    "tag": "giantess",
+    "zh": "女巨人"
+  },
+  {
+    "tag": "goddess",
+    "zh": "女神"
+  },
+  {
+    "tag": "imp",
+    "zh": "小恶魔"
+  },
+  {
+    "tag": "fairy",
+    "zh": "小精灵"
+  },
+  {
+    "tag": "giant",
+    "zh": "巨人"
+  },
+  {
+    "tag": "monster",
+    "zh": "怪物"
+  },
+  {
+    "tag": "devil",
+    "zh": "恶魔"
+  },
+  {
+    "tag": "demon girl",
+    "zh": "恶魔女孩"
+  },
+  {
+    "tag": "lalafell",
+    "zh": "拉拉肥"
+  },
+  {
+    "tag": "dark elf",
+    "zh": "暗精灵"
+  },
+  {
+    "tag": "mummy",
+    "zh": "木乃伊"
+  },
+  {
+    "tag": "elf",
+    "zh": "精灵"
+  },
+  {
+    "tag": "zombie",
+    "zh": "西式僵尸"
+  },
+  {
+    "tag": "minigirl",
+    "zh": "迷你女孩"
+  },
+  {
+    "tag": "ghost",
+    "zh": "鬼魂"
+  },
+  {
+    "tag": "succubus",
+    "zh": "魅魔"
+  }
+]

@@ -1,0 +1,417 @@
+{
+  "黑丝": {
+    "tags": [
+      "black thighhighs",
+      "black pantyhose"
+    ],
+    "category": "clothing_style",
+    "zh": "黑色过膝袜/黑裤袜"
+  },
+  "白丝": {
+    "tags": [
+      "white thighhighs",
+      "white pantyhose"
+    ],
+    "category": "clothing_style",
+    "zh": "白色过膝袜"
+  },
+  "丝袜": {
+    "tags": [
+      "thighhighs",
+      "pantyhose"
+    ],
+    "category": "clothing_style",
+    "zh": "丝袜"
+  },
+  "过膝袜": {
+    "tags": [
+      "thighhighs"
+    ],
+    "category": "clothing_style",
+    "zh": "过膝袜"
+  },
+  "网袜": {
+    "tags": [
+      "fishnet pantyhose",
+      "fishnet thighhighs"
+    ],
+    "category": "clothing_style",
+    "zh": "网袜"
+  },
+  "裤袜": {
+    "tags": [
+      "pantyhose"
+    ],
+    "category": "clothing_style",
+    "zh": "裤袜"
+  },
+  "校服": {
+    "tags": [
+      "school uniform",
+      "serafuku"
+    ],
+    "category": "clothing_style",
+    "zh": "校服/水手服",
+    "outfit_category": "学生装"
+  },
+  "水手服": {
+    "tags": [
+      "serafuku",
+      "sailor collar"
+    ],
+    "category": "clothing_style",
+    "zh": "水手服",
+    "outfit_category": "学生装"
+  },
+  "制服": {
+    "tags": [
+      "uniform"
+    ],
+    "category": "clothing_style",
+    "zh": "制服"
+  },
+  "jk": {
+    "tags": [
+      "school uniform",
+      "serafuku",
+      "pleated skirt"
+    ],
+    "category": "clothing_style",
+    "zh": "JK制服",
+    "outfit_category": "学生装"
+  },
+  "JK": {
+    "tags": [
+      "school uniform",
+      "serafuku",
+      "pleated skirt"
+    ],
+    "category": "clothing_style",
+    "zh": "JK制服",
+    "outfit_category": "学生装"
+  },
+  "女仆": {
+    "tags": [
+      "maid",
+      "maid headdress",
+      "frills"
+    ],
+    "category": "clothing_style",
+    "zh": "女仆装",
+    "outfit_category": "女仆装"
+  },
+  "女仆装": {
+    "tags": [
+      "maid",
+      "maid headdress",
+      "apron",
+      "frills"
+    ],
+    "category": "clothing_style",
+    "zh": "女仆装",
+    "outfit_category": "女仆装"
+  },
+  "泳衣": {
+    "tags": [
+      "swimsuit",
+      "one-piece swimsuit"
+    ],
+    "category": "clothing_style",
+    "zh": "泳衣"
+  },
+  "比基尼": {
+    "tags": [
+      "bikini"
+    ],
+    "category": "clothing_style",
+    "zh": "比基尼"
+  },
+  "双手环抱": {
+    "tags": [
+      "arms crossed",
+      "crossed arms"
+    ],
+    "category": "action",
+    "zh": "双手环抱"
+  },
+  "环抱": {
+    "tags": [
+      "arms crossed",
+      "crossed arms"
+    ],
+    "category": "action",
+    "zh": "双手环抱"
+  },
+  "交叉双臂": {
+    "tags": [
+      "crossed arms",
+      "arms crossed"
+    ],
+    "category": "action",
+    "zh": "交叉双臂"
+  },
+  "抱胸": {
+    "tags": [
+      "arms crossed",
+      "arms under breasts"
+    ],
+    "category": "action",
+    "zh": "抱胸"
+  },
+  "坐着": {
+    "tags": [
+      "sitting"
+    ],
+    "category": "action",
+    "zh": "坐姿"
+  },
+  "站立": {
+    "tags": [
+      "standing"
+    ],
+    "category": "action",
+    "zh": "站立"
+  },
+  "躺着": {
+    "tags": [
+      "lying",
+      "on back"
+    ],
+    "category": "action",
+    "zh": "躺姿"
+  },
+  "趴着": {
+    "tags": [
+      "lying",
+      "on stomach"
+    ],
+    "category": "action",
+    "zh": "趴着"
+  },
+  "跪着": {
+    "tags": [
+      "kneeling"
+    ],
+    "category": "action",
+    "zh": "跪姿"
+  },
+  "回头": {
+    "tags": [
+      "looking back",
+      "from behind"
+    ],
+    "category": "action",
+    "zh": "回头看"
+  },
+  "举手": {
+    "tags": [
+      "arms up",
+      "hand raised"
+    ],
+    "category": "action",
+    "zh": "举手"
+  },
+  "指向": {
+    "tags": [
+      "pointing"
+    ],
+    "category": "action",
+    "zh": "指向"
+  },
+  "拥抱": {
+    "tags": [
+      "hug",
+      "hugging"
+    ],
+    "category": "action",
+    "zh": "拥抱"
+  },
+  "蜷缩": {
+    "tags": [
+      "hugging own legs",
+      "knees up"
+    ],
+    "category": "action",
+    "zh": "蜷缩"
+  },
+  "微笑": {
+    "tags": [
+      "smile",
+      "gentle smile"
+    ],
+    "category": "expression",
+    "zh": "微笑"
+  },
+  "大笑": {
+    "tags": [
+      "laughing",
+      "open mouth",
+      "smile"
+    ],
+    "category": "expression",
+    "zh": "大笑"
+  },
+  "严肃": {
+    "tags": [
+      "serious",
+      "expressionless"
+    ],
+    "category": "expression",
+    "zh": "严肃"
+  },
+  "害羞": {
+    "tags": [
+      "shy",
+      "blush",
+      "embarrassed"
+    ],
+    "category": "expression",
+    "zh": "害羞"
+  },
+  "生气": {
+    "tags": [
+      "angry",
+      "annoyed"
+    ],
+    "category": "expression",
+    "zh": "生气"
+  },
+  "哭泣": {
+    "tags": [
+      "crying",
+      "tears"
+    ],
+    "category": "expression",
+    "zh": "哭泣"
+  },
+  "闭眼": {
+    "tags": [
+      "closed eyes"
+    ],
+    "category": "expression",
+    "zh": "闭眼"
+  },
+  "室内": {
+    "tags": [
+      "indoors",
+      "room"
+    ],
+    "category": "background",
+    "zh": "室内"
+  },
+  "室外": {
+    "tags": [
+      "outdoors",
+      "open air"
+    ],
+    "category": "background",
+    "zh": "室外"
+  },
+  "海边": {
+    "tags": [
+      "beach",
+      "ocean",
+      "sea"
+    ],
+    "category": "background",
+    "zh": "海边"
+  },
+  "校园": {
+    "tags": [
+      "school",
+      "classroom",
+      "school background"
+    ],
+    "category": "background",
+    "zh": "校园"
+  },
+  "夜晚": {
+    "tags": [
+      "night",
+      "night sky",
+      "stars"
+    ],
+    "category": "background",
+    "zh": "夜晚"
+  },
+  "樱花": {
+    "tags": [
+      "cherry blossoms",
+      "petals"
+    ],
+    "category": "background",
+    "zh": "樱花"
+  },
+  "多穿一点": {
+    "tags": [],
+    "category": "clothing_intent",
+    "exposure_level": "conservative",
+    "zh": "多穿一点/穿多点/穿厚一点"
+  },
+  "穿多点": {
+    "tags": [],
+    "category": "clothing_intent",
+    "exposure_level": "conservative",
+    "zh": "穿多点"
+  },
+  "穿厚点": {
+    "tags": [],
+    "category": "clothing_intent",
+    "exposure_level": "conservative",
+    "zh": "穿厚点"
+  },
+  "保守一点": {
+    "tags": [],
+    "category": "clothing_intent",
+    "exposure_level": "conservative",
+    "zh": "保守一点/穿保守"
+  },
+  "遮一遮": {
+    "tags": [],
+    "category": "clothing_intent",
+    "exposure_level": "conservative",
+    "zh": "遮一遮/遮住"
+  },
+  "保暖": {
+    "tags": [],
+    "category": "clothing_intent",
+    "exposure_level": "conservative",
+    "zh": "保暖/穿暖和点"
+  },
+  "正经一点": {
+    "tags": [],
+    "category": "clothing_intent",
+    "exposure_level": "conservative",
+    "zh": "正经一点/端庄"
+  },
+  "少穿一点": {
+    "tags": [],
+    "category": "clothing_intent",
+    "exposure_level": "revealing",
+    "zh": "少穿一点/穿少点"
+  },
+  "穿少点": {
+    "tags": [],
+    "category": "clothing_intent",
+    "exposure_level": "revealing",
+    "zh": "穿少点"
+  },
+  "清凉一点": {
+    "tags": [],
+    "category": "clothing_intent",
+    "exposure_level": "revealing",
+    "zh": "清凉一点/凉快点"
+  },
+  "暴露一点": {
+    "tags": [],
+    "category": "clothing_intent",
+    "exposure_level": "revealing",
+    "zh": "暴露一点/露一点"
+  },
+  "性感一点": {
+    "tags": [],
+    "category": "clothing_intent",
+    "exposure_level": "revealing",
+    "zh": "性感一点/诱惑"
+  }
+}

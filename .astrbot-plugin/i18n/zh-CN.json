@@ -1,0 +1,12 @@
+{
+  "pages": {
+    "preset-manager": {
+      "title": "预设管理",
+      "description": "分类、编辑和移动 NovelAI 提示词预设。"
+    },
+    "style-gallery": {
+      "title": "画风库",
+      "description": "用示例图、正面提示词和负面提示词管理 NovelAI 画风。"
+    }
+  }
+}

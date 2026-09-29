@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <title>NovelAI 画风库</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#styleGallery">跳到画风列表</a>
+
+    <div class="app-shell">
+      <header class="topbar">
+        <div class="brand-block">
+          <div class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none">
+              <path d="M4 18.5 13.7 5.4l4.9 3.7-9.7 13.1H4z" />
+              <path d="m14.8 4 1.8-2 4 3-1.2 2.5M4 18.5l4.9 3.7" />
+            </svg>
+          </div>
+          <div>
+            <div class="title-line">
+              <h1>画风库</h1>
+              <span id="totalBadge" class="total-badge">0 个画风</span>
+            </div>
+            <p>用示例图、正面提示词和负面提示词定义完整画风。</p>
+          </div>
+        </div>
+
+        <div class="topbar-actions">
+          <span id="syncStatus" class="sync-status" aria-live="polite">
+            <span class="sync-dot" aria-hidden="true"></span>
+            <span>正在连接</span>
+          </span>
+          <button id="refreshButton" class="button button-secondary" type="button">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M20 11a8 8 0 1 0-2.34 5.66M20 5v6h-6" />
+            </svg>
+            刷新
+          </button>
+          <button id="newStyleButton" class="button button-primary" type="button">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M12 5v14M5 12h14" />
+            </svg>
+            新建画风
+          </button>
+        </div>
+      </header>
+
+      <main id="mainContent" class="workspace">
+        <section class="library-heading" aria-labelledby="libraryTitle">
+          <div>
+            <span class="eyebrow">视觉参考</span>
+            <h2 id="libraryTitle">已保存的画风</h2>
+            <p id="coverageText">示例图覆盖 0 / 0</p>
+          </div>
+          <label class="search-field" for="searchInput">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <circle cx="11" cy="11" r="7" />
+              <path d="m20 20-4-4" />
+            </svg>
+            <span class="sr-only">搜索画风</span>
+            <input
+              id="searchInput"
+              type="search"
+              autocomplete="off"
+              placeholder="搜索名称或提示词"
+            />
+            <kbd>Ctrl K</kbd>
+          </label>
+        </section>
+
+        <section
+          id="styleGallery"
+          class="style-gallery"
+          aria-label="画风卡片列表"
+          aria-busy="false"
+          tabindex="-1"
+        ></section>
+      </main>
+    </div>
+
+    <div id="loadingState" class="loading-state">
+      <span class="spinner" aria-hidden="true"></span>
+      <strong>正在加载画风库</strong>
+      <span>正在读取示例图和提示词…</span>
+    </div>
+
+    <dialog id="editorDialog" class="drawer-dialog">
+      <form id="editorForm" class="drawer-form" novalidate>
+        <header class="drawer-header">
+          <div>
+            <span class="eyebrow">画风详情</span>
+            <h2 id="editorTitle">新建画风</h2>
+          </div>
+          <button id="closeEditorButton" class="icon-button" type="button" aria-label="关闭编辑面板">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="m6 6 12 12M18 6 6 18" />
+            </svg>
+          </button>
+        </header>
+
+        <div class="drawer-body">
+          <label class="form-field" for="styleName">
+            <span>画风名称</span>
+            <input id="styleName" name="name" maxlength="100" autocomplete="off" required />
+            <small>在画图提示词中输入这个名称即可临时使用。</small>
+          </label>
+
+          <fieldset class="preview-fieldset">
+            <legend>示例图</legend>
+            <div class="preview-editor">
+              <div id="editorPreview" class="editor-preview" data-empty="true">
+                <img id="editorPreviewImage" alt="当前画风示例图预览" hidden />
+                <div id="editorPreviewEmpty" class="preview-empty">
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M3.5 5.5h17v13h-17zM3.5 15l5-5 4 4 2.5-2.5 5.5 5.5" />
+                    <circle cx="16.5" cy="9" r="1.5" />
+                  </svg>
+                  <strong>上传一张代表性效果图</strong>
+                  <span>PNG、JPEG 或 WebP，最大 6 MB</span>
+                </div>
+              </div>
+              <div class="preview-actions">
+                <input id="previewInput" class="sr-only" type="file" accept="image/png,image/jpeg,image/webp" />
+                <button id="uploadPreviewButton" class="button button-secondary" type="button">
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M12 16V4m0 0L7 9m5-5 5 5M5 20h14" />
+                  </svg>
+                  选择图片
+                </button>
+                <span id="uploadStatus" class="upload-status" aria-live="polite">建议使用 4:3 或 1:1 构图</span>
+              </div>
+            </div>
+          </fieldset>
+
+          <label class="form-field" for="positivePrompt">
+            <span>正面提示词</span>
+            <textarea
+              id="positivePrompt"
+              name="positive_prompt"
+              maxlength="20000"
+              spellcheck="false"
+              required
+              placeholder="例如：watercolor, soft colors, delicate brushstrokes"
+            ></textarea>
+            <small><span id="positiveLength">0</span> / 20,000 字符</small>
+          </label>
+
+          <label class="form-field" for="negativePrompt">
+            <span>负面提示词</span>
+            <textarea
+              id="negativePrompt"
+              name="negative_prompt"
+              maxlength="20000"
+              spellcheck="false"
+              required
+              placeholder="例如：photorealistic, harsh shadows, oversaturated colors"
+            ></textarea>
+            <small><span id="negativeLength">0</span> / 20,000 字符</small>
+          </label>
+
+          <div id="editorError" class="form-error" role="alert" hidden></div>
+        </div>
+
+        <footer class="drawer-footer">
+          <button id="cancelEditorButton" class="button button-secondary" type="button">取消</button>
+          <button id="saveStyleButton" class="button button-primary" type="submit">保存画风</button>
+        </footer>
+      </form>
+    </dialog>
+
+    <dialog id="imageDialog" class="image-dialog">
+      <button id="closeImageButton" class="image-close" type="button" aria-label="关闭大图">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="m6 6 12 12M18 6 6 18" />
+        </svg>
+      </button>
+      <img id="largePreviewImage" alt="" />
+      <div class="image-caption">
+        <strong id="largePreviewTitle"></strong>
+        <span>画风示例图</span>
+      </div>
+    </dialog>
+
+    <dialog id="confirmDialog" class="confirm-dialog">
+      <div class="confirm-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24">
+          <path d="M4 7h16m-10 4v6m4-6v6M9 7l1-3h6l1 3m1 0-1 14H7L6 7" />
+        </svg>
+      </div>
+      <h2>删除画风？</h2>
+      <p id="confirmMessage">删除后无法恢复。</p>
+      <div class="confirm-actions">
+        <button id="cancelDeleteButton" class="button button-secondary" type="button">取消</button>
+        <button id="confirmDeleteButton" class="button button-danger" type="button">确认删除</button>
+      </div>
+    </dialog>
+
+    <div id="toastRegion" class="toast-region" aria-live="polite" aria-atomic="true"></div>
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>

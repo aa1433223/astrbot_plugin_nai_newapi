@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Build / cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+
+# Local runtime outputs
+novelai_images/
+novelai_audit_failed/
+*.log
+
+# Runtime state (now written under AstrBot's plugin_data dir); keep legacy
+# fallback files out of the repo if they ever appear locally.
+data/plugin_data/
+data/usage_data.json
+data/group_usage_data.json
+data/last_draw_commands.json
+data/cmd_config.json
+data/character_database_sync.json
+
+# Optional local config
+.env
+.env.*

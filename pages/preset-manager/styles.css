@@ -1,0 +1,183 @@
+:root {
+  color-scheme: light;
+  --shell-bg: #f5f6fa;
+  --shell-surface: #ffffff;
+  --shell-text: #1e1b2e;
+  --shell-muted: #666274;
+  --shell-border: #e6e3ec;
+  --shell-primary: #6f55b6;
+  --shell-primary-soft: #f0ebff;
+  font-family:
+    Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Microsoft YaHei", sans-serif;
+}
+
+[data-theme="dark"] {
+  color-scheme: dark;
+  --shell-bg: #121117;
+  --shell-surface: #1b1921;
+  --shell-text: #f1eef6;
+  --shell-muted: #b9b4c2;
+  --shell-border: #34313c;
+  --shell-primary: #b6a1f2;
+  --shell-primary-soft: #302945;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  min-width: 320px;
+  margin: 0;
+  overflow: hidden;
+  background: var(--shell-bg);
+  color: var(--shell-text);
+}
+
+button {
+  color: inherit;
+  font: inherit;
+}
+
+.management-tabs {
+  position: relative;
+  z-index: 120;
+  display: flex;
+  height: 60px;
+  align-items: center;
+  gap: 4px;
+  padding: 7px 24px;
+  border-bottom: 1px solid var(--shell-border);
+  background: var(--shell-surface);
+}
+
+.management-tab {
+  display: inline-flex;
+  min-height: 44px;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 0 15px;
+  border: 0;
+  border-radius: 8px;
+  background: transparent;
+  color: var(--shell-muted);
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 680;
+  touch-action: manipulation;
+}
+
+.management-tab:hover {
+  background: var(--shell-bg);
+  color: var(--shell-primary);
+}
+
+.management-tab[aria-selected="true"] {
+  background: var(--shell-primary-soft);
+  color: var(--shell-primary);
+}
+
+.management-tab:focus-visible {
+  outline: 3px solid color-mix(in srgb, var(--shell-primary) 35%, transparent);
+  outline-offset: 2px;
+}
+
+.management-tab svg {
+  width: 18px;
+  height: 18px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.8;
+}
+
+.management-panels,
+.management-panel {
+  width: 100%;
+  height: 100%;
+}
+
+.management-panels {
+  height: calc(100% - 60px);
+}
+
+.management-panel[hidden] {
+  display: none;
+}
+
+.management-panel {
+  overflow: auto;
+  background: var(--shell-bg);
+}
+
+.shell-state {
+  position: fixed;
+  z-index: 110;
+  inset: 60px 0 0;
+  display: grid;
+  place-content: center;
+  justify-items: center;
+  gap: 10px;
+  padding: 24px;
+  background: var(--shell-bg);
+  color: var(--shell-muted);
+  text-align: center;
+}
+
+.shell-state[hidden] {
+  display: none;
+}
+
+.shell-state strong {
+  color: var(--shell-text);
+}
+
+.shell-spinner {
+  width: 32px;
+  height: 32px;
+  border: 3px solid var(--shell-border);
+  border-top-color: var(--shell-primary);
+  border-radius: 50%;
+  animation: shell-spin 800ms linear infinite;
+}
+
+.shell-error button {
+  min-height: 38px;
+  margin-top: 4px;
+  padding: 0 14px;
+  border: 1px solid var(--shell-border);
+  border-radius: 8px;
+  background: var(--shell-surface);
+  color: var(--shell-primary);
+  cursor: pointer;
+  font-weight: 680;
+}
+
+@keyframes shell-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 680px) {
+  .management-tabs {
+    padding-right: 14px;
+    padding-left: 14px;
+  }
+
+  .management-tab {
+    flex: 1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    scroll-behavior: auto !important;
+  }
+}

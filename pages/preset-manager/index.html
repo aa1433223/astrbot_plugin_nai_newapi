@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <title>NovelAI 管理</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <nav class="management-tabs" role="tablist" aria-label="NovelAI 管理区">
+      <button
+        id="presetsTab"
+        class="management-tab"
+        type="button"
+        role="tab"
+        aria-selected="true"
+        aria-controls="presetsPanel"
+        data-view="presets"
+      >
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M4 5.5h7v6H4zM13 12.5h7v6h-7zM14 5.5h6M4 15.5h6" />
+        </svg>
+        提示词预设
+      </button>
+      <button
+        id="stylesTab"
+        class="management-tab"
+        type="button"
+        role="tab"
+        aria-selected="false"
+        aria-controls="stylesPanel"
+        data-view="styles"
+        tabindex="-1"
+      >
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M4 18.5 13.7 5.4l4.9 3.7-9.7 13.1H4z" />
+          <path d="m14.8 4 1.8-2 4 3-1.2 2.5M4 18.5l4.9 3.7" />
+        </svg>
+        画风库
+      </button>
+    </nav>
+
+    <main class="management-panels">
+      <section
+        id="presetsPanel"
+        class="management-panel"
+        role="tabpanel"
+        aria-labelledby="presetsTab"
+        data-panel="presets"
+      ></section>
+      <section
+        id="stylesPanel"
+        class="management-panel"
+        role="tabpanel"
+        aria-labelledby="stylesTab"
+        data-panel="styles"
+        hidden
+      ></section>
+    </main>
+
+    <div id="shellLoading" class="shell-state" role="status">
+      <span class="shell-spinner" aria-hidden="true"></span>
+      <strong>正在加载 NovelAI 管理页面</strong>
+    </div>
+    <div id="shellError" class="shell-state shell-error" role="alert" hidden>
+      <strong>管理页面加载失败</strong>
+      <span id="shellErrorMessage">请刷新页面后重试。</span>
+      <button id="shellRetryButton" type="button">重新加载</button>
+    </div>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>

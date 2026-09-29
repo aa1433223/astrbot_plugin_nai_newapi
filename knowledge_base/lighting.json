@@ -1,0 +1,562 @@
+[
+  {
+    "tag": "night",
+    "zh": "夜间"
+  },
+  {
+    "tag": "sunrise",
+    "zh": "日出"
+  },
+  {
+    "tag": "evening",
+    "zh": "晚上"
+  },
+  {
+    "tag": "late at night",
+    "zh": "深夜"
+  },
+  {
+    "tag": "day",
+    "zh": "白天"
+  },
+  {
+    "tag": "sunset",
+    "zh": "落日"
+  },
+  {
+    "tag": "dusk",
+    "zh": "黄昏"
+  },
+  {
+    "tag": "golden hour",
+    "zh": "黄金时段"
+  },
+  {
+    "tag": "crepuscular rays",
+    "zh": "云隙光"
+  },
+  {
+    "tag": "god light",
+    "zh": "从上而下的光线"
+  },
+  {
+    "tag": "sidelight",
+    "zh": "侧面光"
+  },
+  {
+    "tag": "against backlight at dusk",
+    "zh": "傍晚背对阳光"
+  },
+  {
+    "tag": "light",
+    "zh": "光"
+  },
+  {
+    "tag": "ray tracing",
+    "zh": "光线追踪"
+  },
+  {
+    "tag": "reflection",
+    "zh": "反射"
+  },
+  {
+    "tag": "glowing",
+    "zh": "发光"
+  },
+  {
+    "tag": "holy light",
+    "zh": "圣光"
+  },
+  {
+    "tag": "sunbeam",
+    "zh": "太阳光束"
+  },
+  {
+    "tag": "light rays",
+    "zh": "射线光束"
+  },
+  {
+    "tag": "dramatic lighting",
+    "zh": "戏剧光"
+  },
+  {
+    "tag": "dappled sunlight",
+    "zh": "斑驳的阳光"
+  },
+  {
+    "tag": "chiaroscuro",
+    "zh": "明暗对比"
+  },
+  {
+    "tag": "morning glory",
+    "zh": "晨光"
+  },
+  {
+    "tag": "best illumination",
+    "zh": "最佳照明"
+  },
+  {
+    "tag": "moonlight",
+    "zh": "月光"
+  },
+  {
+    "tag": "frontlight",
+    "zh": "正面光"
+  },
+  {
+    "tag": "floating light spot",
+    "zh": "浮动光斑"
+  },
+  {
+    "tag": "ripples",
+    "zh": "涟漪"
+  },
+  {
+    "tag": "beautiful detailed glow",
+    "zh": "漂亮精细的发光"
+  },
+  {
+    "tag": "light leaks",
+    "zh": "漏光"
+  },
+  {
+    "tag": "cinematic lighting",
+    "zh": "电影光照"
+  },
+  {
+    "tag": "detailed lighting",
+    "zh": "精细光照"
+  },
+  {
+    "tag": "backlight",
+    "zh": "背光"
+  },
+  {
+    "tag": "glowing light",
+    "zh": "荧光"
+  },
+  {
+    "tag": "overexposure",
+    "zh": "过曝光"
+  },
+  {
+    "tag": "backlighting",
+    "zh": "逆光"
+  },
+  {
+    "tag": "lens flare",
+    "zh": "镜头光晕"
+  },
+  {
+    "tag": "glint",
+    "zh": "闪光"
+  },
+  {
+    "tag": "sunlight",
+    "zh": "阳光"
+  },
+  {
+    "tag": "sunlight filtering through trees",
+    "zh": "阳光透过树木"
+  },
+  {
+    "tag": "neon",
+    "zh": "霓虹灯"
+  },
+  {
+    "tag": "golden hour lighting",
+    "zh": "黄金时段照明"
+  },
+  {
+    "tag": "figure",
+    "zh": "手办"
+  },
+  {
+    "tag": "collage",
+    "zh": "拼贴画"
+  },
+  {
+    "tag": "photo",
+    "zh": "照片"
+  },
+  {
+    "tag": "papercraft",
+    "zh": "纸模"
+  },
+  {
+    "tag": "mugshot",
+    "zh": "罪犯照片"
+  },
+  {
+    "tag": "expression chart",
+    "zh": "表情展示"
+  },
+  {
+    "tag": "expressions",
+    "zh": "表情差分"
+  },
+  {
+    "tag": "heartbeat",
+    "zh": "心跳"
+  },
+  {
+    "tag": "card",
+    "zh": "卡牌"
+  },
+  {
+    "tag": "tarot",
+    "zh": "塔罗牌"
+  },
+  {
+    "tag": "dakimakura",
+    "zh": "抱枕"
+  },
+  {
+    "tag": "poster",
+    "zh": "海报"
+  },
+  {
+    "tag": "soviet poster",
+    "zh": "苏维埃海报"
+  },
+  {
+    "tag": "fake screeshot",
+    "zh": "伪截图"
+  },
+  {
+    "tag": "anime screecap",
+    "zh": "动画截图"
+  },
+  {
+    "tag": "color trace",
+    "zh": "原画"
+  },
+  {
+    "tag": "winter",
+    "zh": "冬"
+  },
+  {
+    "tag": "summer",
+    "zh": "夏"
+  },
+  {
+    "tag": "spring",
+    "zh": "春"
+  },
+  {
+    "tag": "spring season",
+    "zh": "春季"
+  },
+  {
+    "tag": "autumn",
+    "zh": "秋"
+  },
+  {
+    "tag": "book cover",
+    "zh": "书本封面"
+  },
+  {
+    "tag": "megami magazine",
+    "zh": "动漫杂志"
+  },
+  {
+    "tag": "doujinshi doujin cover",
+    "zh": "同人志封面"
+  },
+  {
+    "tag": "cover page",
+    "zh": "封面"
+  },
+  {
+    "tag": "magazine cover",
+    "zh": "杂志封面"
+  },
+  {
+    "tag": "magazine scan",
+    "zh": "杂志扫图"
+  },
+  {
+    "tag": "comic book",
+    "zh": "漫画书"
+  },
+  {
+    "tag": "intense shadows",
+    "zh": "强烈阴影"
+  },
+  {
+    "tag": "shadow",
+    "zh": "影"
+  },
+  {
+    "tag": "dramatic shadow",
+    "zh": "戏剧阴影"
+  },
+  {
+    "tag": "drop shadow",
+    "zh": "投下阴影"
+  },
+  {
+    "tag": "best shadow",
+    "zh": "最佳阴影"
+  },
+  {
+    "tag": "shady",
+    "zh": "有影的"
+  },
+  {
+    "tag": "tree shade",
+    "zh": "树影"
+  },
+  {
+    "tag": "shading eyes",
+    "zh": "眼部阴影"
+  },
+  {
+    "tag": "shade",
+    "zh": "阴影"
+  },
+  {
+    "tag": "portrait",
+    "zh": "人像"
+  },
+  {
+    "tag": "official art",
+    "zh": "官方图"
+  },
+  {
+    "tag": "illustration",
+    "zh": "插画"
+  },
+  {
+    "tag": "game cg",
+    "zh": "游戏CG"
+  },
+  {
+    "tag": "speech bubble",
+    "zh": "对话气泡"
+  },
+  {
+    "tag": "thought bubble",
+    "zh": "想法气泡"
+  },
+  {
+    "tag": "spoken blush",
+    "zh": "气泡害羞"
+  },
+  {
+    "tag": "spoken heart",
+    "zh": "气泡心"
+  },
+  {
+    "tag": "spoken musical note",
+    "zh": "气泡音符"
+  },
+  {
+    "tag": "spoken exclamation mark note",
+    "zh": "气泡！"
+  },
+  {
+    "tag": "spoken question mark note",
+    "zh": "气泡？"
+  },
+  {
+    "tag": "silhouette",
+    "zh": "剪影"
+  },
+  {
+    "tag": "depth of field",
+    "zh": "景深"
+  },
+  {
+    "tag": "blurred picture",
+    "zh": "模糊"
+  },
+  {
+    "tag": "blurry foreground",
+    "zh": "模糊前景"
+  },
+  {
+    "tag": "blurry background",
+    "zh": "模糊背景"
+  },
+  {
+    "tag": "caustic",
+    "zh": "焦散"
+  },
+  {
+    "tag": "chromatic aberration",
+    "zh": "色像差"
+  },
+  {
+    "tag": "motion blur",
+    "zh": "运动模糊"
+  },
+  {
+    "tag": "sharp focus",
+    "zh": "锐聚焦"
+  },
+  {
+    "tag": "gaussian blur",
+    "zh": "高斯模糊"
+  },
+  {
+    "tag": "4koma",
+    "zh": "四格漫画"
+  },
+  {
+    "tag": "silent comic",
+    "zh": "无声漫画"
+  },
+  {
+    "tag": "comic",
+    "zh": "漫画"
+  },
+  {
+    "tag": "letterboxed",
+    "zh": "上下黑边"
+  },
+  {
+    "tag": "convenient censoring",
+    "zh": "圣光(或烟雾和物体)打码"
+  },
+  {
+    "tag": "outline",
+    "zh": "描边"
+  },
+  {
+    "tag": "no humans",
+    "zh": "无人"
+  },
+  {
+    "tag": "border",
+    "zh": "边缘"
+  },
+  {
+    "tag": "amazing",
+    "zh": "令人惊叹的"
+  },
+  {
+    "tag": "ultradetailed",
+    "zh": "超详细"
+  },
+  {
+    "tag": "extremely detailed 8k wallpaper",
+    "zh": "非常详细的8k壁纸"
+  },
+  {
+    "tag": "motion lines",
+    "zh": "运动线"
+  },
+  {
+    "tag": "speed lines",
+    "zh": "速度线"
+  },
+  {
+    "tag": "tanabata",
+    "zh": "七夕节(日本)"
+  },
+  {
+    "tag": "halloween",
+    "zh": "万圣节"
+  },
+  {
+    "tag": "christmas",
+    "zh": "圣诞节"
+  },
+  {
+    "tag": "valentine",
+    "zh": "情人节"
+  },
+  {
+    "tag": "thanksgiving",
+    "zh": "感恩节"
+  },
+  {
+    "tag": "chibi Q",
+    "zh": "版"
+  },
+  {
+    "tag": "three views",
+    "zh": "三视图"
+  },
+  {
+    "tag": "multiple views",
+    "zh": "多视角"
+  },
+  {
+    "tag": "character design",
+    "zh": "角色设定"
+  },
+  {
+    "tag": "artbook",
+    "zh": "设定集"
+  },
+  {
+    "tag": "eighth note",
+    "zh": "八分音符"
+  },
+  {
+    "tag": "quarter note",
+    "zh": "四分音符"
+  },
+  {
+    "tag": "music",
+    "zh": "音乐"
+  },
+  {
+    "tag": "musical note",
+    "zh": "音符"
+  },
+  {
+    "tag": "spot color",
+    "zh": "专色"
+  },
+  {
+    "tag": "color:theme",
+    "zh": "主题色"
+  },
+  {
+    "tag": "halftone",
+    "zh": "半色调"
+  },
+  {
+    "tag": "monochrome",
+    "zh": "单色调"
+  },
+  {
+    "tag": "muted color",
+    "zh": "哑光"
+  },
+  {
+    "tag": "multicolored",
+    "zh": "多种颜色"
+  },
+  {
+    "tag": "limited palette",
+    "zh": "有限的调色板"
+  },
+  {
+    "tag": "greyscale",
+    "zh": "灰阶"
+  },
+  {
+    "tag": "colorful",
+    "zh": "色彩丰富"
+  },
+  {
+    "tag": "pale color",
+    "zh": "苍白颜色"
+  },
+  {
+    "tag": "partly colored",
+    "zh": "部分上色"
+  },
+  {
+    "tag": "neon palette",
+    "zh": "霓虹色彩"
+  },
+  {
+    "tag": "high contrast",
+    "zh": "高对比"
+  }
+]

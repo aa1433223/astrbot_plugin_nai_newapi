@@ -1,0 +1,2346 @@
+[
+  {
+    "tag": "siberian husky",
+    "zh": "哈士奇"
+  },
+  {
+    "tag": "gorilla",
+    "zh": "大猩猩"
+  },
+  {
+    "tag": "lesser panda",
+    "zh": "小熊猫"
+  },
+  {
+    "tag": "german shepherd dog",
+    "zh": "德国牧羊犬"
+  },
+  {
+    "tag": "corgi",
+    "zh": "柯基犬"
+  },
+  {
+    "tag": "shiba inu",
+    "zh": "柴犬"
+  },
+  {
+    "tag": "sloth",
+    "zh": "树懒"
+  },
+  {
+    "tag": "orange cats",
+    "zh": "橘猫"
+  },
+  {
+    "tag": "raccoon",
+    "zh": "浣熊"
+  },
+  {
+    "tag": "armadillo",
+    "zh": "犰狳"
+  },
+  {
+    "tag": "fox",
+    "zh": "狐狸"
+  },
+  {
+    "tag": "baboon",
+    "zh": "狒狒"
+  },
+  {
+    "tag": "dog",
+    "zh": "狗"
+  },
+  {
+    "tag": "wolf",
+    "zh": "狼"
+  },
+  {
+    "tag": "cat",
+    "zh": "猫"
+  },
+  {
+    "tag": "monkey",
+    "zh": "猴子"
+  },
+  {
+    "tag": "oranguta",
+    "zh": "红毛猩猩"
+  },
+  {
+    "tag": "maine coon",
+    "zh": "缅因猫"
+  },
+  {
+    "tag": "samoye",
+    "zh": "萨摩耶"
+  },
+  {
+    "tag": "serval",
+    "zh": "薮猫"
+  },
+  {
+    "tag": "tabby cat",
+    "zh": "虎斑猫"
+  },
+  {
+    "tag": "kangaroo",
+    "zh": "袋鼠"
+  },
+  {
+    "tag": "poodle",
+    "zh": "贵宾犬"
+  },
+  {
+    "tag": "border collie",
+    "zh": "边牧犬"
+  },
+  {
+    "tag": "golden retriever",
+    "zh": "金毛寻回犬"
+  },
+  {
+    "tag": "alaskan malamute",
+    "zh": "阿拉斯加雪橇犬"
+  },
+  {
+    "tag": "snow fox",
+    "zh": "雪狐"
+  },
+  {
+    "tag": "chimpanzee",
+    "zh": "黑猩猩"
+  },
+  {
+    "tag": "animal",
+    "zh": "动物"
+  },
+  {
+    "tag": "scales",
+    "zh": "鳞片"
+  },
+  {
+    "tag": "a hell on earth",
+    "zh": "人间地狱"
+  },
+  {
+    "tag": "doomsday scenes",
+    "zh": "末日场景"
+  },
+  {
+    "tag": "in main street",
+    "zh": "主干道"
+  },
+  {
+    "tag": "crosswalk",
+    "zh": "人行横道"
+  },
+  {
+    "tag": "sidewalk",
+    "zh": "人行道"
+  },
+  {
+    "tag": "parking lot",
+    "zh": "停车场"
+  },
+  {
+    "tag": "bus stop",
+    "zh": "公交车站"
+  },
+  {
+    "tag": "alley",
+    "zh": "小巷"
+  },
+  {
+    "tag": "avenue",
+    "zh": "成荫街道"
+  },
+  {
+    "tag": "drydock",
+    "zh": "旱坞"
+  },
+  {
+    "tag": "wooden bridge",
+    "zh": "木桥"
+  },
+  {
+    "tag": "airfield",
+    "zh": "机场"
+  },
+  {
+    "tag": "bridge",
+    "zh": "桥"
+  },
+  {
+    "tag": "dirt road",
+    "zh": "泥路"
+  },
+  {
+    "tag": "aqueduct",
+    "zh": "渡槽"
+  },
+  {
+    "tag": "harbor",
+    "zh": "港口"
+  },
+  {
+    "tag": "train station",
+    "zh": "火车站"
+  },
+  {
+    "tag": "stone walkway",
+    "zh": "石制人行道"
+  },
+  {
+    "tag": "jetty",
+    "zh": "码头"
+  },
+  {
+    "tag": "rope bridge",
+    "zh": "绳桥"
+  },
+  {
+    "tag": "street",
+    "zh": "街道"
+  },
+  {
+    "tag": "intersection",
+    "zh": "路口"
+  },
+  {
+    "tag": "path",
+    "zh": "路径"
+  },
+  {
+    "tag": "pavement",
+    "zh": "路面"
+  },
+  {
+    "tag": "canal",
+    "zh": "运河"
+  },
+  {
+    "tag": "road",
+    "zh": "道路"
+  },
+  {
+    "tag": "railway",
+    "zh": "铁路"
+  },
+  {
+    "tag": "railroad tracks",
+    "zh": "铁轨"
+  },
+  {
+    "tag": "railroad crossing",
+    "zh": "铁道路口"
+  },
+  {
+    "tag": "tunnel",
+    "zh": "隧道"
+  },
+  {
+    "tag": "highway",
+    "zh": "高速公路"
+  },
+  {
+    "tag": "on the bus",
+    "zh": "巴士内"
+  },
+  {
+    "tag": "train interior",
+    "zh": "电车内"
+  },
+  {
+    "tag": "airship",
+    "zh": "飞艇"
+  },
+  {
+    "tag": "tokyo tower",
+    "zh": "东京塔"
+  },
+  {
+    "tag": "skytree",
+    "zh": "东京天空树"
+  },
+  {
+    "tag": "chinese temple",
+    "zh": "中国庙宇"
+  },
+  {
+    "tag": "kowloon",
+    "zh": "九龙城寨"
+  },
+  {
+    "tag": "fushimi inari",
+    "zh": "伏见稻荷"
+  },
+  {
+    "tag": "gazebo",
+    "zh": "凉亭"
+  },
+  {
+    "tag": "geyser",
+    "zh": "喷泉"
+  },
+  {
+    "tag": "santorini",
+    "zh": "圣托里尼"
+  },
+  {
+    "tag": "egyptian temple",
+    "zh": "埃及神庙"
+  },
+  {
+    "tag": "egyptian pyramids",
+    "zh": "埃及金字塔"
+  },
+  {
+    "tag": "venice",
+    "zh": "威尼斯"
+  },
+  {
+    "tag": "greek temple",
+    "zh": "希腊神庙"
+  },
+  {
+    "tag": "akashi kaikyo bridge",
+    "zh": "明石海峡大桥"
+  },
+  {
+    "tag": "taj mahal",
+    "zh": "泰姬陵"
+  },
+  {
+    "tag": "great sphinx of giza",
+    "zh": "狮身人面像"
+  },
+  {
+    "tag": "great wall",
+    "zh": "长城"
+  },
+  {
+    "tag": "torii",
+    "zh": "鸟居"
+  },
+  {
+    "tag": "military base",
+    "zh": "军事基地"
+  },
+  {
+    "tag": "armory",
+    "zh": "军械库"
+  },
+  {
+    "tag": "trench",
+    "zh": "战壕"
+  },
+  {
+    "tag": "bunker",
+    "zh": "掩体"
+  },
+  {
+    "tag": "office",
+    "zh": "办公室"
+  },
+  {
+    "tag": "workshop",
+    "zh": "工作室"
+  },
+  {
+    "tag": "staff room",
+    "zh": "职员休息室"
+  },
+  {
+    "tag": "cubicle",
+    "zh": "隔间"
+  },
+  {
+    "tag": "chinese garden",
+    "zh": "中式园林"
+  },
+  {
+    "tag": "park",
+    "zh": "公园"
+  },
+  {
+    "tag": "japanese garden",
+    "zh": "日式园林"
+  },
+  {
+    "tag": "european garden",
+    "zh": "欧式园林"
+  },
+  {
+    "tag": "greenhouse",
+    "zh": "温室"
+  },
+  {
+    "tag": "garden",
+    "zh": "花园"
+  },
+  {
+    "tag": "sky ground",
+    "zh": "以天空为地面(神tag)"
+  },
+  {
+    "tag": "graveyard",
+    "zh": "墓地"
+  },
+  {
+    "tag": "rubble ruins",
+    "zh": "废墟"
+  },
+  {
+    "tag": "floating platform",
+    "zh": "漂浮平台"
+  },
+  {
+    "tag": "dungeon",
+    "zh": "地牢"
+  },
+  {
+    "tag": "indoors",
+    "zh": "室内"
+  },
+  {
+    "tag": "prison",
+    "zh": "监狱"
+  },
+  {
+    "tag": "prison cell",
+    "zh": "监狱房间"
+  },
+  {
+    "tag": "outdoors",
+    "zh": "室外"
+  },
+  {
+    "tag": "high altitude",
+    "zh": "高空"
+  },
+  {
+    "tag": "polar bear",
+    "zh": "北极熊"
+  },
+  {
+    "tag": "elephant",
+    "zh": "大象"
+  },
+  {
+    "tag": "zebra",
+    "zh": "斑马"
+  },
+  {
+    "tag": "hippo",
+    "zh": "河马"
+  },
+  {
+    "tag": "bear",
+    "zh": "熊"
+  },
+  {
+    "tag": "panda",
+    "zh": "熊猫"
+  },
+  {
+    "tag": "cattle",
+    "zh": "牛"
+  },
+  {
+    "tag": "rhinoceros",
+    "zh": "犀牛"
+  },
+  {
+    "tag": "lion",
+    "zh": "狮子"
+  },
+  {
+    "tag": "mammoth",
+    "zh": "猛犸"
+  },
+  {
+    "tag": "pig",
+    "zh": "猪"
+  },
+  {
+    "tag": "tiger",
+    "zh": "虎"
+  },
+  {
+    "tag": "leopard",
+    "zh": "豹"
+  },
+  {
+    "tag": "giraffe",
+    "zh": "长颈鹿"
+  },
+  {
+    "tag": "horse",
+    "zh": "马"
+  },
+  {
+    "tag": "donkey",
+    "zh": "驴"
+  },
+  {
+    "tag": "camel",
+    "zh": "骆驼"
+  },
+  {
+    "tag": "deer",
+    "zh": "鹿"
+  },
+  {
+    "tag": "panther",
+    "zh": "黑豹"
+  },
+  {
+    "tag": "satellite",
+    "zh": "卫星"
+  },
+  {
+    "tag": "earth",
+    "zh": "地球"
+  },
+  {
+    "tag": "space",
+    "zh": "太空"
+  },
+  {
+    "tag": "planet",
+    "zh": "星球"
+  },
+  {
+    "tag": "from space station",
+    "zh": "空间站"
+  },
+  {
+    "tag": "space elevator",
+    "zh": "轨道电梯"
+  },
+  {
+    "tag": "theater",
+    "zh": "剧院"
+  },
+  {
+    "tag": "nightclub",
+    "zh": "夜店"
+  },
+  {
+    "tag": "wrestling ring",
+    "zh": "摔角场"
+  },
+  {
+    "tag": "hotel room",
+    "zh": "旅馆房间"
+  },
+  {
+    "tag": "japanese hotel",
+    "zh": "日本旅馆"
+  },
+  {
+    "tag": "arcade",
+    "zh": "游戏厅"
+  },
+  {
+    "tag": "movie theater",
+    "zh": "电影院"
+  },
+  {
+    "tag": "in the movie theatre",
+    "zh": "电影院里"
+  },
+  {
+    "tag": "arena",
+    "zh": "竞技场"
+  },
+  {
+    "tag": "casino",
+    "zh": "赌场"
+  },
+  {
+    "tag": "hotel",
+    "zh": "酒店"
+  },
+  {
+    "tag": "amphitheater",
+    "zh": "音乐剧院"
+  },
+  {
+    "tag": "chinese style loft",
+    "zh": "中式阁楼"
+  },
+  {
+    "tag": "traditional chinese room",
+    "zh": "传统中式房间"
+  },
+  {
+    "tag": "apartment",
+    "zh": "公寓"
+  },
+  {
+    "tag": "bedroom",
+    "zh": "卧室"
+  },
+  {
+    "tag": "toilet",
+    "zh": "厕所"
+  },
+  {
+    "tag": "kitchen",
+    "zh": "厨房"
+  },
+  {
+    "tag": "living room",
+    "zh": "客厅"
+  },
+  {
+    "tag": "dining room",
+    "zh": "家里餐厅"
+  },
+  {
+    "tag": "messy room",
+    "zh": "杂乱的房间"
+  },
+  {
+    "tag": "tatami",
+    "zh": "榻榻米"
+  },
+  {
+    "tag": "salon",
+    "zh": "沙龙"
+  },
+  {
+    "tag": "bathroom",
+    "zh": "浴室"
+  },
+  {
+    "tag": "hamster",
+    "zh": "仓鼠"
+  },
+  {
+    "tag": "bunny",
+    "zh": "兔子"
+  },
+  {
+    "tag": "hedgehog",
+    "zh": "刺猬"
+  },
+  {
+    "tag": "squirrel",
+    "zh": "松鼠"
+  },
+  {
+    "tag": "mouse",
+    "zh": "老鼠"
+  },
+  {
+    "tag": "chipmunk",
+    "zh": "花栗鼠"
+  },
+  {
+    "tag": "bat",
+    "zh": "蝙蝠"
+  },
+  {
+    "tag": "bats",
+    "zh": "蝙蝠(复)"
+  },
+  {
+    "tag": "guinea pig",
+    "zh": "豚鼠"
+  },
+  {
+    "tag": "snow bunny",
+    "zh": "雪兔"
+  },
+  {
+    "tag": "atrium",
+    "zh": "中庭"
+  },
+  {
+    "tag": "rooftop",
+    "zh": "屋顶"
+  },
+  {
+    "tag": "swimming pool",
+    "zh": "泳池"
+  },
+  {
+    "tag": "poolside",
+    "zh": "泳池边"
+  },
+  {
+    "tag": "lawn",
+    "zh": "草坪"
+  },
+  {
+    "tag": "garage",
+    "zh": "车库"
+  },
+  {
+    "tag": "veranda",
+    "zh": "阳台"
+  },
+  {
+    "tag": "powerplant",
+    "zh": "发电厂"
+  },
+  {
+    "tag": "industrial",
+    "zh": "工业"
+  },
+  {
+    "tag": "factory",
+    "zh": "工厂"
+  },
+  {
+    "tag": "nuclear powerplant",
+    "zh": "核电厂"
+  },
+  {
+    "tag": "refinery",
+    "zh": "精炼厂"
+  },
+  {
+    "tag": "shipyard",
+    "zh": "船厂"
+  },
+  {
+    "tag": "hospital",
+    "zh": "医院"
+  },
+  {
+    "tag": "museum",
+    "zh": "博物馆"
+  },
+  {
+    "tag": "library",
+    "zh": "图书馆"
+  },
+  {
+    "tag": "observatory",
+    "zh": "天文台"
+  },
+  {
+    "tag": "planetarium",
+    "zh": "天文馆"
+  },
+  {
+    "tag": "construction site",
+    "zh": "施工现场"
+  },
+  {
+    "tag": "courtroom",
+    "zh": "法庭"
+  },
+  {
+    "tag": "laboratory",
+    "zh": "研究所"
+  },
+  {
+    "tag": "art gallery",
+    "zh": "美术馆"
+  },
+  {
+    "tag": "cityscape",
+    "zh": "城市"
+  },
+  {
+    "tag": "town",
+    "zh": "小镇"
+  },
+  {
+    "tag": "downtown",
+    "zh": "市中心"
+  },
+  {
+    "tag": "isekai cityscape",
+    "zh": "异世界城市"
+  },
+  {
+    "tag": "village",
+    "zh": "村庄"
+  },
+  {
+    "tag": "floating city",
+    "zh": "浮动城市"
+  },
+  {
+    "tag": "aerial city",
+    "zh": "空中城市"
+  },
+  {
+    "tag": "chinese dragon",
+    "zh": "中国龙"
+  },
+  {
+    "tag": "cthulhu",
+    "zh": "克苏鲁"
+  },
+  {
+    "tag": "phoenix",
+    "zh": "凤凰"
+  },
+  {
+    "tag": "slime",
+    "zh": "史莱姆"
+  },
+  {
+    "tag": "tengu",
+    "zh": "天狗"
+  },
+  {
+    "tag": "pokemon",
+    "zh": "宝可梦"
+  },
+  {
+    "tag": "yeti",
+    "zh": "雪人"
+  },
+  {
+    "tag": "dragon",
+    "zh": "龙"
+  },
+  {
+    "tag": "cooling tower",
+    "zh": "冷却塔"
+  },
+  {
+    "tag": "castle",
+    "zh": "城堡"
+  },
+  {
+    "tag": "buildings stack",
+    "zh": "堆叠的建筑"
+  },
+  {
+    "tag": "tower",
+    "zh": "塔"
+  },
+  {
+    "tag": "cathedral",
+    "zh": "大教堂"
+  },
+  {
+    "tag": "guard tower",
+    "zh": "守卫塔"
+  },
+  {
+    "tag": "pagoda",
+    "zh": "宝塔"
+  },
+  {
+    "tag": "minaret",
+    "zh": "宣礼塔"
+  },
+  {
+    "tag": "palace",
+    "zh": "宫殿"
+  },
+  {
+    "tag": "temple",
+    "zh": "寺庙"
+  },
+  {
+    "tag": "shack",
+    "zh": "小屋"
+  },
+  {
+    "tag": "mansion",
+    "zh": "屋敷"
+  },
+  {
+    "tag": "megastructure",
+    "zh": "巨型结构"
+  },
+  {
+    "tag": "architecture",
+    "zh": "建筑"
+  },
+  {
+    "tag": "house",
+    "zh": "房子"
+  },
+  {
+    "tag": "control tower",
+    "zh": "控制塔"
+  },
+  {
+    "tag": "skyscrapers",
+    "zh": "摩天楼"
+  },
+  {
+    "tag": "church",
+    "zh": "教堂"
+  },
+  {
+    "tag": "treehouse",
+    "zh": "树屋"
+  },
+  {
+    "tag": "floating castle",
+    "zh": "浮动城堡"
+  },
+  {
+    "tag": "mosque",
+    "zh": "清真寺"
+  },
+  {
+    "tag": "floating palaces",
+    "zh": "漂浮的宫殿"
+  },
+  {
+    "tag": "lighthouse",
+    "zh": "灯塔"
+  },
+  {
+    "tag": "shrine",
+    "zh": "神社"
+  },
+  {
+    "tag": "clock tower",
+    "zh": "钟塔"
+  },
+  {
+    "tag": "bell tower",
+    "zh": "钟楼"
+  },
+  {
+    "tag": "windmill",
+    "zh": "风车"
+  },
+  {
+    "tag": "stilt house",
+    "zh": "高跷屋"
+  },
+  {
+    "tag": "east asian architecture",
+    "zh": "东亚风格建筑"
+  },
+  {
+    "tag": "southeast asian style architecture",
+    "zh": "东南亚风格建筑"
+  },
+  {
+    "tag": "chinese classical style architecture",
+    "zh": "中式古典风格建筑"
+  },
+  {
+    "tag": "chinese style architecture",
+    "zh": "中式风格建筑"
+  },
+  {
+    "tag": "traditional european style architecture",
+    "zh": "传统欧式风格建筑"
+  },
+  {
+    "tag": "ancient Greek architectural style",
+    "zh": "古希腊建筑风格"
+  },
+  {
+    "tag": "ancient roman architectural style",
+    "zh": "古罗马建筑风格"
+  },
+  {
+    "tag": "postmodernism style architecture",
+    "zh": "后现代主义风格建筑"
+  },
+  {
+    "tag": "gothic architecture external",
+    "zh": "哥特式风格建筑"
+  },
+  {
+    "tag": "garden style",
+    "zh": "园林风格"
+  },
+  {
+    "tag": "mediterranean style architecture",
+    "zh": "地中海风格建筑"
+  },
+  {
+    "tag": "baroque architectural style",
+    "zh": "巴洛克建筑风格"
+  },
+  {
+    "tag": "grecoroman architecture",
+    "zh": "希腊罗马风格建筑"
+  },
+  {
+    "tag": "renaissance architectural style",
+    "zh": "文艺复兴建筑风格"
+  },
+  {
+    "tag": "neoclassical architectural style",
+    "zh": "新古典主义建筑风格"
+  },
+  {
+    "tag": "japanese style architecture",
+    "zh": "日式风格建筑"
+  },
+  {
+    "tag": "stick architectural style",
+    "zh": "木条式建筑风格"
+  },
+  {
+    "tag": "conceptual style architecture",
+    "zh": "概念式风格建筑"
+  },
+  {
+    "tag": "european medieval architectural style",
+    "zh": "欧洲中世纪建筑风格"
+  },
+  {
+    "tag": "rococo architectural style",
+    "zh": "洛可可建筑风格"
+  },
+  {
+    "tag": "modern chinese style architecture",
+    "zh": "现代中式风格建筑"
+  },
+  {
+    "tag": "modernist style architecture",
+    "zh": "现代主义风格建筑"
+  },
+  {
+    "tag": "simple european style architecture",
+    "zh": "简欧风格建筑"
+  },
+  {
+    "tag": "american classical style architecture",
+    "zh": "美式古典风格建筑"
+  },
+  {
+    "tag": "american style pastoral architecture",
+    "zh": "美式田园风格建筑"
+  },
+  {
+    "tag": "american style architecture",
+    "zh": "美式风格建筑"
+  },
+  {
+    "tag": "ankylosaurus",
+    "zh": "甲龙"
+  },
+  {
+    "tag": "pterosaur",
+    "zh": "翼龙"
+  },
+  {
+    "tag": "plesiosaur",
+    "zh": "蛇颈龙"
+  },
+  {
+    "tag": "tyrannosaurus rex",
+    "zh": "霸王龙"
+  },
+  {
+    "tag": "pumpkin",
+    "zh": "南瓜"
+  },
+  {
+    "tag": "chrismas tree",
+    "zh": "圣诞树"
+  },
+  {
+    "tag": "pine",
+    "zh": "松树"
+  },
+  {
+    "tag": "maple",
+    "zh": "枫树"
+  },
+  {
+    "tag": "bare tree",
+    "zh": "枯树"
+  },
+  {
+    "tag": "cypress",
+    "zh": "柏树"
+  },
+  {
+    "tag": "tree",
+    "zh": "树"
+  },
+  {
+    "tag": "foliage",
+    "zh": "树叶"
+  },
+  {
+    "tag": "branch",
+    "zh": "树枝"
+  },
+  {
+    "tag": "roots",
+    "zh": "树根"
+  },
+  {
+    "tag": "birch",
+    "zh": "桦树"
+  },
+  {
+    "tag": "palm leaf",
+    "zh": "棕榈叶"
+  },
+  {
+    "tag": "palm tree",
+    "zh": "棕榈树"
+  },
+  {
+    "tag": "elm",
+    "zh": "榆树"
+  },
+  {
+    "tag": "banyan",
+    "zh": "榕树"
+  },
+  {
+    "tag": "autumn leaves",
+    "zh": "秋天树叶"
+  },
+  {
+    "tag": "redwood",
+    "zh": "红杉"
+  },
+  {
+    "tag": "ginkgo",
+    "zh": "银杏"
+  },
+  {
+    "tag": "gym storeroom",
+    "zh": "体育仓库"
+  },
+  {
+    "tag": "storage room",
+    "zh": "储存室"
+  },
+  {
+    "tag": "infirmary",
+    "zh": "医务室"
+  },
+  {
+    "tag": "toilet stall",
+    "zh": "厕所隔间"
+  },
+  {
+    "tag": "locker room",
+    "zh": "学校更衣室"
+  },
+  {
+    "tag": "classroom",
+    "zh": "教室"
+  },
+  {
+    "tag": "conservatory",
+    "zh": "玻璃暖房"
+  },
+  {
+    "tag": "auditorium",
+    "zh": "礼堂"
+  },
+  {
+    "tag": "clubroom",
+    "zh": "社团活动室"
+  },
+  {
+    "tag": "cafeteria",
+    "zh": "自助餐厅"
+  },
+  {
+    "tag": "hallway",
+    "zh": "走廊"
+  },
+  {
+    "tag": "hermit crab",
+    "zh": "寄居蟹"
+  },
+  {
+    "tag": "clownfish",
+    "zh": "小丑鱼"
+  },
+  {
+    "tag": "jellyfish",
+    "zh": "水母"
+  },
+  {
+    "tag": "sea cucumber",
+    "zh": "海参"
+  },
+  {
+    "tag": "starfish",
+    "zh": "海星"
+  },
+  {
+    "tag": "sea turtle",
+    "zh": "海龟"
+  },
+  {
+    "tag": "lionfish",
+    "zh": "狮子鱼"
+  },
+  {
+    "tag": "coral",
+    "zh": "珊瑚"
+  },
+  {
+    "tag": "octopus",
+    "zh": "章鱼"
+  },
+  {
+    "tag": "shrimp",
+    "zh": "虾"
+  },
+  {
+    "tag": "crab",
+    "zh": "螃蟹"
+  },
+  {
+    "tag": "shell",
+    "zh": "贝壳"
+  },
+  {
+    "tag": "fish",
+    "zh": "鱼"
+  },
+  {
+    "tag": "shoal of fish",
+    "zh": "鱼群"
+  },
+  {
+    "tag": "lobster",
+    "zh": "龙虾"
+  },
+  {
+    "tag": "dolphin",
+    "zh": "海豚"
+  },
+  {
+    "tag": "beluga",
+    "zh": "白鲸"
+  },
+  {
+    "tag": "blue whale",
+    "zh": "蓝鲸"
+  },
+  {
+    "tag": "killer whale",
+    "zh": "虎鲸"
+  },
+  {
+    "tag": "narwhal",
+    "zh": "角鲸"
+  },
+  {
+    "tag": "shark",
+    "zh": "鲨鱼"
+  },
+  {
+    "tag": "whale shark",
+    "zh": "鲸鲨"
+  },
+  {
+    "tag": "zoo",
+    "zh": "动物园"
+  },
+  {
+    "tag": "ferris wheel",
+    "zh": "摩天轮"
+  },
+  {
+    "tag": "carousel",
+    "zh": "旋转木马"
+  },
+  {
+    "tag": "waterpark",
+    "zh": "水上乐园"
+  },
+  {
+    "tag": "aquarium",
+    "zh": "水族馆"
+  },
+  {
+    "tag": "amusement park",
+    "zh": "游乐园"
+  },
+  {
+    "tag": "roller coaster",
+    "zh": "过山车"
+  },
+  {
+    "tag": "disney land",
+    "zh": "迪士尼乐园"
+  },
+  {
+    "tag": "bush",
+    "zh": "灌木"
+  },
+  {
+    "tag": "rose bush",
+    "zh": "蔷薇灌木"
+  },
+  {
+    "tag": "tortoise",
+    "zh": "乌龟"
+  },
+  {
+    "tag": "chameleon",
+    "zh": "变色龙"
+  },
+  {
+    "tag": "varanid",
+    "zh": "巨蜥"
+  },
+  {
+    "tag": "tree frog",
+    "zh": "树蛙"
+  },
+  {
+    "tag": "reptile",
+    "zh": "爬行动物"
+  },
+  {
+    "tag": "bullfrog",
+    "zh": "牛蛙"
+  },
+  {
+    "tag": "red eye tree frog",
+    "zh": "红眼树蛙"
+  },
+  {
+    "tag": "anaconda",
+    "zh": "蚺"
+  },
+  {
+    "tag": "snake",
+    "zh": "蛇"
+  },
+  {
+    "tag": "toad",
+    "zh": "蛤蟆"
+  },
+  {
+    "tag": "lizard",
+    "zh": "蜥蜴"
+  },
+  {
+    "tag": "python",
+    "zh": "蟒"
+  },
+  {
+    "tag": "horned lizard",
+    "zh": "角蜥"
+  },
+  {
+    "tag": "frog",
+    "zh": "青蛙"
+  },
+  {
+    "tag": "crocodile",
+    "zh": "鳄鱼"
+  },
+  {
+    "tag": "salar de uyuni",
+    "zh": "乌尤尼盐沼"
+  },
+  {
+    "tag": "grand canyon",
+    "zh": "大峡谷"
+  },
+  {
+    "tag": "fuji mountain",
+    "zh": "富士山"
+  },
+  {
+    "tag": "zhangjiajie",
+    "zh": "张家界"
+  },
+  {
+    "tag": "waterfall",
+    "zh": "瀑布"
+  },
+  {
+    "tag": "machu picchu",
+    "zh": "马丘比丘"
+  },
+  {
+    "tag": "jungle",
+    "zh": "丛林"
+  },
+  {
+    "tag": "glacier",
+    "zh": "冰川"
+  },
+  {
+    "tag": "hill",
+    "zh": "山丘"
+  },
+  {
+    "tag": "mountain",
+    "zh": "山脉"
+  },
+  {
+    "tag": "island",
+    "zh": "岛屿"
+  },
+  {
+    "tag": "cliff",
+    "zh": "悬崖"
+  },
+  {
+    "tag": "forest",
+    "zh": "森林"
+  },
+  {
+    "tag": "underwater",
+    "zh": "水下"
+  },
+  {
+    "tag": "pond",
+    "zh": "池塘"
+  },
+  {
+    "tag": "pool",
+    "zh": "池子"
+  },
+  {
+    "tag": "beach",
+    "zh": "沙滩"
+  },
+  {
+    "tag": "desert",
+    "zh": "沙漠"
+  },
+  {
+    "tag": "river",
+    "zh": "河流"
+  },
+  {
+    "tag": "cave",
+    "zh": "洞穴"
+  },
+  {
+    "tag": "floating island",
+    "zh": "浮岛"
+  },
+  {
+    "tag": "seabed",
+    "zh": "海底"
+  },
+  {
+    "tag": "ocean",
+    "zh": "海洋"
+  },
+  {
+    "tag": "onsen",
+    "zh": "温泉"
+  },
+  {
+    "tag": "lake",
+    "zh": "湖泊"
+  },
+  {
+    "tag": "marsh",
+    "zh": "湿地"
+  },
+  {
+    "tag": "stream",
+    "zh": "溪流"
+  },
+  {
+    "tag": "volcano",
+    "zh": "火山"
+  },
+  {
+    "tag": "pasture",
+    "zh": "牧场"
+  },
+  {
+    "tag": "rural",
+    "zh": "田园"
+  },
+  {
+    "tag": "rice paddy",
+    "zh": "稻田"
+  },
+  {
+    "tag": "bamboo forest",
+    "zh": "竹林"
+  },
+  {
+    "tag": "flowers meadows",
+    "zh": "繁花草甸"
+  },
+  {
+    "tag": "nature",
+    "zh": "自然环境"
+  },
+  {
+    "tag": "pampas glass field",
+    "zh": "芦苇草原"
+  },
+  {
+    "tag": "flower bed",
+    "zh": "花床"
+  },
+  {
+    "tag": "flower field",
+    "zh": "花田"
+  },
+  {
+    "tag": "grasslands",
+    "zh": "草原"
+  },
+  {
+    "tag": "grass",
+    "zh": "草地"
+  },
+  {
+    "tag": "wasteland",
+    "zh": "荒地"
+  },
+  {
+    "tag": "snowy mountain",
+    "zh": "雪山"
+  },
+  {
+    "tag": "landscape",
+    "zh": "风景"
+  },
+  {
+    "tag": "plateau",
+    "zh": "高原"
+  },
+  {
+    "tag": "a towering mountain peak",
+    "zh": "高耸的山峰"
+  },
+  {
+    "tag": "wheat field",
+    "zh": "麦田"
+  },
+  {
+    "tag": "orchid mantis",
+    "zh": "兰花螳螂"
+  },
+  {
+    "tag": "tarantula",
+    "zh": "狼蛛"
+  },
+  {
+    "tag": "beetle",
+    "zh": "甲虫"
+  },
+  {
+    "tag": "housefly",
+    "zh": "苍蝇"
+  },
+  {
+    "tag": "spider web",
+    "zh": "蛛网"
+  },
+  {
+    "tag": "spider",
+    "zh": "蜘蛛"
+  },
+  {
+    "tag": "mantis",
+    "zh": "螳螂"
+  },
+  {
+    "tag": "poinsettia",
+    "zh": "一品红"
+  },
+  {
+    "tag": "erigeron annuus",
+    "zh": "一年蓬"
+  },
+  {
+    "tag": "lilac",
+    "zh": "丁香"
+  },
+  {
+    "tag": "tagetes erecta",
+    "zh": "万寿菊"
+  },
+  {
+    "tag": "trifolium repens",
+    "zh": "三叶草"
+  },
+  {
+    "tag": "pansy",
+    "zh": "三色堇"
+  },
+  {
+    "tag": "bougainvillea",
+    "zh": "九重葛"
+  },
+  {
+    "tag": "flax",
+    "zh": "亚麻"
+  },
+  {
+    "tag": "grass lily",
+    "zh": "伞花"
+  },
+  {
+    "tag": "fuchsia",
+    "zh": "倒挂金钟"
+  },
+  {
+    "tag": "orchid",
+    "zh": "兰花"
+  },
+  {
+    "tag": "myosotis alpestris",
+    "zh": "勿忘我"
+  },
+  {
+    "tag": "forgetmenot",
+    "zh": "勿忘草"
+  },
+  {
+    "tag": "trumpet creeper",
+    "zh": "厚萼凌霄"
+  },
+  {
+    "tag": "clivia",
+    "zh": "君子兰"
+  },
+  {
+    "tag": "mimosa",
+    "zh": "含羞草"
+  },
+  {
+    "tag": "gladiolus",
+    "zh": "唐菖蒲"
+  },
+  {
+    "tag": "gloriosa",
+    "zh": "嘉兰"
+  },
+  {
+    "tag": "potato flower",
+    "zh": "土豆花"
+  },
+  {
+    "tag": "multicolored rose",
+    "zh": "多色玫瑰"
+  },
+  {
+    "tag": "gerbera",
+    "zh": "大丁草"
+  },
+  {
+    "tag": "dahlia",
+    "zh": "大丽花"
+  },
+  {
+    "tag": "cosmos",
+    "zh": "大波斯菊"
+  },
+  {
+    "tag": "rafflesia",
+    "zh": "大王花"
+  },
+  {
+    "tag": "geranium",
+    "zh": "天竺葵"
+  },
+  {
+    "tag": "nerium oleander",
+    "zh": "夹竹桃"
+  },
+  {
+    "tag": "potentilla",
+    "zh": "委陵菜"
+  },
+  {
+    "tag": "amaryllis",
+    "zh": "孤挺花"
+  },
+  {
+    "tag": "freesia",
+    "zh": "小苍兰"
+  },
+  {
+    "tag": "kerria japonica",
+    "zh": "山吹"
+  },
+  {
+    "tag": "hawthorn",
+    "zh": "山楂"
+  },
+  {
+    "tag": "camellia",
+    "zh": "山茶花"
+  },
+  {
+    "tag": "dipsacaceae",
+    "zh": "川续断"
+  },
+  {
+    "tag": "magnolia",
+    "zh": "广玉兰"
+  },
+  {
+    "tag": "color?:carnation",
+    "zh": "康乃磬"
+  },
+  {
+    "tag": "dimorphotheca",
+    "zh": "异果菊"
+  },
+  {
+    "tag": "clusteramaryllis",
+    "zh": "彼岸花"
+  },
+  {
+    "tag": "oncidium",
+    "zh": "文心兰"
+  },
+  {
+    "tag": "tropaeolum majus",
+    "zh": "旱金莲"
+  },
+  {
+    "tag": "epiphyllum",
+    "zh": "昙花"
+  },
+  {
+    "tag": "datura stramonium",
+    "zh": "曼陀罗"
+  },
+  {
+    "tag": "moonflower",
+    "zh": "月光花"
+  },
+  {
+    "tag": "hibiscus mutabilis",
+    "zh": "木芙蓉"
+  },
+  {
+    "tag": "azalea",
+    "zh": "杜鹃花"
+  },
+  {
+    "tag": "genista",
+    "zh": "染料木"
+  },
+  {
+    "tag": "osmanthus",
+    "zh": "桂花"
+  },
+  {
+    "tag": "peach blossoms",
+    "zh": "桃花"
+  },
+  {
+    "tag": "chinese bellflower",
+    "zh": "桔梗"
+  },
+  {
+    "tag": "plum blossoms",
+    "zh": "梅花"
+  },
+  {
+    "tag": "cherry blossoms",
+    "zh": "樱花"
+  },
+  {
+    "tag": "rapeseed blossoms",
+    "zh": "欧洲油菜花"
+  },
+  {
+    "tag": "foxglove",
+    "zh": "毛地黄"
+  },
+  {
+    "tag": "ranunculus",
+    "zh": "毛茛"
+  },
+  {
+    "tag": "narcissus",
+    "zh": "水仙"
+  },
+  {
+    "tag": "marsh marigold",
+    "zh": "沼泽金盏花"
+  },
+  {
+    "tag": "lisianthus",
+    "zh": "洋桔梗"
+  },
+  {
+    "tag": "chamomile",
+    "zh": "洋甘菊"
+  },
+  {
+    "tag": "gypsophila paniculata",
+    "zh": "满天星"
+  },
+  {
+    "tag": "paeonia suffruticosa",
+    "zh": "牡丹"
+  },
+  {
+    "tag": "tabernaemontana divaricata linnaeus r. brown ex roemer & schultes",
+    "zh": "狗牙花"
+  },
+  {
+    "tag": "color?:rose",
+    "zh": "玫瑰"
+  },
+  {
+    "tag": "crocus",
+    "zh": "番紅花"
+  },
+  {
+    "tag": "lily",
+    "zh": "百合"
+  },
+  {
+    "tag": "alstroemeria",
+    "zh": "百合水仙"
+  },
+  {
+    "tag": "zinnia",
+    "zh": "百日菊"
+  },
+  {
+    "tag": "water lily flower",
+    "zh": "睡莲"
+  },
+  {
+    "tag": "cornflower",
+    "zh": "矢车菊"
+  },
+  {
+    "tag": "dianthus",
+    "zh": "石竹"
+  },
+  {
+    "tag": "petunia",
+    "zh": "碧冬茄"
+  },
+  {
+    "tag": "begonia",
+    "zh": "秋海棠"
+  },
+  {
+    "tag": "nemophila",
+    "zh": "粉蝶花"
+  },
+  {
+    "tag": "violet",
+    "zh": "紫罗兰"
+  },
+  {
+    "tag": "lagerstroemia indica",
+    "zh": "紫薇"
+  },
+  {
+    "tag": "hydrangea",
+    "zh": "紫阳花"
+  },
+  {
+    "tag": "pentas",
+    "zh": "繁星花"
+  },
+  {
+    "tag": "hydrangea macrophylla",
+    "zh": "绣球"
+  },
+  {
+    "tag": "plumeria",
+    "zh": "缅栀花"
+  },
+  {
+    "tag": "poppy",
+    "zh": "罂粟"
+  },
+  {
+    "tag": "larkspur",
+    "zh": "翠雀"
+  },
+  {
+    "tag": "columbine",
+    "zh": "耬斗菜"
+  },
+  {
+    "tag": "peony",
+    "zh": "芍药"
+  },
+  {
+    "tag": "hibiscus",
+    "zh": "芙蓉"
+  },
+  {
+    "tag": "color?:blossoms",
+    "zh": "花"
+  },
+  {
+    "tag": "color?:flowers",
+    "zh": "花(复)"
+  },
+  {
+    "tag": "buttercup",
+    "zh": "花毛茛"
+  },
+  {
+    "tag": "anthurium",
+    "zh": "花烛"
+  },
+  {
+    "tag": "flower pot",
+    "zh": "花盆"
+  },
+  {
+    "tag": "strawberry blossoms",
+    "zh": "草莓花"
+  },
+  {
+    "tag": "bleeding heart",
+    "zh": "荷包牡丹"
+  },
+  {
+    "tag": "color?:lotus",
+    "zh": "莲花"
+  },
+  {
+    "tag": "chrysanthemum morifolium",
+    "zh": "菊花"
+  },
+  {
+    "tag": "gourd blossom",
+    "zh": "葫芦花"
+  },
+  {
+    "tag": "taraxacum mongolicum",
+    "zh": "蒲公英"
+  },
+  {
+    "tag": "thistle",
+    "zh": "蓟"
+  },
+  {
+    "tag": "periwinkle",
+    "zh": "蔓长春花"
+  },
+  {
+    "tag": "cymbidium",
+    "zh": "蕙兰"
+  },
+  {
+    "tag": "lavender",
+    "zh": "薰衣草"
+  },
+  {
+    "tag": "wisteria",
+    "zh": "藤花"
+  },
+  {
+    "tag": "ageratum conyzoides l.",
+    "zh": "藿香蓟"
+  },
+  {
+    "tag": "hollyhock",
+    "zh": "蜀葵"
+  },
+  {
+    "tag": "heliconia",
+    "zh": "蝎尾蕉"
+  },
+  {
+    "tag": "phalaenopsis aphrodite",
+    "zh": "蝴蝶兰"
+  },
+  {
+    "tag": "passion flower",
+    "zh": "西番莲花"
+  },
+  {
+    "tag": "viola cornuta",
+    "zh": "角堇"
+  },
+  {
+    "tag": "forsythia",
+    "zh": "连翘"
+  },
+  {
+    "tag": "tulip",
+    "zh": "郁金香"
+  },
+  {
+    "tag": "rudbeckia",
+    "zh": "金光菊"
+  },
+  {
+    "tag": "gold osmanthus",
+    "zh": "金木犀"
+  },
+  {
+    "tag": "snapdragon",
+    "zh": "金鱼草"
+  },
+  {
+    "tag": "hellebore",
+    "zh": "铁筷子"
+  },
+  {
+    "tag": "clematis",
+    "zh": "铁线莲"
+  },
+  {
+    "tag": "lily of the valley",
+    "zh": "铃兰"
+  },
+  {
+    "tag": "dusty miller",
+    "zh": "银叶菊"
+  },
+  {
+    "tag": "anemone",
+    "zh": "银莲花"
+  },
+  {
+    "tag": "kalanchoe",
+    "zh": "长寿花"
+  },
+  {
+    "tag": "daisy",
+    "zh": "雏菊"
+  },
+  {
+    "tag": "snowdrop",
+    "zh": "雪莲花"
+  },
+  {
+    "tag": "hyacinth",
+    "zh": "风信子"
+  },
+  {
+    "tag": "wax flower",
+    "zh": "风蜡花"
+  },
+  {
+    "tag": "bellflower",
+    "zh": "风铃草"
+  },
+  {
+    "tag": "lantana",
+    "zh": "马缨丹"
+  },
+  {
+    "tag": "calla lily",
+    "zh": "马蹄莲"
+  },
+  {
+    "tag": "pieris japonica",
+    "zh": "马醉木"
+  },
+  {
+    "tag": "portulaca",
+    "zh": "马齿苋"
+  },
+  {
+    "tag": "edelweiss",
+    "zh": "高山火绒草"
+  },
+  {
+    "tag": "iris",
+    "zh": "鸢尾"
+  },
+  {
+    "tag": "bird of paradise flower",
+    "zh": "鹤望兰"
+  },
+  {
+    "tag": "hibiscus tiliaceus",
+    "zh": "黄槿"
+  },
+  {
+    "tag": "blackeyed susan",
+    "zh": "黑心金光菊"
+  },
+  {
+    "tag": "gentiana",
+    "zh": "龙胆"
+  },
+  {
+    "tag": "cactus",
+    "zh": "仙人掌"
+  },
+  {
+    "tag": "clover",
+    "zh": "四叶草"
+  },
+  {
+    "tag": "succulent",
+    "zh": "多肉植物"
+  },
+  {
+    "tag": "barley",
+    "zh": "大麦"
+  },
+  {
+    "tag": "spathiphyllum",
+    "zh": "白鹤芋"
+  },
+  {
+    "tag": "bamboo",
+    "zh": "竹子"
+  },
+  {
+    "tag": "mushroom",
+    "zh": "蘑菇"
+  },
+  {
+    "tag": "moss",
+    "zh": "青苔"
+  },
+  {
+    "tag": "monstera deliciosa liebm",
+    "zh": "龟背竹"
+  },
+  {
+    "tag": "vines",
+    "zh": "藤类"
+  },
+  {
+    "tag": "ivy",
+    "zh": "长春藤"
+  },
+  {
+    "tag": "warehouse",
+    "zh": "仓库"
+  },
+  {
+    "tag": "gym",
+    "zh": "健身房"
+  },
+  {
+    "tag": "gas station",
+    "zh": "加油站"
+  },
+  {
+    "tag": "dam",
+    "zh": "大坝"
+  },
+  {
+    "tag": "hangar",
+    "zh": "机库"
+  },
+  {
+    "tag": "barn",
+    "zh": "谷仓"
+  },
+  {
+    "tag": "bookstore",
+    "zh": "书店"
+  },
+  {
+    "tag": "convenience store",
+    "zh": "便利店"
+  },
+  {
+    "tag": "shop",
+    "zh": "商店"
+  },
+  {
+    "tag": "market",
+    "zh": "市场"
+  },
+  {
+    "tag": "market stall",
+    "zh": "市场摊位"
+  },
+  {
+    "tag": "dressing room",
+    "zh": "更衣室"
+  },
+  {
+    "tag": "weapon shop",
+    "zh": "武器商店"
+  },
+  {
+    "tag": "laundry",
+    "zh": "洗衣店"
+  },
+  {
+    "tag": "flower shop",
+    "zh": "花店"
+  },
+  {
+    "tag": "pharmacy",
+    "zh": "药店"
+  },
+  {
+    "tag": "fitting room",
+    "zh": "试衣间"
+  },
+  {
+    "tag": "mall",
+    "zh": "购物中心"
+  },
+  {
+    "tag": "supermarket",
+    "zh": "超市"
+  },
+  {
+    "tag": "bakery",
+    "zh": "面包店"
+  },
+  {
+    "tag": "stadium",
+    "zh": "体育场"
+  },
+  {
+    "tag": "bowling alley",
+    "zh": "保龄球馆"
+  },
+  {
+    "tag": "playground",
+    "zh": "操场"
+  },
+  {
+    "tag": "skating rink",
+    "zh": "滑冰场"
+  },
+  {
+    "tag": "track and field",
+    "zh": "田径场"
+  },
+  {
+    "tag": "tennis court",
+    "zh": "网球场"
+  },
+  {
+    "tag": "soccer field",
+    "zh": "足球场"
+  },
+  {
+    "tag": "running track",
+    "zh": "跑道"
+  },
+  {
+    "tag": "cafe",
+    "zh": "咖啡馆"
+  },
+  {
+    "tag": "izakaya",
+    "zh": "居酒屋"
+  },
+  {
+    "tag": "bar",
+    "zh": "酒吧"
+  },
+  {
+    "tag": "tavern",
+    "zh": "酒馆"
+  },
+  {
+    "tag": "restaurant",
+    "zh": "餐厅"
+  },
+  {
+    "tag": "redcrowned crane",
+    "zh": "丹顶鹤"
+  },
+  {
+    "tag": "penguin",
+    "zh": "企鹅"
+  },
+  {
+    "tag": "magpie",
+    "zh": "喜鹊"
+  },
+  {
+    "tag": "peacock",
+    "zh": "孔雀"
+  },
+  {
+    "tag": "chick",
+    "zh": "小鸡"
+  },
+  {
+    "tag": "emperor penguin",
+    "zh": "帝企鹅"
+  },
+  {
+    "tag": "seagull",
+    "zh": "海鸥"
+  },
+  {
+    "tag": "flamingo",
+    "zh": "火烈鸟"
+  },
+  {
+    "tag": "swallow",
+    "zh": "燕子"
+  },
+  {
+    "tag": "hornbill",
+    "zh": "犀鸟"
+  },
+  {
+    "tag": "owl",
+    "zh": "猫头鹰"
+  },
+  {
+    "tag": "bald eagle",
+    "zh": "白头鹰"
+  },
+  {
+    "tag": "egret",
+    "zh": "白鹭"
+  },
+  {
+    "tag": "macaw",
+    "zh": "金刚鹦鹉"
+  },
+  {
+    "tag": "swifts",
+    "zh": "雨燕"
+  },
+  {
+    "tag": "snow owl",
+    "zh": "雪鸮"
+  },
+  {
+    "tag": "bird",
+    "zh": "鸟"
+  },
+  {
+    "tag": "chicken",
+    "zh": "鸡"
+  },
+  {
+    "tag": "crow",
+    "zh": "鸦"
+  },
+  {
+    "tag": "duck",
+    "zh": "鸭子"
+  },
+  {
+    "tag": "dove",
+    "zh": "鸽子"
+  },
+  {
+    "tag": "goose",
+    "zh": "鹅"
+  },
+  {
+    "tag": "parrot",
+    "zh": "鹦鹉"
+  },
+  {
+    "tag": "eagle",
+    "zh": "鹰"
+  },
+  {
+    "tag": "sparrow",
+    "zh": "麻雀"
+  }
+]

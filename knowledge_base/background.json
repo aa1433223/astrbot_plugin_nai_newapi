@@ -1,0 +1,526 @@
+[
+  {
+    "tag": "piano",
+    "zh": "钢琴"
+  },
+  {
+    "tag": "abstract background",
+    "zh": "抽象背景"
+  },
+  {
+    "tag": "checkered background",
+    "zh": "方格背景"
+  },
+  {
+    "tag": "sunburst background",
+    "zh": "旭日纹背景"
+  },
+  {
+    "tag": "striped background",
+    "zh": "条纹背景"
+  },
+  {
+    "tag": "plaid background",
+    "zh": "格子呢背景"
+  },
+  {
+    "tag": "halftone background",
+    "zh": "网点图背景"
+  },
+  {
+    "tag": "argyle background",
+    "zh": "菱形背景"
+  },
+  {
+    "tag": "honeycomb background",
+    "zh": "蜂窝背景"
+  },
+  {
+    "tag": "zoom layer",
+    "zh": "放大前景作为背景"
+  },
+  {
+    "tag": "bokeh",
+    "zh": "散景"
+  },
+  {
+    "tag": "sparkle background",
+    "zh": "星光背景"
+  },
+  {
+    "tag": "starry background",
+    "zh": "星空背景"
+  },
+  {
+    "tag": "leaf background",
+    "zh": "树叶背景"
+  },
+  {
+    "tag": "bubble background",
+    "zh": "气泡背景"
+  },
+  {
+    "tag": "photo background",
+    "zh": "照片背景"
+  },
+  {
+    "tag": "floral background",
+    "zh": "花背景"
+  },
+  {
+    "tag": "fence",
+    "zh": "栅栏"
+  },
+  {
+    "tag": "railing",
+    "zh": "栏杆"
+  },
+  {
+    "tag": "electric scoreboard",
+    "zh": "电子公告板"
+  },
+  {
+    "tag": "power lines",
+    "zh": "电线杆"
+  },
+  {
+    "tag": "phone booth",
+    "zh": "电话亭"
+  },
+  {
+    "tag": "swing",
+    "zh": "秋千"
+  },
+  {
+    "tag": "vending machine",
+    "zh": "自动贩卖机"
+  },
+  {
+    "tag": "lamppost",
+    "zh": "路灯"
+  },
+  {
+    "tag": "vaulting horse",
+    "zh": "跳马"
+  },
+  {
+    "tag": "chainlink fence",
+    "zh": "铁丝网"
+  },
+  {
+    "tag": "anchor",
+    "zh": "锚"
+  },
+  {
+    "tag": "bench",
+    "zh": "长椅"
+  },
+  {
+    "tag": "neon signs",
+    "zh": "霓虹灯标志"
+  },
+  {
+    "tag": "bookshelf",
+    "zh": "书架"
+  },
+  {
+    "tag": "bookcase",
+    "zh": "书柜"
+  },
+  {
+    "tag": "desk",
+    "zh": "书桌"
+  },
+  {
+    "tag": "locker",
+    "zh": "储物柜"
+  },
+  {
+    "tag": "inlet",
+    "zh": "入口"
+  },
+  {
+    "tag": "office chair",
+    "zh": "办公椅"
+  },
+  {
+    "tag": "billiard",
+    "zh": "台球桌"
+  },
+  {
+    "tag": "hammock",
+    "zh": "吊床"
+  },
+  {
+    "tag": "cushion",
+    "zh": "坐垫"
+  },
+  {
+    "tag": "closet",
+    "zh": "壁橱"
+  },
+  {
+    "tag": "fireplace",
+    "zh": "壁炉"
+  },
+  {
+    "tag": "gate",
+    "zh": "大门"
+  },
+  {
+    "tag": "canopy bed",
+    "zh": "天蓬床"
+  },
+  {
+    "tag": "bed",
+    "zh": "床"
+  },
+  {
+    "tag": "bed sheet",
+    "zh": "床单"
+  },
+  {
+    "tag": "mattress",
+    "zh": "床垫"
+  },
+  {
+    "tag": "stained glass",
+    "zh": "彩色玻璃"
+  },
+  {
+    "tag": "armchair",
+    "zh": "扶手椅"
+  },
+  {
+    "tag": "folding chair",
+    "zh": "折叠椅"
+  },
+  {
+    "tag": "futon",
+    "zh": "日本床垫"
+  },
+  {
+    "tag": "clothes rack",
+    "zh": "晾衣架"
+  },
+  {
+    "tag": "table",
+    "zh": "桌子"
+  },
+  {
+    "tag": "chair",
+    "zh": "椅子"
+  },
+  {
+    "tag": "sofa",
+    "zh": "沙发"
+  },
+  {
+    "tag": "beach chair",
+    "zh": "沙滩椅"
+  },
+  {
+    "tag": "bathtub",
+    "zh": "浴缸"
+  },
+  {
+    "tag": "shower head",
+    "zh": "淋浴喷头"
+  },
+  {
+    "tag": "mixing console",
+    "zh": "混合控制台"
+  },
+  {
+    "tag": "curtains",
+    "zh": "窗帘"
+  },
+  {
+    "tag": "window",
+    "zh": "窗户"
+  },
+  {
+    "tag": "wardrobe",
+    "zh": "衣柜"
+  },
+  {
+    "tag": "kotatsu",
+    "zh": "被炉"
+  },
+  {
+    "tag": "school desk",
+    "zh": "课桌"
+  },
+  {
+    "tag": "lounge chair",
+    "zh": "躺椅"
+  },
+  {
+    "tag": "wheelchair",
+    "zh": "轮椅"
+  },
+  {
+    "tag": "door",
+    "zh": "门"
+  },
+  {
+    "tag": "broom",
+    "zh": "扫帚"
+  },
+  {
+    "tag": "halloween pumpkin",
+    "zh": "万圣节南瓜"
+  },
+  {
+    "tag": "grave",
+    "zh": "坟墓"
+  },
+  {
+    "tag": "tombstone",
+    "zh": "墓石"
+  },
+  {
+    "tag": "skull",
+    "zh": "头骨"
+  },
+  {
+    "tag": "jacko'lantern",
+    "zh": "杰克南瓜灯"
+  },
+  {
+    "tag": "coffin",
+    "zh": "棺"
+  },
+  {
+    "tag": "spirit",
+    "zh": "灵体"
+  },
+  {
+    "tag": "skeleton",
+    "zh": "骨架"
+  },
+  {
+    "tag": "magic circle",
+    "zh": "魔法阵"
+  },
+  {
+    "tag": "stacking",
+    "zh": "堆叠物"
+  },
+  {
+    "tag": "huge clocks",
+    "zh": "巨大的钟"
+  },
+  {
+    "tag": "heart of string",
+    "zh": "心形细绳"
+  },
+  {
+    "tag": "string of flags",
+    "zh": "挂旗装饰"
+  },
+  {
+    "tag": "chessboard",
+    "zh": "棋盘"
+  },
+  {
+    "tag": "balloon",
+    "zh": "气球"
+  },
+  {
+    "tag": "torch",
+    "zh": "火炬"
+  },
+  {
+    "tag": "lantern",
+    "zh": "灯笼"
+  },
+  {
+    "tag": "glass strips",
+    "zh": "玻璃条"
+  },
+  {
+    "tag": "stone lantern",
+    "zh": "石头灯笼"
+  },
+  {
+    "tag": "paper lantern",
+    "zh": "纸灯笼"
+  },
+  {
+    "tag": "string",
+    "zh": "细绳"
+  },
+  {
+    "tag": "vase",
+    "zh": "花瓶"
+  },
+  {
+    "tag": "candle",
+    "zh": "蜡烛"
+  },
+  {
+    "tag": "clocks",
+    "zh": "钟"
+  },
+  {
+    "tag": "wind chime",
+    "zh": "风铃"
+  },
+  {
+    "tag": "refrigerator",
+    "zh": "冰箱"
+  },
+  {
+    "tag": "machine",
+    "zh": "机械"
+  },
+  {
+    "tag": "washing machine",
+    "zh": "洗衣机"
+  },
+  {
+    "tag": "computer",
+    "zh": "电脑"
+  },
+  {
+    "tag": "television",
+    "zh": "电视"
+  },
+  {
+    "tag": "air conditioner",
+    "zh": "空调"
+  },
+  {
+    "tag": "multicolored background",
+    "zh": "多彩背景"
+  },
+  {
+    "tag": "rainbow background",
+    "zh": "彩虹背景"
+  },
+  {
+    "tag": "gradient background",
+    "zh": "渐变背景"
+  },
+  {
+    "tag": "simple background",
+    "zh": "简单背景"
+  },
+  {
+    "tag": "color:background",
+    "zh": "背景色"
+  },
+  {
+    "tag": "huge stone",
+    "zh": "大石头"
+  },
+  {
+    "tag": "rock",
+    "zh": "岩石"
+  },
+  {
+    "tag": "monolith",
+    "zh": "巨大石头物体"
+  },
+  {
+    "tag": "swirl",
+    "zh": "旋涡"
+  },
+  {
+    "tag": "shallow water",
+    "zh": "水可见底"
+  },
+  {
+    "tag": "water",
+    "zh": "水面"
+  },
+  {
+    "tag": "sand",
+    "zh": "沙"
+  },
+  {
+    "tag": "waves",
+    "zh": "波浪"
+  },
+  {
+    "tag": "stone",
+    "zh": "石头"
+  },
+  {
+    "tag": "gravel",
+    "zh": "碎石"
+  },
+  {
+    "tag": "beautiful detailed water",
+    "zh": "美丽精细的水面"
+  },
+  {
+    "tag": "floor",
+    "zh": "地板"
+  },
+  {
+    "tag": "carpet",
+    "zh": "地毯"
+  },
+  {
+    "tag": "wall",
+    "zh": "墙"
+  },
+  {
+    "tag": "ceiling",
+    "zh": "天花板"
+  },
+  {
+    "tag": "wooden floor",
+    "zh": "木质地板"
+  },
+  {
+    "tag": "graffiti",
+    "zh": "涂鸦"
+  },
+  {
+    "tag": "tiles",
+    "zh": "瓷砖"
+  },
+  {
+    "tag": "tile floor",
+    "zh": "瓷砖地面"
+  },
+  {
+    "tag": "tile wall",
+    "zh": "瓷砖墙"
+  },
+  {
+    "tag": "brick floor",
+    "zh": "砖地面"
+  },
+  {
+    "tag": "brick wall",
+    "zh": "砖墙"
+  },
+  {
+    "tag": "motorcycle",
+    "zh": "摩托车"
+  },
+  {
+    "tag": "watercraft",
+    "zh": "水上工具"
+  },
+  {
+    "tag": "hot air balloon",
+    "zh": "热气球"
+  },
+  {
+    "tag": "boat",
+    "zh": "船"
+  },
+  {
+    "tag": "airplane",
+    "zh": "飞机"
+  },
+  {
+    "tag": "aircraft",
+    "zh": "飞行器"
+  }
+]

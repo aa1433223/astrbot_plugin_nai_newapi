@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <style>
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; }
+    body { width: 1200px; padding: 48px 52px 54px; color: #14232d; background: linear-gradient(145deg, #edf5f6 0%, #e2edf1 52%, #eaf2ef 100%); font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "PingFang SC", "Noto Sans CJK SC", sans-serif; }
+    .glass { background: rgba(250, 253, 253, .72); border: 1px solid rgba(255, 255, 255, .92); box-shadow: 0 18px 44px rgba(36, 75, 88, .10), inset 0 1px 0 rgba(255, 255, 255, .92); backdrop-filter: blur(24px); -webkit-backdrop-filter: blur(24px); border-radius: 26px; }
+    .hero { padding: 32px 36px 34px; margin-bottom: 22px; display: flex; align-items: flex-end; justify-content: space-between; gap: 30px; }
+    .eyebrow { margin: 0 0 11px; color: #176b87; font-size: 14px; font-weight: 700; letter-spacing: .08em; }
+    h1 { margin: 0; color: #14232d; font-size: 44px; line-height: 1.1; letter-spacing: 0; }
+    .hero p { margin: 12px 0 0; color: #526b77; font-size: 18px; }
+    .live { min-width: 230px; padding: 15px 19px; color: #176b87; font-size: 15px; font-weight: 700; background: rgba(221, 239, 244, .8); border: 1px solid rgba(255,255,255,.95); border-radius: 18px; }
+    .live small { display: block; margin-top: 5px; color: #526b77; font-size: 13px; font-weight: 500; }
+    .status { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; margin-bottom: 22px; }
+    .status-card { padding: 20px 23px; min-height: 101px; }
+    .label { color: #526b77; font-size: 14px; font-weight: 600; }
+    .value { margin-top: 9px; color: #14232d; font-size: 20px; line-height: 1.2; font-weight: 800; overflow-wrap: anywhere; }
+    .content { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+    .panel { padding: 25px 27px 28px; }
+    .wide { grid-column: 1 / -1; }
+    h2 { margin: 0 0 19px; display: flex; align-items: center; gap: 11px; color: #14232d; font-size: 24px; line-height: 1.2; }
+    h2::before { content: ""; width: 7px; height: 24px; flex: 0 0 auto; border-radius: 8px; background: #2e9a9d; }
+    .commands { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px 16px; }
+    .command { padding: 15px 16px; min-height: 84px; background: rgba(255,255,255,.56); border: 1px solid rgba(255,255,255,.82); border-radius: 17px; }
+    code { color: #176b87; background: #e5f1f3; border: 1px solid #d3e6eb; border-radius: 8px; padding: 3px 8px; font-family: "SF Mono", "DejaVu Sans Mono", monospace; font-size: 14px; font-weight: 700; }
+    .command code { display: inline-block; margin-bottom: 9px; }
+    .command p, li { margin: 0; color: #465b66; font-size: 15px; line-height: 1.55; }
+    ul { list-style: none; padding: 0; margin: 0; display: grid; gap: 13px; }
+    li { display: flex; gap: 10px; align-items: flex-start; }
+    li::before { content: ""; width: 7px; height: 7px; flex: 0 0 auto; margin-top: 8px; border-radius: 50%; background: #36a7a1; }
+    .note { margin-top: 17px; padding: 13px 16px; color: #176b87; background: rgba(221,239,244,.72); border-radius: 15px; font-size: 14px; line-height: 1.5; }
+    footer { margin-top: 22px; padding: 17px 23px; color: #526b77; text-align: center; font-size: 14px; background: rgba(255,255,255,.48); border-radius: 18px; }
+    footer strong { color: #176b87; font-weight: 700; }
+  </style>
+</head>
+<body>
+  <header class="glass hero"><div><p class="eyebrow">NOVELAI / 使用说明</p><h1>画图帮助</h1><p>把想画的说清楚，剩下的交给画布。</p></div><div class="live">当前会话已就绪<small>{{ credential_status }}</small></div></header>
+  <section class="status"><div class="glass status-card"><div class="label">模型</div><div class="value">{{ model }}</div></div><div class="glass status-card"><div class="label">默认画布</div><div class="value">{{ resolution }}</div></div><div class="glass status-card"><div class="label">可用内容</div><div class="value">{{ preset_count }} 个预设 · {{ style_count }} 种画风</div></div></section>
+  <main class="content">
+    <section class="glass panel wide"><h2>常用指令</h2><div class="commands"><div class="command"><code>/画图 描述</code><p>直接描述你想要的画面。</p></div><div class="command"><code>/图生图 描述</code><p>发图或回复图片，再补充想改的地方。</p></div><div class="command"><code>/roll图 描述</code><p>一次多出几张，挑一张顺眼的。</p></div><div class="command"><code>/重画</code><p>沿用上一张的设置重新来一张。</p></div><div class="command"><code>/预设列表</code><p>看看已经准备好的预设。</p></div><div class="command"><code>/画风列表</code><p>浏览可用画风，需要时用 <code>/切换画风 名称</code>。</p></div></div></section>
+    <section class="glass panel"><h2>画面尺寸</h2><ul><li><span><code>长图</code> 竖版画布，适合人物和海报。</span></li><li><span><code>宽图</code> 横版画布，适合风景和场景。</span></li><li><span><code>方图</code> 正方形画布，适合头像和构图练习。</span></li></ul><div class="note">也可以在描述前写尺寸关键词，只对这一次出图生效。</div></section>
+    <section class="glass panel"><h2>本次调整</h2><ul><li><span><code>--uc 内容</code> 排除不想出现的内容。</span></li><li><span><code>-s0.6</code> 调整图生图变化幅度。</span></li><li><span><code>-n0.2</code> 调整图生图细节噪声。</span></li><li><span><code>/roll次数 4</code> 设置连续出图数量。</span></li></ul></section>
+    <section class="glass panel wide"><h2>更多设置</h2><ul><li><span><code>/参数设置</code> 或 <code>/画图配置</code> 查看当前设置。</span></li><li><span><code>/画图模型</code>、<code>/画图权重</code>、<code>/画图采样器</code> 调整会话参数。</span></li><li><span><code>/重置画图参数</code> 恢复默认设置。</span></li></ul></section>
+  </main>
+  <footer>当前会话：<strong>{{ model }}</strong> · <strong>{{ resolution }}</strong> · {{ steps }} 步 · 权重 {{ scale }} · {{ sampler }}</footer>
+</body>
+</html>

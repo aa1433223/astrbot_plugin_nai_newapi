@@ -1,0 +1,36 @@
+name: Tests
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+
+jobs:
+  pytest:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.10", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt pytest
+
+      - name: Prepare AstrBot layout
+        run: |
+          mkdir -p data/plugins
+          ln -s "$GITHUB_WORKSPACE" data/plugins/astrbot_plugin_novelai
+
+      - name: Run tests
+        env:
+          ASTRBOT_ROOT: ${{ runner.temp }}
+        run: |
+          pytest tests -q --deselect tests/test_drawing_help.py::test_help_renderer_outputs_non_empty_png
