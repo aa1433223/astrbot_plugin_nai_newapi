@@ -2,6 +2,13 @@
 
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 与语义化版本。
 
+## [1.5.3]
+
+### 新增
+
+- 新增 `/查余额`（别名 `/余额`、`/查询余额`、`/newapi余额`）命令，查询 `newapi_base_url` + `newapi_api_key`
+  的 New API 剩余额度、历史消耗、总请求数与近 24 小时用量；仅管理员可用，方便仅用 New API 的部署查看余额。
+
 ## [1.5.2]
 
 ### 新增

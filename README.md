@@ -106,6 +106,8 @@ pip install -r requirements.txt
 `astrbot_plugin_ai_video` 里的个人 Key 仍按原逻辑在超额后走各自的 Key。`enable_v5` 打开时使用所选 V5 模型，
 关闭时自动降级为 V4.5。
 
+管理员可用 `/查余额` 查看该 New API 的剩余额度、历史消耗、总请求数与近 24 小时用量。
+
 ## 常用命令
 
 ### 自然语言函数工具
@@ -123,6 +125,7 @@ pip install -r requirements.txt
 - `/roll图 [长图|宽图|方图] 提示词`
 - `/画图统计`：查看近30天用户排行和今日画图排行
 - `/账户额度`（别名 `/账号额度`、`/额度查询`）：查询 `api_token` 与 `account_tokens` 中每个账户的剩余额度（含可生成张数估算）、Anlas 余额、恢复速度和订阅到期时间（含剩余天数、宽限期）；需要管理员权限时把命令名加入 `admin_only_commands`
+- `/查余额`（别名 `/余额`、`/查询余额`、`/newapi余额`）：查询 `newapi_base_url` + `newapi_api_key` 的 New API 剩余额度、历史消耗、总请求数与近 24 小时用量；仅管理员可用，适合仅用 New API 的部署
 - `/开启NAI画图`：由当前群内已绑定个人 API 密钥的用户执行，将自己的密钥授权给当前群
 - `/关闭NAI画图`：关闭当前群的 NAI 画图授权
 

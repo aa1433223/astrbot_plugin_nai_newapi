@@ -14,7 +14,7 @@ import zipfile
 from datetime import datetime, timedelta
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Set, Tuple
-from urllib.parse import unquote, urlsplit
+from urllib.parse import unquote, urlencode, urlsplit
 from urllib.request import url2pathname
 
 import httpx
@@ -246,6 +246,12 @@ class Constants:
         2: "Scroll",
         3: "Opus",
     }
+    # /查余额：New API 余额与近期用量（供仅用 New API 的部署使用）
+    NEWAPI_BALANCE_ENDPOINT = "/api/user/self"
+    NEWAPI_BALANCE_DATA_ENDPOINT = "/api/data/self"
+    NEWAPI_BALANCE_TIMEOUT = 15.0
+    # one-api / new-api 以 500000 quota 记作 1 美元
+    NEWAPI_QUOTA_PER_USD = 500000
 
     # 默认配置
     DEFAULT_MODEL = "nai-diffusion-5-full"
@@ -1105,7 +1111,7 @@ class UsageManager:
     "astrbot_plugin_novelai",
     "xxuanzQAQ",
     "NovelAI图像生成插件，支持文生图和图生图功能",
-    "1.5.2",
+    "1.5.3",
     "https://github.com/xxuanzQAQ/astrbot_plugin_novelai",
 )
 class NovelAIPlugin(Star):
@@ -9852,6 +9858,160 @@ class NovelAIPlugin(Star):
         if not details:
             return [header]
         return [header, "   " + " · ".join(details)]
+
+    @staticmethod
+    def _newapi_base_url(base_url: str) -> str:
+        """Normalize a New API root URL by trimming known endpoint suffixes."""
+        base = str(base_url or "").strip().rstrip("/")
+        for suffix in ("/v1/images/generations", "/images/generations", "/v1"):
+            if base.endswith(suffix):
+                return base[: -len(suffix)].rstrip("/")
+        return base
+
+    @staticmethod
+    def _format_usd(quota: Any) -> str:
+        """Convert a New API quota value (500000/count per USD) into USD text."""
+        try:
+            value = float(quota or 0)
+        except (TypeError, ValueError):
+            value = 0.0
+        return f"${value / Constants.NEWAPI_QUOTA_PER_USD:.4f}"
+
+    @staticmethod
+    def _newapi_balance_headers(api_key: str) -> dict:
+        """Build headers for a New API dashboard query."""
+        return {
+            "Authorization": f"Bearer {api_key}",
+            "Content-Type": "application/json",
+            "User-Agent": (
+                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                "AppleWebKit/537.36"
+            ),
+        }
+
+    async def _fetch_newapi_balance(self, base_url: str, api_key: str) -> dict:
+        """Query a New API deployment's remaining quota for the given key.
+
+        Args:
+            base_url: New API root URL (no ``/ai/generate-image`` suffix).
+            api_key: New API key used for drawing requests.
+
+        Returns:
+            The ``data`` object returned by ``GET /api/user/self``.
+
+        Raises:
+            httpx.HTTPStatusError: When New API rejects the request.
+            ValueError: When the response body is not the expected shape.
+        """
+        url = f"{self._newapi_base_url(base_url)}{Constants.NEWAPI_BALANCE_ENDPOINT}"
+        async with httpx.AsyncClient(
+            timeout=Constants.NEWAPI_BALANCE_TIMEOUT
+        ) as client:
+            response = await client.get(
+                url, headers=self._newapi_balance_headers(api_key)
+            )
+            response.raise_for_status()
+            payload = response.json()
+        data = payload.get("data") if isinstance(payload, dict) else None
+        if not isinstance(data, dict):
+            raise ValueError(f"余额接口返回格式异常：{payload}")
+        return data
+
+    async def _fetch_newapi_daily_usage(
+        self, base_url: str, api_key: str
+    ) -> Optional[Tuple[float, int]]:
+        """Best-effort 24h usage summary; returns ``None`` when unavailable."""
+        now_ts = int(time.time())
+        query = urlencode(
+            {
+                "start_timestamp": now_ts - 24 * 60 * 60,
+                "end_timestamp": now_ts,
+                "default_time": "hour",
+            }
+        )
+        url = (
+            f"{self._newapi_base_url(base_url)}"
+            f"{Constants.NEWAPI_BALANCE_DATA_ENDPOINT}?{query}"
+        )
+        try:
+            async with httpx.AsyncClient(
+                timeout=Constants.NEWAPI_BALANCE_TIMEOUT
+            ) as client:
+                response = await client.get(
+                    url, headers=self._newapi_balance_headers(api_key)
+                )
+                response.raise_for_status()
+                payload = response.json()
+        except Exception as exc:  # noqa: BLE001 - optional summary must not fail the command
+            logger.debug(f"New API 近 24 小时用量查询失败: {exc}")
+            return None
+        rows = payload.get("data") if isinstance(payload, dict) else None
+        if not isinstance(rows, list):
+            return None
+        quota = 0.0
+        count = 0
+        for row in rows:
+            if not isinstance(row, dict):
+                continue
+            quota += float(row.get("quota") or 0)
+            count += int(float(row.get("count") or row.get("rpm") or 0))
+        return quota, count
+
+    def _format_newapi_balance_lines(self, base_url: str, info: dict) -> str:
+        """Render one ``/api/user/self`` payload as chat lines."""
+        account = str(
+            info.get("display_name")
+            or info.get("username")
+            or info.get("id")
+            or "未知"
+        ).strip().removeprefix("@")
+        return "\n".join(
+            [
+                "💰 New API 余额",
+                f"站点：{self._newapi_base_url(base_url)}",
+                f"账户：{account}",
+                f"剩余额度：{self._format_usd(info.get('quota'))}",
+                f"历史消耗：{self._format_usd(info.get('used_quota'))}",
+                f"总请求数：{int(float(info.get('request_count') or 0))}",
+            ]
+        )
+
+    @filter.command("查余额", alias={"余额", "查询余额", "newapi余额"})
+    async def show_newapi_balance(self, event):
+        """查询 New API 后端的剩余额度（供仅用 New API 的部署使用）。"""
+        if not self._check_whitelist(event):
+            return
+
+        if not self._check_admin_permission(event, "查余额"):
+            yield event.plain_result("❌ 仅管理员可使用此命令")
+            return
+
+        base_url = str(getattr(self, "newapi_base_url", "") or "").strip()
+        api_key = str(getattr(self, "newapi_api_key", "") or "").strip()
+        if not base_url or not api_key:
+            yield event.plain_result(
+                "❌ 未配置 New API\n\n"
+                "请在插件配置中填写 newapi_base_url 与 newapi_api_key（仅用 New API 部署时）"
+            )
+            return
+
+        try:
+            info = await self._fetch_newapi_balance(base_url, api_key)
+        except Exception as exc:  # noqa: BLE001 - surface a short operator hint
+            logger.warning(f"New API 余额查询失败: {exc}")
+            yield event.plain_result(
+                f"❌ 查询 New API 余额失败：{self._describe_quota_error(exc)}"
+            )
+            return
+
+        lines = [self._format_newapi_balance_lines(base_url, info)]
+        recent = await self._fetch_newapi_daily_usage(base_url, api_key)
+        if recent is not None:
+            recent_quota, recent_count = recent
+            lines.append(
+                f"近 24 小时消耗：{self._format_usd(recent_quota)} · 请求 {recent_count} 次"
+            )
+        yield event.plain_result("\n".join(lines))
 
     @filter.command("账户额度", alias={"账号额度", "额度查询"})
     async def show_account_quota(self, event):
