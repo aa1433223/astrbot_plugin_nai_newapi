@@ -1,0 +1,2 @@
+# astrbot_plugin_nai_newapi
+astrbot支持调用newapi中的nai画图接口
