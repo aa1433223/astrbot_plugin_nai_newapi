@@ -1638,6 +1638,20 @@ class NovelAIPlugin(Star):
         return ""
 
     @classmethod
+    def _build_result_mention(cls, event) -> list:
+        """Build the optional result mention for group messages only.
+
+        OneBot rejects ``at`` message segments in private messages.  Keeping
+        the mention out of the chain for private chats also lets adapters that
+        do not expose a numeric sender id send the generated image normally.
+        """
+        group_id = cls._current_group_id(event)
+        sender_id = getattr(event, "get_sender_id", lambda: "")()
+        if not group_id or not str(sender_id).strip():
+            return []
+        return [Comp.At(qq=str(sender_id))]
+
+    @classmethod
     def _resolve_quota_scope(cls, event, user_id: str = "") -> str:
         """Resolve which chat owns the daily free NovelAI image quota.
 
@@ -4948,26 +4962,10 @@ class NovelAIPlugin(Star):
     async def download_and_encode_image(self, image_url: str) -> Optional[str]:
         """下载图片并转换为base64"""
         try:
-            async with httpx.AsyncClient(timeout=30.0) as client:
-                if image_url.startswith(("http://", "https://")):
-                    try:
-                        response = await client.get(image_url)
-                        response.raise_for_status()  # 检查HTTP错误
-                        image_data = response.content
-                    except httpx.HTTPStatusError as e:
-                        raise NAIErrors.NetworkError(
-                            f"HTTP错误: {e.response.status_code}", e
-                        )
-                    except httpx.RequestError as e:
-                        raise NAIErrors.NetworkError(f"请求错误: {str(e)}", e)
-                else:
-                    # 本地文件
-                    if not os.path.exists(image_url):
-                        raise NAIErrors.ImageProcessingError(
-                            f"本地文件不存在: {image_url}"
-                        )
-                    with open(image_url, "rb") as f:
-                        image_data = f.read()
+            # AstrBot adapters may expose an image as an HTTP URL, local path,
+            # file URI, data URI, or ``base64://`` reference.  Use the shared
+            # loader so img2img accepts all of those forms consistently.
+            image_data = await self._download_image_with_client(image_url)
 
             # 验证图片格式
             img = None
@@ -5418,7 +5416,7 @@ class NovelAIPlugin(Star):
                                 negative_info = " | 负面: --uc 自定义"
 
                             chain = [
-                                Comp.At(qq=event.get_sender_id()),
+                                *self._build_result_mention(event),
                                 *(
                                     [
                                         Comp.Plain(
@@ -5446,7 +5444,7 @@ class NovelAIPlugin(Star):
                         else:
                             # 简洁模式：只显示图片和时间
                             chain = [
-                                Comp.At(qq=event.get_sender_id()),
+                                *self._build_result_mention(event),
                                 *(
                                     [
                                         Comp.Plain(
@@ -5887,7 +5885,7 @@ class NovelAIPlugin(Star):
                                 negative_info = " | 负面: --uc 自定义"
 
                             chain = [
-                                Comp.At(qq=event.get_sender_id()),
+                                *self._build_result_mention(event),
                                 *(
                                     [
                                         Comp.Plain(
@@ -5915,7 +5913,7 @@ class NovelAIPlugin(Star):
                         else:
                             # 简洁模式：只显示图片和时间
                             chain = [
-                                Comp.At(qq=event.get_sender_id()),
+                                *self._build_result_mention(event),
                                 *(
                                     [
                                         Comp.Plain(
